@@ -1,0 +1,299 @@
+{
+  "skipToContent": "Skip to main content",
+  "language": {
+    "label": "Select language",
+    "translating": "Translating to {language}, please wait…",
+    "done": "Page translated to {language}",
+    "error": "Translation is not available right now. Some text may stay in English."
+  },
+  "search": {
+    "label": "Search",
+    "placeholder": "Search...",
+    "submit": "Search"
+  },
+  "accessibility": {
+    "open": "Accessibility options",
+    "title": "Accessibility Control",
+    "close": "Close accessibility options",
+    "darkContrast": "Dark Contrast",
+    "invert": "Invert",
+    "textSizeIncrease": "Text Size Increase",
+    "textSizeDecrease": "Text Size Decrease"
+  },
+  "header": {
+    "homeLink": "Bharat VISTAAR home",
+    "government": "Government of India",
+    "ministry": "Ministry Of Agriculture & Farmers Welfare",
+    "department": "Department of Agriculture & Farmers Welfare",
+    "emblemAlt": "State Emblem of India",
+    "logoAlt": "Bharat VISTAAR",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "partnerWithUs": "Partner With Us"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "About",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "Impact",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "Capabilities",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "States",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "Connect",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "Ingest Documents",
+            "href": "#",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "Sign In",
+            "href": "#",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(opens in a new tab)"
+  },
+  "footer": {
+    "legalTitle": "Legal",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "Privacy Policy",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "Terms and Conditions",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "Disclaimer",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "Contact",
+    "contactEmailLabel": "Email",
+    "contactSubmit": "Submit",
+    "subscribeTitle": "Subscribe for Updates",
+    "socials": [
+      {
+        "id": "x",
+        "label": "X (Twitter)",
+        "href": "#"
+      },
+      {
+        "id": "youtube",
+        "label": "YouTube",
+        "href": "#"
+      },
+      {
+        "id": "facebook",
+        "label": "Facebook",
+        "href": "#"
+      },
+      {
+        "id": "instagram",
+        "label": "Instagram",
+        "href": "#"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "MyGov",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "Digital India",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "Download Our App",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "Get it on Google Play",
+        "href": "#",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "Download on the App Store",
+        "href": "#",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "Latest Updated On: 01:05:2026",
+    "ownership": "Website Content Owned & Managed by Ministry of Agriculture & Farmers Welfare, Government of India",
+    "opensInNewTab": "(opens in a new tab)"
+  },
+  "carousel": {
+    "label": "Highlights",
+    "slide": "Slide {current} of {total}",
+    "previous": "Previous slide",
+    "next": "Next slide",
+    "goTo": "Go to slide {number}",
+    "pause": "Pause slideshow",
+    "play": "Play slideshow"
+  },
+  "announcements": {
+    "label": "Announcements",
+    "pause": "Pause announcements",
+    "play": "Play announcements"
+  },
+  "slider": {
+    "previous": "Previous",
+    "next": "Next",
+    "goTo": "Show item {number} of {total}",
+    "previousCapability": "Previous capability",
+    "nextCapability": "Next capability",
+    "previousTestimonial": "Previous testimonial",
+    "nextTestimonial": "Next testimonial",
+    "previousUpdate": "Previous update",
+    "nextUpdate": "Next update",
+    "previousPersona": "Previous persona",
+    "nextPersona": "Next persona"
+  },
+  "media": {
+    "video": "Video"
+  },
+  "chatbot": {
+    "title": "Chatbot",
+    "openFullPage": "Open chat in a full page",
+    "close": "Close chat",
+    "featureLabel": "New feature",
+    "newBadge": "New",
+    "featureText": "Bharati can now converse in Telugu, Bengali, Gujarati, and 10 other languages",
+    "notifications": "Notifications",
+    "language": "Chat language: English",
+    "languageShort": "En",
+    "settings": "Chat settings",
+    "assistantName": "Bharati",
+    "greeting": "Hello! I am your farming assistant. How can I help you today?",
+    "suggestionsLabel": "Suggested questions",
+    "suggestions": [
+      "I need information about seed authentication scheme",
+      "What is PM-KISAN scheme and how can I apply for it?",
+      "Tell me about Kisan Credit Card scheme"
+    ],
+    "inputLabel": "Ask your question",
+    "inputPlaceholder": "Ask your question...",
+    "attach": "Add attachment",
+    "voice": "Ask by voice",
+    "send": "Send question",
+    "disclaimer": "AI-generated content. Please Verify locally if required"
+  },
+  "partner": {
+    "title": "Inquiry form",
+    "subtitle": "Submit your details and our partnership team will get back to you.",
+    "close": "Close form",
+    "fields": {
+      "fullName": {
+        "label": "Full name",
+        "placeholder": "Enter"
+      },
+      "organisation": {
+        "label": "Organisation name",
+        "placeholder": "Enter"
+      },
+      "email": {
+        "label": "Email address",
+        "placeholder": "Enter"
+      },
+      "state": {
+        "label": "Select your State",
+        "placeholder": "Enter"
+      },
+      "interest": {
+        "label": "Partnership interest",
+        "placeholder": "Select"
+      },
+      "description": {
+        "label": "Brief project description",
+        "placeholder": "Enter"
+      }
+    },
+    "requiredHint": "required",
+    "errors": {
+      "required": "This field is required.",
+      "email": "Enter a valid email address."
+    },
+    "submit": "Send Inquiry",
+    "states": [
+      "Andaman and Nicobar Islands",
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Bihar",
+      "Chandigarh",
+      "Chhattisgarh",
+      "Dadra and Nagar Haveli and Daman and Diu",
+      "Delhi",
+      "Goa",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jammu and Kashmir",
+      "Jharkhand",
+      "Karnataka",
+      "Kerala",
+      "Ladakh",
+      "Lakshadweep",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Puducherry",
+      "Punjab",
+      "Rajasthan",
+      "Sikkim",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ],
+    "interests": [],
+    "success": {
+      "title": "Inquiry Submitted Successfully!",
+      "text": "Thank you for your interest in partnering with us. Our team will review your inquiry and get back to you soon.",
+      "close": "Close message"
+    }
+  }
+}

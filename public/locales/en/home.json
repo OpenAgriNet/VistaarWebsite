@@ -1,0 +1,461 @@
+{
+  "pageHeading": "Bharat VISTAAR",
+  "announcements": {
+    "title": "Announcements",
+    "items": [
+      {
+        "id": "partner-registration",
+        "text": "Registration is now open for Partner Institutions on the BharatVistaar platform."
+      },
+      {
+        "id": "knowledge-resources",
+        "text": "New knowledge resources on sustainable farming are now available."
+      }
+    ]
+  },
+  "hero": {
+    "slides": [
+      {
+        "id": "digital-agriculture",
+        "tone": "light",
+        "titleLead": "Empowering",
+        "titleEmphasis": "Digital Agriculture",
+        "description": "BharatVistaar connects farmers with agricultural knowledge, technology and digital services for a smarter, more connected future.",
+        "cta": {
+          "label": "Explore Bharati",
+          "href": "/#about"
+        },
+        "image": {
+          "src": "/images/hero/hero-1.webp",
+          "alt": "Prime Minister Narendra Modi beside an illustration of farmland, a seedling, drones and a satellite representing digital agriculture"
+        }
+      },
+      {
+        "id": "agricultural-future",
+        "tone": "dark",
+        "titleLead": "Empowering",
+        "titleEmphasis": "India's Agricultural Future",
+        "description": "BharatVistaar connects farmers with agricultural knowledge, technology and digital services for a smarter, more connected future.",
+        "cta": {
+          "label": "Explore Bharati",
+          "href": "/#about"
+        },
+        "image": {
+          "src": "/images/hero/hero-2.webp",
+          "alt": "Illustration of green farmland at sunrise with a farmhouse, trees and ears of wheat"
+        }
+      }
+    ]
+  },
+  "quote": {
+    "attribution": "Prime Minister Narendra Modi",
+    "image": {
+      "src": "/images/quote/pm-portrait.webp",
+      "alt": "Prime Minister Narendra Modi"
+    },
+    "paragraphs": [
+      [
+        {
+          "text": "“About 100 million "
+        },
+        {
+          "text": "farmers have received more than 4 lakh crore rupees",
+          "strong": true
+        },
+        {
+          "text": " from the PM Kisan Samman Nidhi. With the reforms in MSP, farmers are now getting up to one and a half times the return. Institutional credit coverage has become more than 75%. Under the PM Fasal Bima Yojana, claims worth 2 lakh crore rupees have been settled."
+        }
+      ],
+      [
+        {
+          "text": "These efforts have significantly reduced farmers’ risk and provided them with basic economic security. This has also increased the confidence of the agriculture sector.”"
+        }
+      ]
+    ],
+    "link": {
+      "label": "Vision statement",
+      "href": "#"
+    }
+  },
+  "about": {
+    "label": "About Us",
+    "heading": "Connecting Farmers with Knowledge, Services and Opportunities",
+    "paragraphs": [
+      "To make agricultural knowledge, timely advisory services and digital resources accessible to farmers through a unified, inclusive and collaborative platform.",
+      "BharatVistaar aims to bridge the gap between agricultural information and farmers' everyday needs by bringing together government institutions, research organisations, experts and service providers.",
+      "Through multilingual access, integrated digital services and stakeholder collaboration, the platform seeks to empower farmers with reliable information, support informed decision-making and promote sustainable agricultural practices across India."
+    ],
+    "image": {
+      "src": "/images/about/about-photo.webp",
+      "alt": "A village path winding through green paddy fields towards a farmhouse at sunrise"
+    },
+    "backgroundImage": "/images/about/about-bg.webp"
+  },
+  "atAGlance": {
+    "title": "BharatVistaar at a Glance",
+    "subtitle": "Creating a bigger impact for India's farming community",
+    "stats": [
+      {
+        "id": "farmers",
+        "value": "12,500+",
+        "label": "Farmers Reached"
+      },
+      {
+        "id": "partners",
+        "value": "200+",
+        "label": "Partner Institutions"
+      },
+      {
+        "id": "resources",
+        "value": "500+",
+        "label": "Knowledge Resources"
+      },
+      {
+        "id": "services",
+        "value": "25+",
+        "label": "Service Available"
+      }
+    ],
+    "backgroundImage": "/images/backgrounds/green-waves.webp"
+  },
+  "personas": {
+    "title": "Explore User Personas",
+    "items": [
+      {
+        "id": "farmer",
+        "name": "Farmer",
+        "description": "Share knowledge, access research and collaborate on field innovations.",
+        "image": {
+          "src": "/images/personas/farmer.webp",
+          "alt": "Illustration of a farmer holding grain in his palm"
+        }
+      },
+      {
+        "id": "government-official",
+        "name": "Government Official",
+        "description": "Monitor initiatives, access reports and enable program implementation.",
+        "image": {
+          "src": "/images/personas/government-official.webp",
+          "alt": "Illustration of a government official holding files"
+        }
+      },
+      {
+        "id": "partner-institution",
+        "name": "Partner / Institution",
+        "description": "Collaborate on programs, share resources and drive greater impact.",
+        "image": {
+          "src": "/images/personas/partner-institution.webp",
+          "alt": "Illustration of a partner representative holding a tablet"
+        }
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "Capabilities",
+    "exploreHeading": "What you can explore",
+    "items": [
+      {
+        "id": "ffs",
+        "label": "FFS",
+        "title": "FFS – Farmer-Focused Services",
+        "description": "Access essential agricultural information and services through a connected digital platform.",
+        "features": [
+          {
+            "title": "Farmer-friendly access",
+            "description": "Find relevant agricultural information in one place."
+          },
+          {
+            "title": "Simplified service discovery",
+            "description": "Explore services based on farming needs."
+          }
+        ]
+      },
+      {
+        "id": "advisory",
+        "label": "Advisory",
+        "title": "Advisory"
+      },
+      {
+        "id": "schemes",
+        "label": "Schemes",
+        "title": "Schemes"
+      },
+      {
+        "id": "weather",
+        "label": "Weather",
+        "title": "Weather"
+      },
+      {
+        "id": "grievance",
+        "label": "Grievance",
+        "title": "Grievance"
+      },
+      {
+        "id": "market-intelligence",
+        "label": "Market Intelligence",
+        "title": "Market Intelligence"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "Stories from our farmers",
+    "backgroundImage": "/images/about/about-bg.webp",
+    "items": [
+      {
+        "id": "ramesh-k",
+        "paragraphs": [
+          [
+            {
+              "text": "“About 100 million "
+            },
+            {
+              "text": "farmers have received more than 4 lakh crore rupees",
+              "strong": true
+            },
+            {
+              "text": " from the PM Kisan Samman Nidhi. With the reforms in MSP, farmers are now getting up to one and a half times the return. Institutional credit coverage has become more than 75%. Under the PM Fasal Bima Yojana, claims worth 2 lakh crore rupees have been settled."
+            }
+          ],
+          [
+            {
+              "text": "These efforts have significantly reduced farmers’ risk and provided them with basic economic security. This has also increased the confidence of the agriculture sector.”"
+            }
+          ]
+        ],
+        "name": "Ramesh K",
+        "location": "Coimbatore, Tamil Nadu",
+        "image": {
+          "src": "/images/testimonials/ramesh-k.webp",
+          "alt": "Illustration of Ramesh K"
+        },
+        "cta": {
+          "id": "watch-video",
+          "label": "Watch Video",
+          "href": "#"
+        }
+      }
+    ]
+  },
+  "statePortals": {
+    "title": "Active State Portals",
+    "subtitle": "Explore state-level digital agriculture initiatives and connected services.",
+    "backgroundImage": "/images/backgrounds/green-waves.webp",
+    "items": [
+      {
+        "id": "bihar-krishi",
+        "name": "Bihar Krishi",
+        "href": "#",
+        "logo": {
+          "src": "/images/states/bihar-krishi.webp",
+          "alt": "Bihar Krishi logo",
+          "width": 101,
+          "height": 77
+        }
+      },
+      {
+        "id": "amul-ai",
+        "name": "Amul AI",
+        "href": "#",
+        "logo": {
+          "src": "/images/states/amul-ai.webp",
+          "alt": "Amul AI logo",
+          "width": 87,
+          "height": 87
+        }
+      },
+      {
+        "id": "maha-vistaar",
+        "name": "Maha VISTAAR",
+        "href": "#",
+        "logo": {
+          "src": "/images/states/maha-vistaar.webp",
+          "alt": "Maha VISTAAR logo",
+          "width": 81,
+          "height": 81
+        }
+      }
+    ]
+  },
+  "trust": {
+    "title": "Backed by Trust & Data",
+    "subtitle": "Building a connected agricultural ecosystem through trusted institutions, partnerships and digital infrastructure.",
+    "items": [
+      {
+        "id": "icar",
+        "name": "Indian Council of Agricultural Research (ICAR)",
+        "logo": {
+          "src": "/images/trust/icar.webp",
+          "alt": "ICAR",
+          "width": 66,
+          "height": 90
+        }
+      },
+      {
+        "id": "goi",
+        "name": "Government of India",
+        "logo": {
+          "src": "/images/trust/state-emblem.webp",
+          "alt": "State Emblem of India",
+          "width": 48,
+          "height": 83
+        }
+      },
+      {
+        "id": "agmarknet",
+        "name": "AGMARKNET",
+        "logo": {
+          "src": "/images/trust/agmarknet.webp",
+          "alt": "AGMARKNET",
+          "width": 113,
+          "height": 86
+        }
+      },
+      {
+        "id": "npss",
+        "name": "National Pest Surveillance System (NPSS)",
+        "logo": {
+          "src": "/images/trust/npss.webp",
+          "alt": "NPSS",
+          "width": 59,
+          "height": 80
+        }
+      },
+      {
+        "id": "bhashini",
+        "name": "BHASHINI",
+        "logo": {
+          "src": "/images/trust/bhashini.webp",
+          "alt": "BHASHINI",
+          "width": 88,
+          "height": 80
+        }
+      },
+      {
+        "id": "institution-6",
+        "name": "Partner institution",
+        "logo": {
+          "src": "/images/trust/university.webp",
+          "alt": "Partner institution emblem",
+          "width": 80,
+          "height": 89
+        }
+      }
+    ]
+  },
+  "updates": {
+    "title": "Latest Updates & Activities",
+    "subtitle": "Explore upcoming events, latest updates and informative videos from Bharat VISTAAR.",
+    "items": [
+      {
+        "id": "events",
+        "category": "Events",
+        "date": "25 Aug 2026, 10:30 AM",
+        "title": "Farmer Awareness & Digital Agriculture Workshop",
+        "description": "Discover upcoming programs and activities.",
+        "image": {
+          "src": "/images/updates/events.webp",
+          "alt": "Seedling in soil surrounded by digital agriculture icons"
+        },
+        "link": {
+          "id": "view-events",
+          "label": "View Events",
+          "href": "#"
+        }
+      },
+      {
+        "id": "posts",
+        "category": "Posts",
+        "title": "Digital Solutions for Smarter Farming",
+        "description": "Read the latest agricultural insights and updates.",
+        "image": {
+          "src": "/images/updates/posts.webp",
+          "alt": "Farmer in a green field looking at his phone"
+        },
+        "link": {
+          "id": "view-posts",
+          "label": "View Posts",
+          "href": "#"
+        }
+      },
+      {
+        "id": "videos",
+        "category": "Videos",
+        "title": "Discover Bharat VISTAAR’s Digital Services",
+        "description": "Discover upcoming programs and activities.",
+        "image": {
+          "src": "/images/updates/videos.webp",
+          "alt": "Farmers looking at a tablet together in a field"
+        },
+        "video": true,
+        "link": {
+          "id": "watch-videos",
+          "label": "Watch Videos",
+          "href": "#"
+        }
+      }
+    ]
+  },
+  "social": {
+    "title": "Connect With Us on Social Media",
+    "subtitle": "Stay connected with Bharat VISTAAR for the latest updates, agricultural insights, events and initiatives",
+    "items": [
+      {
+        "id": "x",
+        "platform": "X (Twitter)",
+        "href": "#",
+        "icon": "/images/social/x.webp",
+        "image": {
+          "src": "/images/social/x-post.webp",
+          "alt": "Bharat VISTAAR post: Digital Solutions for a Stronger Farming Community"
+        },
+        "caption": "Digital solutions for a stronger Farming Community",
+        "meta": "3:07 PM · Aug 25, 2026"
+      },
+      {
+        "id": "youtube",
+        "platform": "YouTube",
+        "href": "#",
+        "icon": "/images/social/youtube.webp",
+        "image": {
+          "src": "/images/social/youtube-post.webp",
+          "alt": "Video thumbnail: farmer with a tablet in a field at sunrise"
+        },
+        "caption": "Empowering Farmers Through Digital Innovation",
+        "meta": "Smart Farming · Better Future"
+      },
+      {
+        "id": "facebook",
+        "platform": "Facebook",
+        "href": "#",
+        "icon": "/images/social/facebook.webp",
+        "image": {
+          "src": "/images/social/facebook-post.webp",
+          "alt": "Bharat VISTAAR Facebook post about empowering farming communities"
+        },
+        "caption": "Bringing agricultural knowledge and digital solutions closer to every farmer.",
+        "meta": "Smart Farming · Better Future"
+      },
+      {
+        "id": "instagram",
+        "platform": "Instagram",
+        "href": "#",
+        "icon": "/images/social/instagram.webp",
+        "image": {
+          "src": "/images/social/instagram-post.webp",
+          "alt": "Bharat VISTAAR post: Knowledge, Technology and Support for Indian Farmers"
+        },
+        "caption": "Empowering farmers through knowledge, technology and innovation.",
+        "meta": "Smart Farming · Better Future"
+      }
+    ]
+  },
+  "chatbot": {
+    "label": "Hi, I’m Bharati",
+    "openLabel": "Chat with Bharati, the Bharat VISTAAR assistant",
+    "image": {
+      "src": "/images/chatbot/bharati.webp",
+      "alt": ""
+    }
+  }
+}

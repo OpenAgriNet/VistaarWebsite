@@ -1,0 +1,1 @@
+export { CapabilityTabs } from './CapabilityTabs';

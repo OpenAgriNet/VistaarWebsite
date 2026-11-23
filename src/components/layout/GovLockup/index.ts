@@ -1,0 +1,1 @@
+export { GovLockup } from './GovLockup';

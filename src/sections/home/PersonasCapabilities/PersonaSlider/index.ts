@@ -1,0 +1,1 @@
+export { PersonaSlider } from './PersonaSlider';
