@@ -270,6 +270,8 @@ export const motion = {
   heroSlideDelayMs: 3000,
   /** Announcements ticker: one full loop. */
   tickerLoopSeconds: 40,
+  /** "Backed by Trust & Data" logo strip: one full loop (client request; not in the Figma). */
+  trustLoopSeconds: 30,
 } as const;
 
 export const shadow = {
@@ -323,8 +325,9 @@ export const size = {
   searchHeight: 38,
   buttonHeight: 42,
   mobileMenuRowHeight: 42,
-  /** Connect dropdown ("Action menu"): 225px wide, 40px rows, 16px external-link icon. */
-  dropdownWidth: 225,
+  /** Connect dropdown ("Action menu"): Figma 225px wide, widened to 280 for the item
+   *  bylines (client request); 40px rows, 16px external-link icon. */
+  dropdownWidth: 280,
   dropdownItemHeight: 40,
   /** DBIM: smallest icon is 24px; the Figma dropdown uses 16px. */
   dropdownIcon: 16,
@@ -357,9 +360,10 @@ export const size = {
   quotePhotoMobile: 160,
   quoteTextWidth: 944,
 
-  // Personas + Capabilities (desktop panels 542 + 714, 24px apart)
-  personasPanelWidth: 542,
-  capabilitiesPanelWidth: 714,
+  // Personas + Capabilities (Figma: desktop panels 542 + 714, 24px apart).
+  // Personas narrowed to 440 (client request) so Capabilities gets the rest (816) and its
+  // longest tab wraps into fewer lines; the two panels then end at almost the same height.
+  personasPanelWidth: 440,
   personaImage: 172,
   personaTextWidth: 324,
   capabilityTabWidth: 176,
@@ -369,6 +373,8 @@ export const size = {
   sliderDotActive: 12,
   /** Testimonials: 1080px text column (100px side padding inside the 1280 container). */
   testimonialTextWidth: 1080,
+  /** Legal pages (Privacy, Terms, Disclaimer): readable text column, as on the current site. */
+  legalTextWidth: 896,
   testimonialAvatar: 70,
   testimonialAvatarMobile: 56,
   /** Outlined / filled 48px action buttons ("Watch Video", "Partner With Us"). */
@@ -379,6 +385,9 @@ export const size = {
   statePortalCardHeightMobile: 120,
   trustCardHeight: 135,
   trustCardHeightMobile: 104,
+  /** Logo tile width in the moving strip (Figma ≈192 on desktop). */
+  trustCardWidth: 192,
+  trustCardWidthMobile: 150,
   updateImageHeight: 196,
   socialImageHeight: 156,
   socialPlatformIcon: 24,
@@ -410,8 +419,6 @@ export const size = {
   languageMenuMaxHeight: 360,
 
   // Footer
-  /** Desktop contact email field (measured ≈290px in the Final-Home footer). */
-  footerEmailWidth: 290,
   partnerLogo: { width: 78, height: 38 },
   partnerLogoMobile: { width: 91, height: 42 },
   storeBadge: { width: 120, height: 36 },

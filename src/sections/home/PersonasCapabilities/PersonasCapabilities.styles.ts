@@ -5,7 +5,8 @@ import { radius, size } from '@/theme/tokens';
 
 /**
  * Figma "Final-Home" → Frame 45 (1440×587, #F9F9F9, padding 60/80).
- * Two panels side by side on desktop (542px personas + 714px capabilities, 24px apart),
+ * Two panels side by side on desktop (Figma 542 + 714; personas narrowed to 440 and
+ * capabilities takes the rest, per client request, to avoid empty space under personas; 24px apart),
  * each brand-green at 5%, 16px radius, 24px padding. Stacked on mobile.
  */
 
@@ -38,8 +39,6 @@ export const Panel = styled('div', {
   backgroundColor: (theme.vars ?? theme).palette.surface.brandTint,
   [theme.breakpoints.up('lg')]: {
     padding: theme.spacing(6),
-    ...(variant === 'personas'
-      ? { flex: `0 0 ${size.personasPanelWidth}px` }
-      : { flex: 1, maxWidth: size.capabilitiesPanelWidth }),
+    ...(variant === 'personas' ? { flex: `0 0 ${size.personasPanelWidth}px` } : { flex: 1 }),
   },
 }));

@@ -2,11 +2,13 @@
 
 import { useRef } from 'react';
 import { GovLockup } from '@/components/layout/GovLockup';
-import { SearchBox } from '@/components/layout/SearchBox';
+// Search hidden for now (client request) — restore with the <SearchBox /> below.
+// import { SearchBox } from '@/components/layout/SearchBox';
 import { TopBarActions } from '@/components/layout/TopBarActions';
 import { MainNav } from '@/components/layout/MainNav';
 import { MobileMenu } from '@/components/layout/MobileMenu';
 import { useHeaderOffsets } from '@/hooks/useHeaderOffsets';
+import { useInitialHashScroll } from '@/hooks/useInitialHashScroll';
 import * as S from './Header.styles';
 
 /**
@@ -19,6 +21,7 @@ export function Header() {
   const headerRef = useRef<HTMLElement>(null);
   const topBarRef = useRef<HTMLDivElement>(null);
   useHeaderOffsets(headerRef, topBarRef);
+  useInitialHashScroll();
 
   return (
     <S.Root ref={headerRef}>
@@ -26,7 +29,7 @@ export function Header() {
         <S.TopBarInner className="container">
           <GovLockup />
           <S.DesktopTools>
-            <SearchBox />
+            {/* <SearchBox /> */}
             <TopBarActions />
           </S.DesktopTools>
           <S.MobileOnly>

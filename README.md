@@ -1,4 +1,4 @@
-# BV Website (Bharat VISTAAR)
+# BV Website (BharatVistaar)
 
 Static website built with **Next.js 16 · React 19 · MUI 9**, exported as plain HTML/CSS/JS and hosted on **AWS S3** (with CloudFront for HTTPS).
 

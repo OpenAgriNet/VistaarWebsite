@@ -1,0 +1,302 @@
+{
+  "skipToContent": "মূল বিষয়বস্তুতে যান",
+  "language": {
+    "label": "ভাষা নির্বাচন করুন",
+    "translating": "{language}-এ অনুবাদ করা হচ্ছে, দয়া করে অপেক্ষা করুন",
+    "done": "পৃষ্ঠাটি অনুবাদ করা হয়েছে {language}",
+    "error": "এই মুহূর্তে অনুবাদ পাওয়া যাচ্ছে না। কিছু লেখা ইংরেজিতে থাকতে পারে।"
+  },
+  "search": {
+    "label": "অনুসন্ধান করুন",
+    "placeholder": "অনুসন্ধান করুন ..........",
+    "submit": "অনুসন্ধান করুন"
+  },
+  "accessibility": {
+    "open": "অ্যাক্সেসযোগ্যতার বিকল্পগুলি",
+    "title": "অ্যাক্সেসিবিলিটি কন্ট্রোল",
+    "close": "অ্যাক্সেসিবিলিটি বিকল্পগুলি বন্ধ করুন",
+    "darkContrast": "অন্ধকার বৈপরীত্য",
+    "invert": "উল্টো",
+    "textSizeIncrease": "পাঠ্যের আকার বৃদ্ধি করুন",
+    "textSizeDecrease": "পাঠ্যের আকার হ্রাস"
+  },
+  "header": {
+    "homeLink": "ভারতভিস্তার মূল পাতা",
+    "government": "ভারত সরকার",
+    "ministry": "কৃষি ও কৃষক কল্যাণ মন্ত্রক",
+    "department": "কৃষি ও কৃষক কল্যাণ বিভাগ",
+    "emblemAlt": "ভারতের রাষ্ট্রীয় প্রতীক",
+    "logoAlt": "ভারতভিস্তার",
+    "openMenu": "মেনু খুলুন",
+    "closeMenu": "মেনু বন্ধ করুন",
+    "mainNav": "প্রধান নৌপরিবহন",
+    "partnerWithUs": "আমাদের সঙ্গে অংশীদার হোন"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "মূল পাতা",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "সম্পর্কে",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "প্রভাব",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "সক্ষমতা",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "রাজ্যগুলি",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "সংযোগ স্থাপন করুন",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "নথি গ্রহণ করুন",
+            "description": "আপনার জ্ঞানের সংস্থানগুলি এই মঞ্চে নিয়ে আসুন",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "সাইন ইন করুন",
+            "description": "কৃষি সংক্রান্ত জ্ঞান অর্জনের একটি ব্যক্তিগত অভিজ্ঞতা আবিষ্কার করুন",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(একটি নতুন ট্যাবে খোলে)"
+  },
+  "footer": {
+    "legalTitle": "আইনি",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "গোপনীয়তা নীতি",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "নিয়মাবলী ও শর্তাবলী",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "অস্বীকৃতি",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "যোগাযোগ করুন",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "আপডেটের জন্য সাবস্ক্রাইব করুন",
+    "socials": [
+      {
+        "id": "x",
+        "label": "এক্স (টুইটার)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "ইউটিউব",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "ফেসবুক",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "ইনস্টাগ্রাম",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "মাইগভ",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "ডিজিটাল ইন্ডিয়া",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "আমাদের অ্যাপ ডাউনলোড করুন",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "গুগল প্লে-তে পাবেন",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "অ্যাপ স্টোরে ডাউনলোড করুন",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "সর্বশেষ হালনাগাদ করা হয়েছেঃ 05:0226",
+    "ownership": "ভারত সরকারের কৃষি ও কৃষক কল্যাণ মন্ত্রকের মালিকানাধীন ও পরিচালিত ওয়েবসাইটের বিষয়বস্তু",
+    "opensInNewTab": "(একটি নতুন ট্যাবে খোলে)"
+  },
+  "carousel": {
+    "label": "হাইলাইটস",
+    "slide": "{total} এর স্লাইড {current}",
+    "previous": "পূর্ববর্তী স্লাইড",
+    "next": "পরবর্তী স্লাইড",
+    "goTo": "স্লাইডে যান {number}",
+    "pause": "স্লাইডশো বিরতি দিন",
+    "play": "স্লাইডশো চালান"
+  },
+  "announcements": {
+    "label": "ঘোষণা",
+    "pause": "ঘোষণা স্থগিত করুন",
+    "play": "ঘোষণা খেলুন"
+  },
+  "slider": {
+    "previous": "এর আগে",
+    "next": "এর পরের",
+    "goTo": "{total}-এর আইটেম {number} দেখান",
+    "previousCapability": "পূর্ববর্তী ক্ষমতা",
+    "nextCapability": "পরবর্তী ক্ষমতা",
+    "previousTestimonial": "পূর্ববর্তী সাক্ষ্য",
+    "nextTestimonial": "পরবর্তী সাক্ষ্য",
+    "previousUpdate": "পূর্ববর্তী আপডেট",
+    "nextUpdate": "পরবর্তী আপডেট",
+    "previousPersona": "পূর্ববর্তী ব্যক্তিত্ব",
+    "nextPersona": "পরবর্তী ব্যক্তিত্ব"
+  },
+  "media": {
+    "video": "ভিডিও",
+    "instagramPost": "ইনস্টাগ্রাম পোস্ট",
+    "opensInNewTab": "(একটি নতুন ট্যাবে খোলে)"
+  },
+  "chatbot": {
+    "title": "চ্যাটবট",
+    "openFullPage": "একটি সম্পূর্ণ পৃষ্ঠায় চ্যাট খুলুন (একটি নতুন ট্যাবে খোলে)",
+    "close": "চ্যাট বন্ধ করুন",
+    "featureLabel": "নতুন ফিচার",
+    "newBadge": "নতুন",
+    "featureText": "ভারতী এখন তেলেগু, বাংলা, গুজরাটি এবং আরও 10টি ভাষায় কথা বলতে পারে",
+    "notifications": "বিজ্ঞপ্তি",
+    "language": "চ্যাট ভাষাঃ ইংরেজি",
+    "languageShort": "এন",
+    "settings": "চ্যাট সেটিংস",
+    "assistantName": "ভারতী",
+    "greeting": "আসসালামুয়ালাইকুম! আমি আপনার কৃষি সহকারী। আজ আমি কিভাবে আপনাকে সাহায্য করতে পারি?",
+    "suggestionsLabel": "প্রস্তাবিত প্রশ্ন",
+    "suggestions": [
+      "আমার বীজ প্রমাণীকরণ প্রকল্প সম্পর্কে তথ্য প্রয়োজন",
+      "পিএম-কিষাণ প্রকল্প কী এবং আমি কীভাবে এর জন্য আবেদন করতে পারি?",
+      "কিষাণ ক্রেডিট কার্ড প্রকল্প সম্পর্কে আমাকে বলুন"
+    ],
+    "inputLabel": "আপনার প্রশ্ন জিজ্ঞাসা করুন",
+    "inputPlaceholder": "আপনার প্রশ্ন জিজ্ঞাসা করুন ..........",
+    "attach": "সংযুক্তি যোগ করুন",
+    "voice": "কণ্ঠস্বরের মাধ্যমে জিজ্ঞাসা করুন",
+    "send": "প্রশ্ন পাঠান",
+    "disclaimer": "এআই-জেনারেটেড কন্টেন্ট। প্রয়োজনে দয়া করে স্থানীয়ভাবে যাচাই করুন"
+  },
+  "partner": {
+    "title": "অনুসন্ধানের ফর্ম",
+    "subtitle": "আপনার বিবরণ জমা দিন এবং আমাদের অংশীদারিত্ব দল আপনার কাছে ফিরে আসবে।",
+    "close": "ফর্ম বন্ধ করুন",
+    "fields": {
+      "fullName": {
+        "label": "পুরো নাম",
+        "placeholder": "প্রবেশ করুন"
+      },
+      "organisation": {
+        "label": "সংগঠনের নাম",
+        "placeholder": "প্রবেশ করুন"
+      },
+      "email": {
+        "label": "ই-মেইল ঠিকানা",
+        "placeholder": "প্রবেশ করুন"
+      },
+      "state": {
+        "label": "আপনার রাজ্য নির্বাচন করুন",
+        "placeholder": "প্রবেশ করুন"
+      },
+      "interest": {
+        "label": "অংশীদারিত্বের আগ্রহ",
+        "placeholder": "বেছে নিন"
+      },
+      "description": {
+        "label": "প্রকল্পের সংক্ষিপ্ত বিবরণ",
+        "placeholder": "প্রবেশ করুন"
+      }
+    },
+    "requiredHint": "প্রয়োজন",
+    "errors": {
+      "required": "এই ক্ষেত্রটি প্রয়োজন।",
+      "email": "একটি বৈধ ইমেল ঠিকানা লিখুন।"
+    },
+    "submit": "তদন্ত পাঠান",
+    "states": [
+      "আন্দামান ও নিকোবর দ্বীপপুঞ্জ",
+      "অন্ধ্রপ্রদেশ",
+      "অরুণাচল প্রদেশ",
+      "অসম",
+      "বিহার",
+      "চণ্ডীগড়",
+      "ছত্তিশগড়",
+      "দাদরা ও নগর হাভেলি এবং দমন ও দিউ",
+      "দিল্লি",
+      "গোয়া",
+      "গুজরাট",
+      "হরিয়ানা",
+      "হিমাচল প্রদেশ",
+      "জম্মু ও কাশ্মীর",
+      "ঝাড়খণ্ড",
+      "কর্ণাটক",
+      "কেরালা",
+      "লাদাখ",
+      "লাক্ষাদ্বীপ",
+      "মধ্যপ্রদেশ",
+      "মহারাষ্ট্র",
+      "মণিপুর",
+      "মেঘালয়",
+      "মিজোরাম",
+      "নাগাল্যান্ড",
+      "ওড়িশা",
+      "পুদুচেরি",
+      "পঞ্জাব",
+      "রাজস্থান",
+      "সিকিম",
+      "তামিলনাড়ু",
+      "তেলেঙ্গানা",
+      "ত্রিপুরা",
+      "উত্তরপ্রদেশ",
+      "উত্তরাখণ্ড",
+      "পশ্চিমবঙ্গ"
+    ],
+    "interests": [],
+    "success": {
+      "title": "তদন্ত সফলভাবে জমা দেওয়া হয়েছে!",
+      "text": "আমাদের সাথে অংশীদারিত্বে আপনার আগ্রহের জন্য আপনাকে ধন্যবাদ। আমাদের দল আপনার তদন্ত পর্যালোচনা করবে এবং শীঘ্রই আপনার কাছে ফিরে আসবে।",
+      "close": "বার্তা বন্ধ করুন"
+    }
+  }
+}

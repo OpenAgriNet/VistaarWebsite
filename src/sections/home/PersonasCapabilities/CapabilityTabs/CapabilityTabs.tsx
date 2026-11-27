@@ -12,7 +12,9 @@ const tabId = (id: string) => `capability-tab-${id}`;
 const panelId = (id: string) => `capability-panel-${id}`;
 
 /**
- * ARIA tabs: a tab list (vertical on desktop, a scrolling row on mobile) and one panel.
+ * ARIA tabs: a tab list (vertical on desktop, a scrolling row on mobile) and the panels.
+ * All panels are rendered in one grid cell (only the selected one visible), so the box keeps
+ * the height of the longest capability instead of resizing on every tab change.
  * Arrow keys / Home / End move between tabs (automatic activation); the ‹ › buttons in the
  * panel step to the previous / next capability, wrapping around.
  */
@@ -45,8 +47,7 @@ export function CapabilityTabs({ content }: { content: CapabilitiesContent }) {
     select(target, true);
   };
 
-  const current = items[selected];
-  if (!current) return null;
+  if (items.length === 0) return null;
 
   return (
     <S.Card>
@@ -75,40 +76,50 @@ export function CapabilityTabs({ content }: { content: CapabilitiesContent }) {
         })}
       </S.TabList>
 
-      <S.Content
-        role="tabpanel"
-        id={panelId(current.id)}
-        aria-labelledby={tabId(current.id)}
-        tabIndex={0}
-      >
-        <S.ContentHeader>
-          <S.Intro>
-            <S.Title>{current.title}</S.Title>
-            {current.description && <S.Body>{current.description}</S.Body>}
-          </S.Intro>
-          <SliderArrows
-            previousLabel={t('previousCapability')}
-            nextLabel={t('nextCapability')}
-            onPrevious={() => select(selected - 1)}
-            onNext={() => select(selected + 1)}
-          />
-        </S.ContentHeader>
+      <S.Panels>
+        {items.map((item, index) => {
+          const active = index === selected;
+          return (
+            <S.Content
+              key={item.id}
+              role="tabpanel"
+              id={panelId(item.id)}
+              aria-labelledby={tabId(item.id)}
+              tabIndex={active ? 0 : -1}
+              active={active}
+              inert={!active}
+            >
+              <S.ContentHeader>
+                <S.Intro>
+                  <S.Title>{item.title}</S.Title>
+                  {item.description && <S.Body>{item.description}</S.Body>}
+                </S.Intro>
+                <SliderArrows
+                  previousLabel={t('previousCapability')}
+                  nextLabel={t('nextCapability')}
+                  onPrevious={() => select(selected - 1)}
+                  onNext={() => select(selected + 1)}
+                />
+              </S.ContentHeader>
 
-        {current.features && current.features.length > 0 && (
-          <>
-            <S.Divider />
-            <S.ExploreHeading>{content.exploreHeading}</S.ExploreHeading>
-            <S.Features>
-              {current.features.map((feature) => (
-                <S.Feature key={feature.title}>
-                  <S.FeatureTitle>{feature.title}</S.FeatureTitle>
-                  <S.FeatureBody>{feature.description}</S.FeatureBody>
-                </S.Feature>
-              ))}
-            </S.Features>
-          </>
-        )}
-      </S.Content>
+              {item.features && item.features.length > 0 && (
+                <>
+                  <S.Divider />
+                  <S.ExploreHeading>{content.exploreHeading}</S.ExploreHeading>
+                  <S.Features>
+                    {item.features.map((feature) => (
+                      <S.Feature key={feature.title}>
+                        <S.FeatureTitle>{feature.title}</S.FeatureTitle>
+                        <S.FeatureBody>{feature.description}</S.FeatureBody>
+                      </S.Feature>
+                    ))}
+                  </S.Features>
+                </>
+              )}
+            </S.Content>
+          );
+        })}
+      </S.Panels>
     </S.Card>
   );
 }

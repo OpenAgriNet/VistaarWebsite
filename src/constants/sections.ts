@@ -6,7 +6,7 @@
 export const SECTION_ID = {
   about: 'about',
   capabilities: 'capabilities',
-  /** "Bharat VISTAAR at a Glance" (impact numbers). */
+  /** "BharatVistaar at a Glance" (impact numbers). */
   impact: 'impact',
   /** "Active State Portals". */
   states: 'states',

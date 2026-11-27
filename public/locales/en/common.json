@@ -21,12 +21,12 @@
     "textSizeDecrease": "Text Size Decrease"
   },
   "header": {
-    "homeLink": "Bharat VISTAAR home",
+    "homeLink": "BharatVistaar home",
     "government": "Government of India",
     "ministry": "Ministry Of Agriculture & Farmers Welfare",
     "department": "Department of Agriculture & Farmers Welfare",
     "emblemAlt": "State Emblem of India",
-    "logoAlt": "Bharat VISTAAR",
+    "logoAlt": "BharatVistaar",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "mainNav": "Main navigation",
@@ -66,14 +66,16 @@
         "children": [
           {
             "id": "ingest-documents",
-            "label": "Ingest Documents",
-            "href": "#",
+            "label": "Ingest Document",
+            "description": "Bring your knowledge resources to the platform",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
             "external": true
           },
           {
             "id": "sign-in",
             "label": "Sign In",
-            "href": "#",
+            "description": "Discover a personalized experience of accessing agricultural knowledge",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
             "external": true
           }
         ]
@@ -101,29 +103,28 @@
       }
     ],
     "contactTitle": "Contact",
-    "contactEmailLabel": "Email",
-    "contactSubmit": "Submit",
+    "contactEmail": "us-it@gov.in",
     "subscribeTitle": "Subscribe for Updates",
     "socials": [
       {
         "id": "x",
         "label": "X (Twitter)",
-        "href": "#"
+        "href": "https://x.com/bharat_vistaar"
       },
       {
         "id": "youtube",
         "label": "YouTube",
-        "href": "#"
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
       },
       {
         "id": "facebook",
         "label": "Facebook",
-        "href": "#"
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
       },
       {
         "id": "instagram",
         "label": "Instagram",
-        "href": "#"
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
       }
     ],
     "partners": [
@@ -145,13 +146,13 @@
       {
         "id": "google-play",
         "label": "Get it on Google Play",
-        "href": "#",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
         "badge": "/logos/google-play-badge.svg"
       },
       {
         "id": "app-store",
         "label": "Download on the App Store",
-        "href": "#",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
         "badge": "/logos/app-store-badge.svg"
       }
     ],
@@ -187,11 +188,13 @@
     "nextPersona": "Next persona"
   },
   "media": {
-    "video": "Video"
+    "video": "Video",
+    "instagramPost": "Instagram post",
+    "opensInNewTab": "(opens in a new tab)"
   },
   "chatbot": {
     "title": "Chatbot",
-    "openFullPage": "Open chat in a full page",
+    "openFullPage": "Open chat in a full page (opens in a new tab)",
     "close": "Close chat",
     "featureLabel": "New feature",
     "newBadge": "New",

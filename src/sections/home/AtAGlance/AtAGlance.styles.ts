@@ -4,7 +4,7 @@ import { styled } from '@mui/material/styles';
 import { coverBackground } from '@/styles/background';
 
 /**
- * Figma: "Bharat VISTAAR at a Glance"
+ * Figma: "BharatVistaar at a Glance"
  * - Mobile (375): padding 24 / 16, cards stacked, 27px gaps
  * - Desktop (1440): padding 80, 4 cards in a row, 27px gap, 41px below the header
  * - Background: the Figma wavy green picture (shared with State Portals) over brand green.

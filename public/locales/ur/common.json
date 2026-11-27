@@ -1,0 +1,302 @@
+{
+  "skipToContent": "مرکزی مواد پر جائیں",
+  "language": {
+    "label": "زبان منتخب کریں",
+    "translating": "{language} میں ترجمہ کرتے ہوئے، براہ کرم انتظار کریں۔",
+    "done": "صفحہ کا ترجمہ کیا گیا {language}",
+    "error": "ترجمہ ابھی دستیاب نہیں ہے۔ کچھ متن انگریزی میں رہ سکتا ہے۔"
+  },
+  "search": {
+    "label": "تلاش کریں",
+    "placeholder": "تلاش کریں ..........",
+    "submit": "تلاش کریں"
+  },
+  "accessibility": {
+    "open": "رسائی کے اختیارات",
+    "title": "رسائی کنٹرول",
+    "close": "رسائی کے اختیارات بند کریں",
+    "darkContrast": "تاریک تضاد",
+    "invert": "الٹا کریں",
+    "textSizeIncrease": "متن کا سائز بڑھائیں",
+    "textSizeDecrease": "متن کے سائز میں کمی"
+  },
+  "header": {
+    "homeLink": "بھارت وستر ہوم",
+    "government": "حکومت ہند",
+    "ministry": "وزارت زراعت اور کسانوں کی بہبود",
+    "department": "محکمہ زراعت اور کسانوں کی بہبود",
+    "emblemAlt": "ہندوستان کا ریاستی نشان",
+    "logoAlt": "بھارت وستر",
+    "openMenu": "مینو کھولیں",
+    "closeMenu": "مینو بند کریں",
+    "mainNav": "اہم نیویگیشن",
+    "partnerWithUs": "ہمارے ساتھ شراکت دار"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "مرکزی صفحہ",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "کے بارے میں",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "اثر",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "قابلیت",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "ریاستیں",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "مربوط کریں",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "دستاویز کھائیں",
+            "description": "اپنے علمی وسائل کو پلیٹ فارم پر لائیں",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "سائن ان کریں",
+            "description": "زرعی علم تک رسائی کا ذاتی تجربہ دریافت کریں۔",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(ایک نئے ٹیب میں کھلتا ہے)"
+  },
+  "footer": {
+    "legalTitle": "قانونی",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "پرائیویسی پالیسی",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "شرائط و ضوابط",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "ڈس کلیمر",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "رابطہ کریں",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "اپ ڈیٹس کے لیے سبسکرائب کریں",
+    "socials": [
+      {
+        "id": "x",
+        "label": "ایکس (ٹویٹر)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "یوٹیوب",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "فیس بک",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "انسٹاگرام",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "مائی گوو",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "ڈیجیٹل انڈیا",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "ہماری ایپ ڈاؤن لوڈ کریں",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "اسے گوگل پلے پر حاصل کریں",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "ایپ اسٹور پر ڈاؤن لوڈ کریں",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "تازہ ترین اپ ڈیٹ: 1:05:2026",
+    "ownership": "وزارت زراعت اور کسانوں کی بہبود، حکومت ہند کی ملکیت اور زیر انتظام ویب سائٹ کا مواد",
+    "opensInNewTab": "(ایک نئے ٹیب میں کھلتا ہے)"
+  },
+  "carousel": {
+    "label": "جھلکیاں",
+    "slide": "{total} کی سلائیڈ {current}",
+    "previous": "پچھلی سلائیڈ",
+    "next": "اگلی سلائیڈ",
+    "goTo": "سلائیڈ پر جائیں {number}",
+    "pause": "سلائیڈ شو کو روکیں",
+    "play": "سلائیڈ شو چلائیں"
+  },
+  "announcements": {
+    "label": "اعلانات",
+    "pause": "اعلانات کو روکیں",
+    "play": "اعلانات چلائیں"
+  },
+  "slider": {
+    "previous": "پچھلا",
+    "next": "اگلا",
+    "goTo": "{total} کا آئٹم {number} دکھائیں",
+    "previousCapability": "پچھلی صلاحیت",
+    "nextCapability": "اگلی صلاحیت",
+    "previousTestimonial": "پچھلی گواہی",
+    "nextTestimonial": "اگلی گواہی",
+    "previousUpdate": "پچھلی اپ ڈیٹ",
+    "nextUpdate": "اگلی اپڈیٹ",
+    "previousPersona": "پچھلی شخصیت",
+    "nextPersona": "اگلی شخصیت"
+  },
+  "media": {
+    "video": "ویڈیو",
+    "instagramPost": "انسٹاگرام پوسٹ",
+    "opensInNewTab": "(ایک نئے ٹیب میں کھلتا ہے)"
+  },
+  "chatbot": {
+    "title": "چیٹ بوٹ",
+    "openFullPage": "مکمل صفحہ میں چیٹ کھولیں (ایک نئے ٹیب میں کھلتا ہے)",
+    "close": "چیٹ بند کریں",
+    "featureLabel": "نئی خصوصیت",
+    "newBadge": "نیا۔",
+    "featureText": "بھارتی اب تیلگو، بنگالی، گجراتی اور 10 دیگر زبانوں میں بات چیت کر سکتی ہے۔",
+    "notifications": "اطلاعات",
+    "language": "چیٹ کی زبان: انگریزی",
+    "languageShort": "این۔",
+    "settings": "چیٹ کی ترتیبات",
+    "assistantName": "بھارتی",
+    "greeting": "ہیلو! میں آپ کا زرعی معاون ہوں۔ آج میں آپ کی کس طرح مدد کر سکتا ہوں؟",
+    "suggestionsLabel": "تجویز کردہ سوالات",
+    "suggestions": [
+      "مجھے بیج کی تصدیق کی اسکیم کے بارے میں معلومات درکار ہیں",
+      "پی ایم-کسان اسکیم کیا ہے اور میں اس کے لیے کیسے درخواست دے سکتا ہوں؟",
+      "مجھے کسان کریڈٹ کارڈ اسکیم کے بارے میں بتائیں"
+    ],
+    "inputLabel": "اپنا سوال پوچھیں",
+    "inputPlaceholder": "اپنا سوال پوچھیں ..........",
+    "attach": "منسلک شامل کریں",
+    "voice": "آواز سے پوچھیں",
+    "send": "سوال بھیجیں",
+    "disclaimer": "اے آئی سے تیار کردہ مواد۔ اگر ضرورت ہو تو براہ کرم مقامی طور پر تصدیق کریں"
+  },
+  "partner": {
+    "title": "انکوائری فارم",
+    "subtitle": "اپنی تفصیلات جمع کروائیں اور ہماری پارٹنرشپ ٹیم آپ کے پاس واپس آجائے گی۔",
+    "close": "فارم بند کریں",
+    "fields": {
+      "fullName": {
+        "label": "پورا نام",
+        "placeholder": "داخل کریں"
+      },
+      "organisation": {
+        "label": "تنظیم کا نام",
+        "placeholder": "داخل کریں"
+      },
+      "email": {
+        "label": "ای میل ایڈریس",
+        "placeholder": "داخل کریں"
+      },
+      "state": {
+        "label": "اپنی ریاست کا انتخاب کریں",
+        "placeholder": "داخل کریں"
+      },
+      "interest": {
+        "label": "شراکت داری میں دلچسپی",
+        "placeholder": "منتخب کریں"
+      },
+      "description": {
+        "label": "منصوبے کی مختصر وضاحت",
+        "placeholder": "داخل کریں"
+      }
+    },
+    "requiredHint": "ضروری ہے",
+    "errors": {
+      "required": "یہ فیلڈ درکار ہے۔",
+      "email": "درست ای میل ایڈریس درج کریں۔"
+    },
+    "submit": "انکوائری بھیجیں",
+    "states": [
+      "جزائر انڈمان و نکوبار",
+      "آندھرا پردیش",
+      "اروناچل پردیش",
+      "آسام",
+      "بہار",
+      "چندی گڑھ",
+      "چھتیس گڑھ",
+      "دادرا اور نگر حویلی اور دمن اور دیو",
+      "دہلی",
+      "گوا",
+      "گجرات",
+      "ہریانہ",
+      "ہماچل پردیش",
+      "جموں و کشمیر",
+      "جھارکھنڈ",
+      "کرناٹک",
+      "کیرالہ",
+      "لداخ",
+      "لکشدیپ",
+      "مدھیہ پردیش",
+      "مہاراشٹر",
+      "منی پور",
+      "میگھالیہ",
+      "میزورم",
+      "ناگالینڈ",
+      "اوڈیشہ",
+      "پڈوچیری",
+      "پنجاب",
+      "راجستھان",
+      "سکم",
+      "تامل ناڈو",
+      "تلنگانہ",
+      "تریپورہ",
+      "اتر پردیش",
+      "اتراکھنڈ",
+      "مغربی بنگال"
+    ],
+    "interests": [],
+    "success": {
+      "title": "انکوائری کامیابی سے جمع کرائی گئی!",
+      "text": "ہمارے ساتھ شراکت داری میں آپ کی دلچسپی کا شکریہ۔ ہماری ٹیم آپ کی انکوائری کا جائزہ لے گی اور جلد ہی آپ سے رابطہ کرے گی۔",
+      "close": "پیغام بند کریں"
+    }
+  }
+}

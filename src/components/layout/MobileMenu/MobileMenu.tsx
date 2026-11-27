@@ -7,7 +7,8 @@ import Fade from '@mui/material/Fade';
 import Collapse from '@mui/material/Collapse';
 import { useTranslations } from 'next-intl';
 import { Icon } from '@/components/ui/Icon';
-import { SearchBox } from '@/components/layout/SearchBox';
+// Search hidden for now (client request) — restore with the <SearchBox fluid /> below.
+// import { SearchBox } from '@/components/layout/SearchBox';
 import { TopBarActions } from '@/components/layout/TopBarActions';
 import { useNavItems } from '@/components/layout/MainNav';
 import { NavDropdownLink } from '@/components/layout/NavDropdownLink';
@@ -61,7 +62,7 @@ export function MobileMenu() {
       <Fade in={open} unmountOnExit>
         <S.Panel id={panelId}>
           <S.Tools>
-            <SearchBox fluid />
+            {/* <SearchBox fluid /> */}
             <TopBarActions />
           </S.Tools>
           <nav aria-label={t('mainNav')}>

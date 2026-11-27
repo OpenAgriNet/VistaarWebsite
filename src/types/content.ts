@@ -12,6 +12,8 @@ export interface LinkItem {
   href: string;
   /** Opens in a new tab (shown with an external-link icon). */
   external?: boolean;
+  /** Short line under the label, in smaller grey text (Connect dropdown items). */
+  description?: string;
 }
 
 export interface NavItem extends LinkItem {
@@ -185,11 +187,14 @@ export interface UpdateItem {
   id: string;
   /** "Events", "Posts", "Videos". */
   category: string;
-  /** Shown top-right of the card when present (events). */
+  /** Shown top-right of the card when present (events, posts). */
   date?: string;
   title: string;
   description: string;
-  image: { src: string; alt: string };
+  /** Card picture. Posts linked from social media may have none (images are not copied). */
+  image?: { src: string; alt: string };
+  /** Social platform of a linked post: without an image, the card shows its icon instead. */
+  platform?: 'instagram';
   /** Video cards get a play badge over the picture. */
   video?: boolean;
   link: LinkItem;
@@ -241,3 +246,27 @@ export interface HomeContent {
   social: SocialContent;
   chatbot: ChatbotContent;
 }
+
+/* ---------- Legal pages (Privacy Policy, Terms, Disclaimer), from legal.json ---------- */
+
+export type LegalBlock =
+  | { type: 'paragraph'; text: string }
+  | { type: 'subheading'; text: string }
+  /** `term` is shown in bold before the text ("Platform refers to …"). */
+  | { type: 'list'; items: { term?: string; text: string }[] }
+  /** Postal-style contact block; `title` is the bold first line. */
+  | { type: 'address'; title?: string; lines: string[] };
+
+export interface LegalSection {
+  heading: string;
+  blocks: LegalBlock[];
+}
+
+export interface LegalDocument {
+  title: string;
+  effectiveDate: string;
+  intro: LegalBlock[];
+  sections: LegalSection[];
+}
+
+export type LegalDocumentKey = 'privacyPolicy' | 'termsAndConditions' | 'disclaimer';

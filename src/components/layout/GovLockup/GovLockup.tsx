@@ -6,7 +6,7 @@ import * as S from './GovLockup.styles';
 
 /**
  * DBIM generic header lockup for a Department under a Ministry.
- * Assets: State Emblem from the DBIM Toolkit logo library; Bharat VISTAAR logo exported
+ * Assets: State Emblem from the DBIM Toolkit logo library; BharatVistaar logo exported
  * from the Figma (both SVG-optimised, under the DBIM 100 KB logo limit).
  */
 export function GovLockup() {

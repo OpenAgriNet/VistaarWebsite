@@ -1,0 +1,302 @@
+{
+  "skipToContent": "ମୁଖ୍ୟ ବିଷୟବସ୍ତୁକୁ ଯାଆନ୍ତୁ",
+  "language": {
+    "label": "ଭାଷା ବାଛନ୍ତୁ",
+    "translating": "{language} କୁ ଅନୁବାଦ କରି, ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ",
+    "done": "ପୃଷ୍ଠାଟିର ଅନୁବାଦ {language}",
+    "error": "ଅନୁବାଦ ବର୍ତ୍ତମାନ ଉପଲବ୍ଧ ନାହିଁ। କିଛି ଲେଖା ଇଂରାଜୀରେ ରହିପାରେ।"
+  },
+  "search": {
+    "label": "ଖୋଜନ୍ତୁ",
+    "placeholder": "ଖୋଜନ୍ତୁ ..........",
+    "submit": "ଖୋଜନ୍ତୁ"
+  },
+  "accessibility": {
+    "open": "ଅଭିଗମ୍ୟତା ବିକଳ୍ପଗୁଡ଼ିକ",
+    "title": "ଅଭିଗମ୍ୟତା ନିୟନ୍ତ୍ରଣ",
+    "close": "ଅଭିଗମ୍ୟତା ବିକଳ୍ପଗୁଡ଼ିକୁ ବନ୍ଦ କରନ୍ତୁ",
+    "darkContrast": "ଗାଢ଼ ବୈପରୀତ୍ଯ",
+    "invert": "ଓଲଟା କରନ୍ତୁ",
+    "textSizeIncrease": "ଲେଖା ଆକାର ବୃଦ୍ଧି କରନ୍ତୁ",
+    "textSizeDecrease": "ଲେଖା ଆକାର ହ୍ରାସ କରନ୍ତୁ"
+  },
+  "header": {
+    "homeLink": "ଭାରତବିସ୍ତାର ମୂଳ ପୃଷ୍ଠା",
+    "government": "ଭାରତ ସରକାର",
+    "ministry": "କୃଷି ଏବଂ କୃଷକ କଲ୍ୟାଣ ମନ୍ତ୍ରଣାଳୟ",
+    "department": "କୃଷି ଏବଂ କୃଷକ କଲ୍ୟାଣ ବିଭାଗ",
+    "emblemAlt": "ଭାରତର ରାଜ୍ୟ ପ୍ରତୀକ",
+    "logoAlt": "ଭାରତବିସ୍ତାର",
+    "openMenu": "ମେନୁ ଖୋଲନ୍ତୁ",
+    "closeMenu": "ସୂଚୀକୁ ବନ୍ଦ କରନ୍ତୁ",
+    "mainNav": "ମୁଖ୍ୟ ନୌଚାଳନା",
+    "partnerWithUs": "ଆମ ସହିତ ସହଭାଗୀ ହୁଅନ୍ତୁ"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "ମୂଳ ପୃଷ୍ଠା",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "ବିଷୟରେ",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "ପ୍ରଭାବ",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "ସାମର୍ଥ୍ୟ",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "ରାଜ୍ୟଗୁଡ଼ିକ",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "ସଂଯୋଗ କରନ୍ତୁ",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "ଡକ୍ୟୁମେଣ୍ଟ ଗ୍ରହଣ କରନ୍ତୁ",
+            "description": "ନିଜର ଜ୍ଞାନ ସମ୍ବଳକୁ ଏହି ମଞ୍ଚକୁ ଆଣନ୍ତୁ",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "ସାଇନ୍ ଇନ୍ କରନ୍ତୁ",
+            "description": "କୃଷି ସମ୍ବନ୍ଧୀୟ ଜ୍ଞାନ ହାସଲ କରିବାର ଏକ ବ୍ୟକ୍ତିଗତ ଅନୁଭୂତି ଆବିଷ୍କାର କରନ୍ତୁ",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(ଏକ ନୂଆ ଟ୍ୟାବ୍ରେ ଖୋଲିଥାଏ)"
+  },
+  "footer": {
+    "legalTitle": "ଆଇନଗତ",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "ଗୋପନୀୟତା ନୀତି",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "ନିୟମ ଏବଂ ସର୍ତ୍ତାବଳୀ",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "ପ୍ରତ୍ୟାଖ୍ୟାନକାରୀ",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "ଯୋଗାଯୋଗ କରନ୍ତୁ",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "ଅଦ୍ୟତନଗୁଡ଼ିକ ପାଇଁ ସଦସ୍ୟତା ନିଅନ୍ତୁ",
+    "socials": [
+      {
+        "id": "x",
+        "label": "ଏକ୍ସ (ଟ୍ୱିଟର)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "ୟୁଟ୍ୟୁବ୍",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "ଫେସବୁକ୍",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "ଇନଷ୍ଟାଗ୍ରାମ",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "ମାଇଗଭ୍",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "ଡିଜିଟାଲ ଇଣ୍ଡିଆ",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "ଆମର ଆପ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "ଏହାକୁ ଗୁଗୁଲ୍ ପ୍ଲେରେ ପ୍ରାପ୍ତ କରନ୍ତୁ",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "ଆପ୍ ଷ୍ଟୋରରୁ ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "ସଦ୍ୟତମ ଅଦ୍ୟତନ: 05:0226",
+    "ownership": "ଭାରତ ସରକାରଙ୍କ କୃଷି ଏବଂ କୃଷକ କଲ୍ୟାଣ ମନ୍ତ୍ରଣାଳୟ ଦ୍ୱାରା ପରିଚାଳିତ ଏବଂ ମାଲିକାନାରେ ଥିବା ୱେବ୍ସାଇଟ ବିଷୟବସ୍ତୁ",
+    "opensInNewTab": "(ଏକ ନୂଆ ଟ୍ୟାବ୍ରେ ଖୋଲିଥାଏ)"
+  },
+  "carousel": {
+    "label": "ମୁଖ୍ୟ ଆକର୍ଷଣଗୁଡ଼ିକ",
+    "slide": "{total} ର ସ୍ଲାଇଡ୍ {current}",
+    "previous": "ପୂର୍ବ ସ୍ଲାଇଡ୍",
+    "next": "ପରବର୍ତ୍ତୀ ସ୍ଲାଇଡ୍",
+    "goTo": "ସ୍ଲାଇଡକୁ ଯାଆନ୍ତୁ {number}",
+    "pause": "ସ୍ଲାଇଡଶୋକୁ ବିରାମ ଦିଅନ୍ତୁ",
+    "play": "ସ୍ଲାଇଡଶୋ ଚଲାନ୍ତୁ"
+  },
+  "announcements": {
+    "label": "ଘୋଷଣା",
+    "pause": "ଘୋଷଣା ସ୍ଥଗିତ ରଖନ୍ତୁ",
+    "play": "ଘୋଷଣା ଗୁଡ଼ିକୁ ଖେଳନ୍ତୁ"
+  },
+  "slider": {
+    "previous": "ପୂର୍ବରୁ",
+    "next": "ପରବର୍ତ୍ତୀ",
+    "goTo": "{total} ର ବସ୍ତୁ {number} କୁ ଦର୍ଶାନ୍ତୁ",
+    "previousCapability": "ପୂର୍ବ କ୍ଷମତା",
+    "nextCapability": "ପରବର୍ତ୍ତୀ ସାମର୍ଥ୍ୟ",
+    "previousTestimonial": "ପୂର୍ବ ସାକ୍ଷ୍ୟ",
+    "nextTestimonial": "ପରବର୍ତ୍ତୀ ପ୍ରମାଣ",
+    "previousUpdate": "ପୂର୍ବବର୍ତ୍ତୀ ଅଦ୍ୟତନ",
+    "nextUpdate": "ପରବର୍ତ୍ତୀ ଅଦ୍ୟତନ",
+    "previousPersona": "ପୂର୍ବ ବ୍ୟକ୍ତିତ୍ୱ",
+    "nextPersona": "ପରବର୍ତ୍ତୀ ବ୍ୟକ୍ତି"
+  },
+  "media": {
+    "video": "ଭିଡିଓ",
+    "instagramPost": "ଇନଷ୍ଟାଗ୍ରାମ ପୋଷ୍ଟ",
+    "opensInNewTab": "(ଏକ ନୂଆ ଟ୍ୟାବ୍ରେ ଖୋଲିଥାଏ)"
+  },
+  "chatbot": {
+    "title": "ଚାଟବଟ୍",
+    "openFullPage": "ଏକ ସମ୍ପୂର୍ଣ୍ଣ ପୃଷ୍ଠାରେ ଚାଟ୍ ଖୋଲନ୍ତୁ (ଏକ ନୂତନ ଟ୍ୟାବରେ ଖୋଲୁଛି)",
+    "close": "ଚାଟ୍ ବନ୍ଦ କରନ୍ତୁ",
+    "featureLabel": "ନୂଆ ବୈଶିଷ୍ଟ୍ୟ",
+    "newBadge": "ନୂଆ",
+    "featureText": "ଭାରତୀ ଏବେ ତେଲୁଗୁ, ବଙ୍ଗଳା, ଗୁଜରାଟୀ ଏବଂ ଅନ୍ୟ 10ଟି ଭାଷାରେ କଥାବାର୍ତ୍ତା କରିପାରିବେ",
+    "notifications": "ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକ",
+    "language": "ବାର୍ତ୍ତାଳାପ ଭାଷା: ଇଂରାଜୀ",
+    "languageShort": "ଏନ୍",
+    "settings": "ଚାଟ ସେଟିଂ",
+    "assistantName": "ଭାରତୀ",
+    "greeting": "ନମସ୍କାର! ମୁଁ ଆପଣଙ୍କର କୃଷି ସହାୟକ। ଆଜି ମୁଁ ତୁମକୁ କିପରି ସାହାଯ୍ୟ କରିପାରିବି?",
+    "suggestionsLabel": "ପ୍ରସ୍ତାବିତ ପ୍ରଶ୍ନଗୁଡ଼ିକ",
+    "suggestions": [
+      "ମୁଁ ବୀଜ ପ୍ରମାଣୀକରଣ ଯୋଜନା ବିଷୟରେ ସୂଚନା ଚାହେଁ",
+      "ପିଏମ-କିଷାନ ଯୋଜନା କ \"ଣ ଏବଂ ଏଥିପାଇଁ ମୁଁ କିପରି ଆବେଦନ କରିପାରିବି?",
+      "ମୋତେ କିଷାନ କ୍ରେଡିଟ୍ କାର୍ଡ ଯୋଜନା ବିଷୟରେ କୁହନ୍ତୁ"
+    ],
+    "inputLabel": "ଆପଣଙ୍କ ପ୍ରଶ୍ନ ପଚାରନ୍ତୁ",
+    "inputPlaceholder": "ଆପଣଙ୍କ ପ୍ରଶ୍ନ ପଚାରନ୍ତୁ ..........",
+    "attach": "ସଂଲଗ୍ନତା ଯୋଗ କରନ୍ତୁ",
+    "voice": "ସ୍ୱରରେ ପଚାରନ୍ତୁ",
+    "send": "ପ୍ରଶ୍ନ ପଠାନ୍ତୁ",
+    "disclaimer": "ଏଆଇ-ଉତ୍ପାଦିତ ବିଷୟବସ୍ତୁ। ଆବଶ୍ୟକ ପଡ଼ିଲେ ଦୟାକରି ସ୍ଥାନୀୟ ଭାବେ ଯାଞ୍ଚ କରନ୍ତୁ"
+  },
+  "partner": {
+    "title": "ଅନୁସନ୍ଧାନ ଫର୍ମ",
+    "subtitle": "ଆପଣଙ୍କର ବିବରଣୀ ଦାଖଲ କରନ୍ତୁ ଏବଂ ଆମର ଭାଗିଦାରୀ ଦଳ ଆପଣଙ୍କ ପାଖକୁ ଫେରିଆସିବ।",
+    "close": "ଫର୍ମକୁ ବନ୍ଦ କରନ୍ତୁ",
+    "fields": {
+      "fullName": {
+        "label": "ସମ୍ପୂର୍ଣ୍ଣ ନାମ",
+        "placeholder": "ପ୍ରବେଶ କରନ୍ତୁ"
+      },
+      "organisation": {
+        "label": "ଅନୁଷ୍ଠାନର ନାମ",
+        "placeholder": "ପ୍ରବେଶ କରନ୍ତୁ"
+      },
+      "email": {
+        "label": "ଇମେଲ ଠିକଣା",
+        "placeholder": "ପ୍ରବେଶ କରନ୍ତୁ"
+      },
+      "state": {
+        "label": "ଆପଣଙ୍କ ରାଜ୍ୟ ବାଛନ୍ତୁ",
+        "placeholder": "ପ୍ରବେଶ କରନ୍ତୁ"
+      },
+      "interest": {
+        "label": "ଭାଗିଦାରୀ ଆଗ୍ରହ",
+        "placeholder": "ବାଛନ୍ତୁ"
+      },
+      "description": {
+        "label": "ପ୍ରକଳ୍ପର ସଂକ୍ଷିପ୍ତ ବିବରଣୀ",
+        "placeholder": "ପ୍ରବେଶ କରନ୍ତୁ"
+      }
+    },
+    "requiredHint": "ଆବଶ୍ୟକ",
+    "errors": {
+      "required": "ଏହି କ୍ଷେତ୍ରର ଆବଶ୍ୟକତା ରହିଛି।",
+      "email": "ଏକ ବୈଧ ଇମେଲ ଠିକଣା ଦିଅନ୍ତୁ।"
+    },
+    "submit": "ଅନୁସନ୍ଧାନ ପଠାନ୍ତୁ",
+    "states": [
+      "ଆଣ୍ଡାମାନ ଓ ନିକୋବର ଦ୍ୱୀପପୁଞ୍ଜ",
+      "ଆନ୍ଧ୍ର ପ୍ରଦେଶ",
+      "ଅରୁଣାଚଳ ପ୍ରଦେଶ",
+      "ଆସାମ",
+      "ବିହାର",
+      "ଚଣ୍ଡିଗଡ଼",
+      "ଛତିଶଗଡ଼",
+      "ଦାଦ୍ରା ଏବଂ ନଗର ହାଭେଳୀ ଏବଂ ଡାମନ ଏବଂ ଡିଉ",
+      "ଦିଲ୍ଲୀ",
+      "ଗୋଆ",
+      "ଗୁଜରାଟ",
+      "ହରିୟାଣା",
+      "ହିମାଚଳ ପ୍ରଦେଶ",
+      "ଜାମ୍ମୁ ଓ କାଶ୍ମୀର",
+      "ଝାଡ଼ଖଣ୍ଡ",
+      "କର୍ଣ୍ଣାଟକ",
+      "କେରଳ",
+      "ଲଦାଖ",
+      "ଲାକ୍ଷାଦ୍ବୀପ",
+      "ମଧ୍ୟପ୍ରଦେଶ",
+      "ମହାରାଷ୍ଟ୍ର",
+      "ମଣିପୁର",
+      "ମେଘାଳୟ",
+      "ମିଜୋରାମ",
+      "ନାଗାଲାଣ୍ଡ",
+      "ଓଡ଼ିଶା",
+      "ପୁଡୁଚେରୀ",
+      "ପଞ୍ଜାବ",
+      "ରାଜସ୍ଥାନ",
+      "ସିକିମ୍",
+      "ତାମିଲନାଡ଼ୁ",
+      "ତେଲେଙ୍ଗାନା",
+      "ତ୍ରିପୁରା",
+      "ଉତ୍ତର ପ୍ରଦେଶ",
+      "ଉତ୍ତରାଖଣ୍ଡ",
+      "ପଶ୍ଚିମବଙ୍ଗ"
+    ],
+    "interests": [],
+    "success": {
+      "title": "ଅନୁସନ୍ଧାନ ସଫଳତାର ସହ ଦାଖଲ ହେଲା!",
+      "text": "ଆମ ସହିତ ଭାଗିଦାରୀ କରିବା ପାଇଁ ଆପଣଙ୍କ ଆଗ୍ରହ ପାଇଁ ଧନ୍ୟବାଦ। ଆମର ଟିମ୍ ଆପଣଙ୍କ ଅନୁସନ୍ଧାନର ସମୀକ୍ଷା କରିବ ଏବଂ ଶୀଘ୍ର ଆପଣଙ୍କ ପାଖକୁ ଫେରିବ।",
+      "close": "ବାର୍ତ୍ତା ବନ୍ଦ କରନ୍ତୁ"
+    }
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "skipToContent": "مکیہ مواد ڏانہن وڃو",
+  "language": {
+    "label": "ٻولی چونڊیو",
+    "translating": "ترجمو ڪری رھیو آھی {language}، مہربانی ڪری انتظار ڪریو",
+    "done": "ھن صفحی جو ترجمو ڪیو ویو آھی {language}",
+    "error": "ترجمو ھن وقت دستیاب نہ آھی ڪجھ متن انگریزی ۾ رہی سگہن ٿا"
+  },
+  "search": {
+    "label": "ڳولھیو",
+    "placeholder": "ڳولھیو ..........",
+    "submit": "ڳولھیو"
+  },
+  "accessibility": {
+    "open": "رسائی جا اختیار",
+    "title": "رسائی ڪنٽرول",
+    "close": "رسائی جا اختیار بند ڪریو",
+    "darkContrast": "ڊارڪ ڪانٽریسٽ",
+    "invert": "بدلی ڪریو",
+    "textSizeIncrease": "متن جی سائیز ۾ واڌارو",
+    "textSizeDecrease": "متن جی سائیز ۾ گھٽتائی"
+  },
+  "header": {
+    "homeLink": "ڀارت وستر گھر",
+    "government": "ہندستان جی حڪومت",
+    "ministry": "زراعت ۽ فارمر جی ڀلائی واری وزارت",
+    "department": "زراعت ۽ فارمرز ویلفیئر ڊپارٽمینٽ",
+    "emblemAlt": "ہندستان جو ریاستی نشان",
+    "logoAlt": "ڀارت وستر",
+    "openMenu": "مینو کولیو",
+    "closeMenu": "مینو بند ڪریو",
+    "mainNav": "مکیہ نیویگیشن",
+    "partnerWithUs": "اسان سان شریڪ ٿیو"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "مکیہ صفحو",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "بابت",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "اثر",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "قابلیت",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "ریاستون",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "ڳنڍیو",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "دستاویز شامل ڪریو",
+            "description": "پنھنجی گیان جی وسیلن کی پلیٽ فارم تی آندو",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "سائن ان ڪریو",
+            "description": "زرعی علم تائین پھچڻ جو ہڪ ذاتی تجربو دریافت ڪریو",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(ھڪ نئین ٽیب ۾ کلی ٿو)"
+  },
+  "footer": {
+    "legalTitle": "قانونی",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "پرائیویسی پالسیء",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "اصطلاح ۽ شرطون",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "اعلان ڪندڙ",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "رابطی",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "اپڊیٽس لاء سبسڪرائب ڪریو",
+    "socials": [
+      {
+        "id": "x",
+        "label": "X (Twitter)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "یوٽیوب",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "فیسبوڪ",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "انسٽاگرام",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "مائی گوو",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "ڊجیٽل انڊیا",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "اسان جی ایپ ڊائون لوڊ ڪریو",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "ان کی گوگل پلی تی حاصل ڪریو",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "ایپ اسٽور تی ڊائون لوڊ ڪریو",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "آخری تازہ ڪاری ڪئی وئی: 1:05:2026",
+    "ownership": "ویب سائیٽ مواد جی ملڪیت ۽ انتظام ڪیو ویو زراعت ۽ فارمرز ویلفیئر منسٽری، ڀارت سرڪار",
+    "opensInNewTab": "(ھڪ نئین ٽیب ۾ کلی ٿو)"
+  },
+  "carousel": {
+    "label": "مشہوریون",
+    "slide": "سلائڊ {current} جو {total}",
+    "previous": "پوئین سلائڊ",
+    "next": "اگلا سلائڊ",
+    "goTo": "سلائڊ ڏانہن وڃو {number}",
+    "pause": "سلائڊ شو کی روڪیو",
+    "play": "سلائڊ شو کیڏیو"
+  },
+  "announcements": {
+    "label": "اعلانات",
+    "pause": "اعلانن کی روڪیو",
+    "play": "اعلانون کیڏیو"
+  },
+  "slider": {
+    "previous": "اڳیون",
+    "next": "اگلا",
+    "goTo": "شیون ڏیکاریو {number} جو {total}",
+    "previousCapability": "پوئین قابلیت",
+    "nextCapability": "ایندڙ قابلیت",
+    "previousTestimonial": "پوئین شاھدی",
+    "nextTestimonial": "ایندڙ شاھدی",
+    "previousUpdate": "پوئین اپڊیٽس",
+    "nextUpdate": "اگلا اپڊیٽ",
+    "previousPersona": "پوئین شخصیت",
+    "nextPersona": "ایندڙ شخصیت"
+  },
+  "media": {
+    "video": "ویڊیو",
+    "instagramPost": "انسٽاگرام پوسٽ",
+    "opensInNewTab": "(ھڪ نئین ٽیب ۾ کلی ٿو)"
+  },
+  "chatbot": {
+    "title": "چیٽبوٽ",
+    "openFullPage": "چیٽ کی پوری صفحی ۾ کولیو (نئین ٽیب ۾ کلی ٿو)",
+    "close": "چیٽ بند ڪریو",
+    "featureLabel": "نئین خاصیت",
+    "newBadge": "نئون",
+    "featureText": "ڀارتی ہاڻی تیلگو، بنگالی، گجراتی ۽ 10 ٻین ٻولین ۾ گفتگو ڪری سگہی ٿی",
+    "notifications": "اطلاع",
+    "language": "چیٽ ٻولی: انگریزی",
+    "languageShort": "این",
+    "settings": "چیٽ سیٽنگون",
+    "assistantName": "ڀارتیہ",
+    "greeting": "ہیلو! مان توھانجو زراعت جو مددگار آہیان۔ اڄ مان توھانجی مدد ڪیئن ڪری سگھان ٿو؟",
+    "suggestionsLabel": "تجویز ڪیل سوال",
+    "suggestions": [
+      "مون کی ٻج جی تصدیق واری منصوبی جی باری ۾ معلومات گھرجی",
+      "پی ایم-کسان سکیم ڇا آھی ۽ مان ان لاء ڪیئن درخواست ڏئی سگھان ٿو؟",
+      "مون کی کسان ڪریڊٽ ڪارڊ جی منصوبی بابت ٻڌایو"
+    ],
+    "inputLabel": "پنھنجو سوال پڇو",
+    "inputPlaceholder": "پنھنجو سوال پڇو ..........",
+    "attach": "منسلڪ شامل ڪریو",
+    "voice": "آواز سان پڇو",
+    "send": "سوال موڪلیو",
+    "disclaimer": "ای-ٺاہیل مواد مہربانی ڪری مقامی طئور تی تصدیق ڪریو جیڪڏھن ضرورت ھجی"
+  },
+  "partner": {
+    "title": "جاچ جو فارم",
+    "subtitle": "پنھنجی تفصیل جمع ڪریو ۽ اسان جی شراڪت واری ٽیم توہان وٽ واپس اچی ویندی",
+    "close": "فارم بند ڪریو",
+    "fields": {
+      "fullName": {
+        "label": "پورو نالو",
+        "placeholder": "داخل ٿیو"
+      },
+      "organisation": {
+        "label": "تنظیم جو نالو",
+        "placeholder": "داخل ٿیو"
+      },
+      "email": {
+        "label": "ای میل پتو",
+        "placeholder": "داخل ٿیو"
+      },
+      "state": {
+        "label": "پنھنجی ریاست چونڊیو",
+        "placeholder": "داخل ٿیو"
+      },
+      "interest": {
+        "label": "شراڪتداری دلچسپی",
+        "placeholder": "چونڊیو"
+      },
+      "description": {
+        "label": "پروجیڪٽ جی مختصر وضاحت",
+        "placeholder": "داخل ٿیو"
+      }
+    },
+    "requiredHint": "ضروری آھی",
+    "errors": {
+      "required": "ھن فیلڊ جی ضرورت آھی",
+      "email": "ھڪ صحیح ای میل پتو داخل ڪریو"
+    },
+    "submit": "جاچ پڙتال موڪلیو",
+    "states": [
+      "انڊمان ۽ نکوبار ٻیٽ",
+      "آندھرا پردیش",
+      "اروناچل پردیش",
+      "آسام",
+      "بہار",
+      "چنڊیگڙھ",
+      "ڇتیسگڙ",
+      "دادرا ۽ نگر حویلی ۽ دمن ۽ دیو",
+      "ڌلی",
+      "گوا",
+      "گجرات",
+      "ھریانھ",
+      "ہماچل پردیش",
+      "جمون ۽ ڪشمیر",
+      "جھارکھنڊ",
+      "ڪرناٽڪ",
+      "ڪیرالھ",
+      "لداخ",
+      "لکشدیپ",
+      "مڌیھ پردیش",
+      "مہاراشٽر",
+      "منی پور",
+      "میگھالیہ",
+      "میزورم",
+      "ناگالینڊ",
+      "اوڊیشا",
+      "پڊوچری",
+      "پنجاب",
+      "راجیشتان",
+      "سکم",
+      "تامل ناڊو",
+      "تیلنگانھ",
+      "تریپورا",
+      "اتر پردیش",
+      "اتراکھنڊ",
+      "اولھ بنگال"
+    ],
+    "interests": [],
+    "success": {
+      "title": "جاچ ڪامیابی سان جمع ڪرائی وئی!",
+      "text": "اسان سان شراڪت ۾ توہان جی دلچسپی لاء شڪرانو اسان جی ٽیم توہان جی جاچ جو جائزو وٺندی ۽ جلد ئی توہان ڏانہن موٽندی",
+      "close": "پیغام بند ڪریو"
+    }
+  }
+}

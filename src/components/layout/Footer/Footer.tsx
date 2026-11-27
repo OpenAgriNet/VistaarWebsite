@@ -1,12 +1,18 @@
 'use client';
 
-import { useId, type ComponentType, type FormEvent } from 'react';
+import type { ComponentType } from 'react';
 import { useTranslations } from 'next-intl';
 import { Icon } from '@/components/ui/Icon';
 import { size } from '@/theme/tokens';
 import type { LinkItem, PartnerLink, StoreLink } from '@/types/content';
 import * as S from './Footer.styles';
-import { DbimFacebook, DbimInstagram, DbimX, DbimYoutube } from '@/components/ui/Icon/dbim';
+import {
+  DbimFacebook,
+  DbimInstagram,
+  DbimLinkedin,
+  DbimX,
+  DbimYoutube,
+} from '@/components/ui/Icon/dbim';
 import { isExternalUrl, newTabProps } from '@/utils/links';
 
 const SOCIAL_ICONS: Record<string, ComponentType> = {
@@ -14,6 +20,7 @@ const SOCIAL_ICONS: Record<string, ComponentType> = {
   youtube: DbimYoutube,
   facebook: DbimFacebook,
   instagram: DbimInstagram,
+  linkedin: DbimLinkedin,
 };
 
 /** Desktop column order (Figma): Legal · Contact · Download Our App · Subscribe. */
@@ -21,7 +28,6 @@ const DESKTOP_ORDER = { legal: 1, contact: 2, download: 3, subscribe: 4 } as con
 
 /**
  * Site footer (Figma "Final-Home"): one layout for every screen size.
- * TODO(api): wire the Contact email form to the backend when available.
  */
 export function Footer() {
   const t = useTranslations('footer');
@@ -29,10 +35,7 @@ export function Footer() {
   const socials = t.raw('socials') as LinkItem[];
   const partners = t.raw('partners') as PartnerLink[];
   const stores = t.raw('stores') as StoreLink[];
-  const emailId = useId();
   const newTab = t('opensInNewTab');
-
-  const handleContactSubmit = (event: FormEvent<HTMLFormElement>) => event.preventDefault();
 
   return (
     <S.Root>
@@ -51,19 +54,8 @@ export function Footer() {
 
           <S.Group desktopOrder={DESKTOP_ORDER.contact} aria-labelledby="footer-contact">
             <S.Heading id="footer-contact">{t('contactTitle')}</S.Heading>
-            <S.ContactForm onSubmit={handleContactSubmit}>
-              <label htmlFor={emailId} className="sr-only">
-                {t('contactEmailLabel')}
-              </label>
-              <S.EmailInput
-                id={emailId}
-                type="email"
-                name="email"
-                autoComplete="email"
-                placeholder={t('contactEmailLabel')}
-              />
-              <S.SubmitButton type="submit">{t('contactSubmit')}</S.SubmitButton>
-            </S.ContactForm>
+            {/* Plain text, not a mailto link (client request); never machine-translated. */}
+            <S.ContactEmail translate="no">{t('contactEmail')}</S.ContactEmail>
           </S.Group>
 
           <S.Group

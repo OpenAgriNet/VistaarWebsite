@@ -1,26 +1,27 @@
 'use client';
 
-import { keyframes, styled } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
+import { marqueeScroll } from '@/theme/animations';
 import ButtonBase from '@mui/material/ButtonBase';
 import { borderWidth, fontWeight, motion, radius, size } from '@/theme/tokens';
+import { HEADER_VARS, headerVar } from '@/constants/layout';
 
 /**
- * Figma announcements bar (under the hero carousel, as in the "Search" and mobile frames;
- * styling from "Final-Home")
+ * Figma announcements bar (directly above the hero carousel and sticky under the header,
+ * per client request; styling from "Final-Home")
  * Desktop: 61px, #EAEAEA · "Announcements" 18px extra-bold green · 19px green separator ·
  *   scrolling items (24px megaphone + 16px medium #404040, 8px gap, separators 20px apart) ·
  *   36px white circle with a green pause icon.
  * Mobile: same pieces, smaller (sizes estimated from the mobile frame).
  */
 
-const scroll = keyframes({
-  from: { transform: 'translateX(0)' },
-  // The track holds the list twice, so moving by half loops seamlessly.
-  to: { transform: 'translateX(-50%)' },
-});
-
 export const Bar = styled('section')(({ theme }) => ({
+  position: 'sticky',
+  top: headerVar(HEADER_VARS.sticky),
+  // Under the header (appBar) and the mobile-menu scrim (appBar - 1), above page content.
+  zIndex: theme.zIndex.appBar - 2,
   backgroundColor: (theme.vars ?? theme).palette.surface.announcement,
+  '@media print': { position: 'static' },
 }));
 
 export const Inner = styled('div')(({ theme }) => ({
@@ -68,7 +69,7 @@ export const Track = styled('div', {
   width: 'max-content',
   ...(animated
     ? {
-        animation: `${scroll} ${motion.tickerLoopSeconds}s linear infinite`,
+        animation: `${marqueeScroll} ${motion.tickerLoopSeconds}s linear infinite`,
         animationPlayState: paused ? 'paused' : 'running',
         '&:hover, &:focus-within': { animationPlayState: 'paused' },
       }

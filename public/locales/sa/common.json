@@ -1,0 +1,302 @@
+{
+  "skipToContent": "मुख्य-विषयवस्तु प्रति गच्छतु",
+  "language": {
+    "label": "भाषां चिनोतु",
+    "translating": "{language} प्रति अनुवादं कुर्वन्, कृपया प्रतीक्षां करोतु",
+    "done": "पृष्ठं भाषान्तरितम् {language}",
+    "error": "अनुवादः अधुना न उपलभ्यते। केचन ग्रन्थाः आङ्ग्लभाषायाम् एव तिष्ठन्ति।"
+  },
+  "search": {
+    "label": "अन्वेषय",
+    "placeholder": "अन्वेषयतु ..........",
+    "submit": "अन्वेषय"
+  },
+  "accessibility": {
+    "open": "अभिगम्यता विकल्पाः",
+    "title": "अभिगम्यता नियन्त्रणम्",
+    "close": "अभिगम्यता-विकल्पान् बन्धयतु",
+    "darkContrast": "कृष्ण-वैरुद्ध्यम्",
+    "invert": "व्युत्क्रमं करोतु",
+    "textSizeIncrease": "पाठस्य आकारः वर्धते",
+    "textSizeDecrease": "पाठस्य आकारः न्यूनः भवति"
+  },
+  "header": {
+    "homeLink": "भारतविस्तार: मुख्यपृष्ठम्",
+    "government": "भारतसर्वकारः",
+    "ministry": "कृषि एवं कृषक कल्याण मन्त्रालयः",
+    "department": "कृषि एवं कृषक कल्याण विभाग",
+    "emblemAlt": "भारतस्य राज्यचिह्नं",
+    "logoAlt": "भारतविस्तारः",
+    "openMenu": "मेन्यू उद्घाटयतु",
+    "closeMenu": "सूची बन्धय",
+    "mainNav": "प्रमुखं नौचालनं",
+    "partnerWithUs": "अस्माभिः सह सहभागिनः"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "मुख्यपृष्ठम्",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "विषये",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "प्रभावः",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "क्षमताः",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "राज्यानि",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "सम्पर्कं करोतु",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "प्रलेखस्य आहरणं करोतु",
+            "description": "स्वस्य ज्ञानसंसाधनानि मञ्चे आनयन्तु",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "प्रवेशं करोतु",
+            "description": "कृषिज्ञानं प्राप्तुं व्यक्तिगतानुभवस्य अन्वेषणं करोतु",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(नूतने ट्याब् मध्ये उद्घाट्यते)"
+  },
+  "footer": {
+    "legalTitle": "वैधानिकम्",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "गोप्यता नीतिः",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "नियमाः तथा शर्ताः",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "अस्वीकरणम्",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "सम्पर्कः",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "अद्यतनानां कृते सदस्यतां स्वीकरोतु",
+    "socials": [
+      {
+        "id": "x",
+        "label": "एक्स (ट्विटर)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "युट्यूब्",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "फेस्बुक्",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "इन्स्टाग्राम्",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "मैगोव्",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "डिजिटल इण्डिया",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "अस्माकं आप् डौन्लोड् कुरु",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "गूगल्-प्ले मध्ये प्रापयन्तु",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "आप्-स्टोर् मध्ये अवाहरतु",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "अद्यतनीकृतः समयः 1ः05ः2026",
+    "ownership": "वेबसाइट सामग्री स्वामित्व और प्रबंधित कृषि और किसान कल्याण मंत्रालय, भारत सरकार",
+    "opensInNewTab": "(नूतने ट्याब् मध्ये उद्घाट्यते)"
+  },
+  "carousel": {
+    "label": "प्रमुखानि विवरणानि",
+    "slide": "{total} इत्यस्य स्लैड् {current}",
+    "previous": "पूर्वतमं स्लैड्",
+    "next": "अग्रिमं स्लैड्",
+    "goTo": "स्लैड् प्रति गच्छन्तु {number}",
+    "pause": "स्लैड्-शो स्थगयतु",
+    "play": "स्लैड्-शो क्रीडतु"
+  },
+  "announcements": {
+    "label": "घोषणाः",
+    "pause": "घोषणानां विरामं करोतु",
+    "play": "घोषणां चालयतु"
+  },
+  "slider": {
+    "previous": "पूर्वं",
+    "next": "अग्रे",
+    "goTo": "{total} इत्यस्य वस्तु {number} दर्शय",
+    "previousCapability": "पूर्वतनक्षमता",
+    "nextCapability": "अग्रिमक्षमता",
+    "previousTestimonial": "पूर्वसाक्ष्यः",
+    "nextTestimonial": "अग्रिमं साक्ष्यं",
+    "previousUpdate": "पूर्वतनम् अद्यतनीकरणं",
+    "nextUpdate": "अग्रिमं अद्यतनीकरणं",
+    "previousPersona": "पूर्वव्यक्तिः",
+    "nextPersona": "अग्रिमः व्यक्तिः"
+  },
+  "media": {
+    "video": "वीडियो",
+    "instagramPost": "इन्स्टाग्राम् पोस्ट्",
+    "opensInNewTab": "(नूतने ट्याब् मध्ये उद्घाट्यते)"
+  },
+  "chatbot": {
+    "title": "चैट्-बोट्",
+    "openFullPage": "पूर्णपृष्ठे वार्तालापं उद्घाटयतु (नूतने ट्याब् मध्ये उद्घाट्यते)",
+    "close": "वार्तालापं समापय",
+    "featureLabel": "नूतनविशेषः",
+    "newBadge": "नूतनम्",
+    "featureText": "भारती इदानीं तेलुगु, बङ्ग्ला, गुजराती इत्यादिषु 10 भाषासु वार्तालापं कर्तुं शक्नोति",
+    "notifications": "सूचनाः",
+    "language": "वार्तालापभाषाः आङ्ग्लभाषा",
+    "languageShort": "अस्मि",
+    "settings": "वार्तालाप-विन्यासाः",
+    "assistantName": "भारती",
+    "greeting": "नमस्कारम्! अहं भवतः कृषि-सहायकः अस्मि। अद्य अहं कथं साहाय्यं कर्तुं शक्नोमि?",
+    "suggestionsLabel": "सूचितप्रश्नाः",
+    "suggestions": [
+      "बीज-प्रमाणीकरण-योजनायाः विषये सूचनां अहम् अपेक्ष्यते",
+      "पि. एम्-किसान् योजना किम् अस्ति, तस्य कृते अहं कथं आवेदनं कर्तुं शक्नोमि?",
+      "किसान् क्रेडिट् कार्ड् योजनायाः विषये कथय"
+    ],
+    "inputLabel": "स्वप्रश्नं पृच्छतु",
+    "inputPlaceholder": "स्वप्रश्नं पृच्छतु ..........",
+    "attach": "संलग्नकं योजय",
+    "voice": "स्वरद्वारा पृच्छतु",
+    "send": "प्रश्नम् प्रेषय",
+    "disclaimer": "ए. ऐ.-निर्मितं विषयवस्तु। यदि आवश्यकं भवति तर्हि कृपया स्थानीयरूपेण सत्यापयतु"
+  },
+  "partner": {
+    "title": "अन्वेषण-प्रपत्रम्",
+    "subtitle": "स्वस्य विवरणानि समर्पयतु, अस्माकं सहभागित्वदलः भवन्तं पुनः प्राप्स्यति।",
+    "close": "प्रपत्रं बन्धयतु",
+    "fields": {
+      "fullName": {
+        "label": "पूर्णं नाम",
+        "placeholder": "प्रविशतु"
+      },
+      "organisation": {
+        "label": "सङ्घटनस्य नाम",
+        "placeholder": "प्रविशतु"
+      },
+      "email": {
+        "label": "ईमेल्-सङ्केतः",
+        "placeholder": "प्रविशतु"
+      },
+      "state": {
+        "label": "स्वराज्यं चिनोतु",
+        "placeholder": "प्रविशतु"
+      },
+      "interest": {
+        "label": "सहभागितायाः रुचिः",
+        "placeholder": "चिनोतु"
+      },
+      "description": {
+        "label": "परियोजनायाः संक्षिप्तविवरणं",
+        "placeholder": "प्रविशतु"
+      }
+    },
+    "requiredHint": "आवश्यकम्",
+    "errors": {
+      "required": "इदं क्षेत्रं आवश्यकम् अस्ति।",
+      "email": "वैधम् ईमेल्-सङ्केतं प्रविशतु।"
+    },
+    "submit": "अन्वेषणं प्रेषय",
+    "states": [
+      "अण्डमान्-निकोबार्-द्वीपाः",
+      "आन्ध्रप्रदेशः",
+      "अरुणाचलप्रदेशः",
+      "असमः",
+      "बिहारराज्यम्",
+      "चण्डीगढः",
+      "छत्तीसगढः",
+      "दादरा-नगर-हवेली तथा दमन्-दीव्",
+      "दिल्ली",
+      "गोवा",
+      "गुजरातराज्यम्",
+      "हरियाणा",
+      "हिमाचलप्रदेशः",
+      "जम्मू-कश्मीरः",
+      "झारखण्डः",
+      "कर्नाटकाः",
+      "केरलं",
+      "लद्दाख्-प्रदेशः",
+      "लक्षद्वीपः",
+      "मध्यप्रदेशः",
+      "महाराष्ट्रः",
+      "मणिपुरः",
+      "मेघालयः",
+      "मिजोरम्-राज्यं",
+      "नागालैण्ड्-प्रदेशः",
+      "ओडिशाः",
+      "पुदुचेरी",
+      "पञ्जाब्-प्रदेशः",
+      "राजस्थानः",
+      "सिक्किम्",
+      "तमिल्नाडु",
+      "तेलङ्गाना-राज्यं",
+      "त्रिपुरा",
+      "उत्तरप्रदेशः",
+      "उत्तराखण्डः",
+      "पश्चिमबङ्गालराज्यम्"
+    ],
+    "interests": [],
+    "success": {
+      "title": "अन्वेषणं सफलतया समर्पितम्!",
+      "text": "अस्माभिः सह सहभागितायां भवतः रुचिम् उद्दिश्य धन्यवादाः। अस्माकं दलः भवतः अन्वेषणस्य समीक्षां करिष्यति तथा च शीघ्रमेव भवन्तं प्रतिवेदयति।",
+      "close": "सन्देशम् बन्धयतु"
+    }
+  }
+}

@@ -1,7 +1,8 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { ActionLink } from '@/components/ui/ActionLink';
+// "Watch Video" hidden for now (client request) — restore with the button below.
+// import { ActionLink } from '@/components/ui/ActionLink';
 import { HighlightedText } from '@/components/ui/HighlightedText';
 import { SectionHeader } from '@/components/ui/SectionHeader';
 import { SliderArrows } from '@/components/ui/SliderArrows';
@@ -73,7 +74,7 @@ export function Testimonials({ content }: { content: TestimonialsContent }) {
                         <S.Location>{item.location}</S.Location>
                       </S.AuthorText>
                     </S.Author>
-                    <ActionLink href={item.cta.href}>{item.cta.label}</ActionLink>
+                    {/* <ActionLink href={item.cta.href}>{item.cta.label}</ActionLink> */}
                   </S.Footer>
                 </S.Figure>
               </S.Slide>

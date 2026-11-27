@@ -4,6 +4,8 @@ import { useId, useRef, useState, type FormEvent } from 'react';
 import { useTranslations } from 'next-intl';
 import { Icon } from '@/components/ui/Icon';
 import { size } from '@/theme/tokens';
+import { EXTERNAL_LINKS } from '@/constants/links';
+import { newTabProps } from '@/utils/links';
 import * as S from './ChatPanel.styles';
 import {
   DbimAdd,
@@ -29,8 +31,9 @@ const LOGO_SRC = '/logos/bharat-vistaar-color.svg';
 /**
  * Bharati chat panel — initial state from the Figma (welcome + suggested questions).
  * MUI Drawer gives the dialog semantics, focus trap, Escape to close and focus return.
+ * The external-link button opens the full-page chat (chat-vistaar.da.gov.in) in a new tab.
  * TODO(api): send questions to the Bharati service and show the conversation;
- * the full-page link, bell, language and settings buttons are UI only for now.
+ * the bell, language and settings buttons are UI only for now.
  */
 export function ChatPanel({ open, onClose }: ChatPanelProps) {
   const t = useTranslations('chatbot');
@@ -61,7 +64,11 @@ export function ChatPanel({ open, onClose }: ChatPanelProps) {
         <S.Row>
           <S.Title id={titleId}>{t('title')}</S.Title>
           <S.Tools>
-            <S.ToolLink href="#" aria-label={t('openFullPage')}>
+            <S.ToolLink
+              href={EXTERNAL_LINKS.bharatiChat}
+              aria-label={t('openFullPage')}
+              {...newTabProps(EXTERNAL_LINKS.bharatiChat)}
+            >
               <Icon icon={DbimExternalLink} size="xs" tone="inherit" />
             </S.ToolLink>
             <S.CloseButton type="button" onClick={onClose} aria-label={t('close')}>
@@ -79,7 +86,7 @@ export function ChatPanel({ open, onClose }: ChatPanelProps) {
         </S.Banner>
 
         <S.Row>
-          <S.Logo src={LOGO_SRC} alt="Bharat VISTAAR" />
+          <S.Logo src={LOGO_SRC} alt="BharatVistaar" />
           <S.Tools>
             <S.ToolButton type="button" aria-label={t('notifications')}>
               <Icon icon={DbimNotifications} size="xs" tone="inherit" />

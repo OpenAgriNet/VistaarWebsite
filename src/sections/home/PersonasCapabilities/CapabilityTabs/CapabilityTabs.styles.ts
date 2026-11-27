@@ -77,8 +77,22 @@ export const Tab = styled('button', {
   };
 });
 
-export const Content = styled('div')(({ theme }) => ({
+/**
+ * Every panel sits in the same grid cell, so the box is always as tall as the longest
+ * capability (in any language or text size) and does not grow or shrink when switching tabs.
+ */
+export const Panels = styled('div')({
   flex: 1,
+  display: 'grid',
+  minWidth: 0,
+});
+
+/** Panels that are not selected keep their space but are invisible and out of the a11y tree. */
+export const Content = styled('div', {
+  shouldForwardProp: (prop) => prop !== 'active',
+})<{ active: boolean }>(({ theme, active }) => ({
+  gridArea: '1 / 1',
+  visibility: active ? 'visible' : 'hidden',
   display: 'flex',
   flexDirection: 'column',
   gap: theme.spacing(4),

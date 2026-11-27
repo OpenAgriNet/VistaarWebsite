@@ -11,9 +11,9 @@ import { DbimLanguage } from '@/components/ui/Icon/dbim';
 import * as S from './LanguageSwitcher.styles';
 
 /**
- * Language menu (same URL for every language). Picking a language translates the page live
- * through Bhashini; English restores the original text. Language names are written in their
- * own script and marked translate="no" so they are never translated.
+ * Language menu (same URL for every language). Picking a language loads its pre-translated
+ * files (public/locales/<lang>/) and re-renders the page in it. Language names are written in
+ * their own script and marked translate="no" so they are never translated.
  */
 export function LanguageSwitcher() {
   const t = useTranslations('language');

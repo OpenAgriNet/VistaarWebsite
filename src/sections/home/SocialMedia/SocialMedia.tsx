@@ -14,7 +14,8 @@ const TITLE_ID = 'social-title';
 
 /**
  * "Connect With Us on Social Media" (nav: Connect → /#connect). Latest post per platform;
- * each card opens the platform in a new tab. TODO(content): profile URLs, live posts (API).
+ * each card opens the platform's BharatVistaar profile in a new tab. TODO(content): live posts
+ * (API); a LinkedIn card needs a post image and platform icon from the design.
  */
 export function SocialMedia({ content }: { content: SocialContent }) {
   const t = useTranslations('nav');

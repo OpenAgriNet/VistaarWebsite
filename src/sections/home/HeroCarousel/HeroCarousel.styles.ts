@@ -2,7 +2,6 @@
 
 import { styled, type Theme } from '@mui/material/styles';
 import ButtonBase from '@mui/material/ButtonBase';
-import NextLink from 'next/link';
 import { borderWidth, fontWeight, gradient, radius, size } from '@/theme/tokens';
 import type { HeroSlide } from '@/types/content';
 
@@ -139,9 +138,11 @@ export const Description = styled(
 /**
  * 48px button. Light slide: filled green ("Filled"). Dark slide: 1px light outline
  * ("Outlined – Neutral"). Not shown in the mobile frame.
+ * A plain <a>, not Next.js <Link>: the CTA opens the chat via "#chat-with-bharati", and
+ * <Link> changes the hash with history.pushState, which fires no `hashchange`.
  */
 export const Cta = styled(
-  NextLink,
+  'a',
   forwardTone,
 )<ToneProps>(({ theme, tone }) => {
   const palette = (theme.vars ?? theme).palette;

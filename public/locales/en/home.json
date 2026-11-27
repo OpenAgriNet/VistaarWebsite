@@ -1,5 +1,5 @@
 {
-  "pageHeading": "Bharat VISTAAR",
+  "pageHeading": "BharatVistaar",
   "announcements": {
     "title": "Announcements",
     "items": [
@@ -23,7 +23,7 @@
         "description": "BharatVistaar connects farmers with agricultural knowledge, technology and digital services for a smarter, more connected future.",
         "cta": {
           "label": "Explore Bharati",
-          "href": "/#about"
+          "href": "#chat-with-bharati"
         },
         "image": {
           "src": "/images/hero/hero-1.webp",
@@ -38,7 +38,7 @@
         "description": "BharatVistaar connects farmers with agricultural knowledge, technology and digital services for a smarter, more connected future.",
         "cta": {
           "label": "Explore Bharati",
-          "href": "/#about"
+          "href": "#chat-with-bharati"
         },
         "image": {
           "src": "/images/hero/hero-2.webp",
@@ -124,25 +124,25 @@
       {
         "id": "farmer",
         "name": "Farmer",
-        "description": "Share knowledge, access research and collaborate on field innovations.",
+        "description": "Make informed decisions by finding answers to every question",
         "image": {
           "src": "/images/personas/farmer.webp",
           "alt": "Illustration of a farmer holding grain in his palm"
         }
       },
       {
-        "id": "government-official",
-        "name": "Government Official",
-        "description": "Monitor initiatives, access reports and enable program implementation.",
+        "id": "researcher",
+        "name": "Researcher",
+        "description": "Drive innovation through discovery of knowledge",
         "image": {
           "src": "/images/personas/government-official.webp",
           "alt": "Illustration of a government official holding files"
         }
       },
       {
-        "id": "partner-institution",
-        "name": "Partner / Institution",
-        "description": "Collaborate on programs, share resources and drive greater impact.",
+        "id": "knowledge-provider",
+        "name": "Knowledge Provider",
+        "description": "Empower communities through sharing expertise",
         "image": {
           "src": "/images/personas/partner-institution.webp",
           "alt": "Illustration of a partner representative holding a tablet"
@@ -173,27 +173,78 @@
       {
         "id": "advisory",
         "label": "Advisory",
-        "title": "Advisory"
+        "title": "Advisory – Agricultural Guidance & Best Practices",
+        "description": "Access timely, relevant and actionable agricultural guidance to make informed decisions across farming activities.",
+        "features": [
+          {
+            "title": "Crop and livestock guidance",
+            "description": "Discover recommended practices, crop management techniques, livestock care and expert advice for improved farm productivity."
+          },
+          {
+            "title": "Solutions for farming challenges",
+            "description": "Find guidance on pest and disease management, nutrient requirements, soil health and other common agricultural challenges."
+          }
+        ]
       },
       {
         "id": "schemes",
         "label": "Schemes",
-        "title": "Schemes"
+        "title": "Schemes – Government Schemes & Benefits",
+        "description": "Discover government initiatives, agricultural schemes and financial support available to farmers and other stakeholders.",
+        "features": [
+          {
+            "title": "Explore relevant schemes",
+            "description": "Find information about central and state government schemes, eligibility criteria and benefits available across agricultural sectors."
+          },
+          {
+            "title": "Application and benefit information",
+            "description": "Understand application processes, required documents, deadlines and the steps involved in accessing scheme benefits."
+          }
+        ]
       },
       {
         "id": "weather",
         "label": "Weather",
-        "title": "Weather"
+        "title": "Weather – Weather Insights & Forecasts",
+        "description": "Stay informed about weather conditions and forecasts to plan farming activities and prepare for changing weather patterns.",
+        "features": [
+          {
+            "title": "Weather forecasts and updates",
+            "description": "Access current weather conditions, local forecasts and rainfall updates to stay informed about changing conditions."
+          },
+          {
+            "title": "Weather-based farm planning",
+            "description": "Understand how weather patterns can influence sowing, irrigation, harvesting and other critical farming activities."
+          }
+        ]
       },
       {
         "id": "grievance",
         "label": "Grievance",
-        "title": "Grievance"
+        "title": "Grievance – Farmer Grievance Support",
+        "description": "Access a structured platform to raise agricultural grievances, seek assistance and track the progress of submitted complaints.",
+        "features": [
+          {
+            "title": "Register a grievance",
+            "description": "Raise concerns related to agricultural services, schemes and other farming-related issues through a dedicated grievance channel."
+          },
+          {
+            "title": "Track grievance status",
+            "description": "Monitor the progress of submitted grievances, stay updated on resolutions and understand the actions taken towards addressing your concerns."
+          }
+        ]
       },
       {
         "id": "market-intelligence",
         "label": "Market Intelligence",
-        "title": "Market Intelligence"
+        "title": "Market Intelligence – Agricultural Market Insights",
+        "description": "Access market information and insights to understand agricultural trends, track prices and make informed market decisions.",
+        "features": [
+          {
+            "title": "Market prices and trends",
+            "description": "Explore commodity prices, mandi rates and market trends to understand price movements across agricultural markets."
+          }
+        ]
       }
     ]
   },
@@ -345,69 +396,56 @@
   },
   "updates": {
     "title": "Latest Updates & Activities",
-    "subtitle": "Explore upcoming events, latest updates and informative videos from Bharat VISTAAR.",
+    "subtitle": "Explore upcoming events, latest updates and informative videos from BharatVistaar.",
     "items": [
       {
-        "id": "events",
-        "category": "Events",
-        "date": "25 Aug 2026, 10:30 AM",
-        "title": "Farmer Awareness & Digital Agriculture Workshop",
-        "description": "Discover upcoming programs and activities.",
-        "image": {
-          "src": "/images/updates/events.webp",
-          "alt": "Seedling in soil surrounded by digital agriculture icons"
-        },
-        "link": {
-          "id": "view-events",
-          "label": "View Events",
-          "href": "#"
-        }
-      },
-      {
-        "id": "posts",
+        "id": "post-ask-bharati",
         "category": "Posts",
-        "title": "Digital Solutions for Smarter Farming",
-        "description": "Read the latest agricultural insights and updates.",
-        "image": {
-          "src": "/images/updates/posts.webp",
-          "alt": "Farmer in a green field looking at his phone"
-        },
+        "date": "09 Nov 2026",
+        "title": "Ask Bharati, Your AI Farming Assistant",
+        "description": "Farmer brothers and sisters, morning or evening, ask your farming questions to Bharati, the AI assistant. Call 155261 or scan the QR code to chat.",
+        "platform": "instagram",
         "link": {
-          "id": "view-posts",
-          "label": "View Posts",
-          "href": "#"
+          "id": "view-post-ask-bharati",
+          "label": "View Post",
+          "href": "https://www.instagram.com/p/Dfgpl9qmPwh/?img_index=1"
+        },
+        "image": {
+          "src": "/images/updates/post-ask-bharati.webp",
+          "alt": "Ministry of Agriculture and Farmers Welfare poster: a smiling farmer in a turban holding a phone, with Bharati, the AI assistant, beside him"
         }
       },
       {
-        "id": "videos",
-        "category": "Videos",
-        "title": "Discover Bharat VISTAAR’s Digital Services",
-        "description": "Discover upcoming programs and activities.",
-        "image": {
-          "src": "/images/updates/videos.webp",
-          "alt": "Farmers looking at a tablet together in a field"
-        },
-        "video": true,
+        "id": "post-pm-kisan-status",
+        "category": "Posts",
+        "date": "29 Oct 2026",
+        "title": "Check Your PM-KISAN Application Status with Bharati",
+        "description": "Want to know the status of your PM-KISAN application? Ask Bharati! Talk to Bharati to get information about your application and understand the next steps. Call the given number or scan the QR code to connect.",
+        "platform": "instagram",
         "link": {
-          "id": "watch-videos",
-          "label": "Watch Videos",
-          "href": "#"
+          "id": "view-post-pm-kisan-status",
+          "label": "View Post",
+          "href": "https://www.instagram.com/p/DfFbtPDvL5G/"
+        },
+        "image": {
+          "src": "/images/updates/post-pm-kisan-status.webp",
+          "alt": "Ministry of Agriculture and Farmers Welfare poster in Hindi: want to know your PM-KISAN application status? Ask Bharati!"
         }
       }
     ]
   },
   "social": {
     "title": "Connect With Us on Social Media",
-    "subtitle": "Stay connected with Bharat VISTAAR for the latest updates, agricultural insights, events and initiatives",
+    "subtitle": "Stay connected with BharatVistaar for the latest updates, agricultural insights, events and initiatives",
     "items": [
       {
         "id": "x",
         "platform": "X (Twitter)",
-        "href": "#",
+        "href": "https://x.com/bharat_vistaar",
         "icon": "/images/social/x.webp",
         "image": {
           "src": "/images/social/x-post.webp",
-          "alt": "Bharat VISTAAR post: Digital Solutions for a Stronger Farming Community"
+          "alt": "BharatVistaar post: Digital Solutions for a Stronger Farming Community"
         },
         "caption": "Digital solutions for a stronger Farming Community",
         "meta": "3:07 PM · Aug 25, 2026"
@@ -415,7 +453,7 @@
       {
         "id": "youtube",
         "platform": "YouTube",
-        "href": "#",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial",
         "icon": "/images/social/youtube.webp",
         "image": {
           "src": "/images/social/youtube-post.webp",
@@ -427,11 +465,11 @@
       {
         "id": "facebook",
         "platform": "Facebook",
-        "href": "#",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage",
         "icon": "/images/social/facebook.webp",
         "image": {
           "src": "/images/social/facebook-post.webp",
-          "alt": "Bharat VISTAAR Facebook post about empowering farming communities"
+          "alt": "BharatVistaar Facebook post about empowering farming communities"
         },
         "caption": "Bringing agricultural knowledge and digital solutions closer to every farmer.",
         "meta": "Smart Farming · Better Future"
@@ -439,11 +477,11 @@
       {
         "id": "instagram",
         "platform": "Instagram",
-        "href": "#",
+        "href": "https://www.instagram.com/bharatvistaarofficial/",
         "icon": "/images/social/instagram.webp",
         "image": {
           "src": "/images/social/instagram-post.webp",
-          "alt": "Bharat VISTAAR post: Knowledge, Technology and Support for Indian Farmers"
+          "alt": "BharatVistaar post: Knowledge, Technology and Support for Indian Farmers"
         },
         "caption": "Empowering farmers through knowledge, technology and innovation.",
         "meta": "Smart Farming · Better Future"
@@ -452,7 +490,7 @@
   },
   "chatbot": {
     "label": "Hi, I’m Bharati",
-    "openLabel": "Chat with Bharati, the Bharat VISTAAR assistant",
+    "openLabel": "Chat with Bharati, the BharatVistaar assistant",
     "image": {
       "src": "/images/chatbot/bharati.webp",
       "alt": ""

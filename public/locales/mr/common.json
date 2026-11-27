@@ -1,0 +1,302 @@
+{
+  "skipToContent": "मुख्य मजकुराकडे जा",
+  "language": {
+    "label": "भाषा निवडा",
+    "translating": "{language} मध्ये भाषांतर करत असताना, कृपया प्रतीक्षा करा",
+    "done": "पृष्ठाचे भाषांतर {language}",
+    "error": "भाषांतर सध्या उपलब्ध नाही. काही मजकूर इंग्रजीत राहू शकतो."
+  },
+  "search": {
+    "label": "शोधा",
+    "placeholder": ".......... शोधा",
+    "submit": "शोधा"
+  },
+  "accessibility": {
+    "open": "उपलब्धतेचे पर्याय",
+    "title": "प्रवेशयोग्यता नियंत्रण",
+    "close": "प्रवेशयोग्यता पर्याय बंद करा",
+    "darkContrast": "गडद विरोधाभास",
+    "invert": "उलट्या करा",
+    "textSizeIncrease": "मजकुराचा आकार वाढवा",
+    "textSizeDecrease": "मजकुराचा आकार कमी होणे"
+  },
+  "header": {
+    "homeLink": "भारतविस्तारचे घर",
+    "government": "भारत सरकार",
+    "ministry": "कृषी आणि शेतकरी कल्याण मंत्रालय",
+    "department": "कृषी आणि शेतकरी कल्याण विभाग",
+    "emblemAlt": "भारताचे राज्य चिन्ह",
+    "logoAlt": "भारतविस्तार",
+    "openMenu": "मेनू उघडा",
+    "closeMenu": "मेनू बंद करा",
+    "mainNav": "मुख्य नेव्हिगेशन",
+    "partnerWithUs": "आमच्याबरोबर भागीदार"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "घर",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "बद्दल",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "परिणाम",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "क्षमता",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "राज्ये",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "जोडणी करा",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "दस्तऐवज घ्या",
+            "description": "तुमच्या ज्ञानाची संसाधने व्यासपीठावर आणा",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "प्रवेश करा",
+            "description": "कृषी ज्ञान मिळवण्याचा वैयक्तिक अनुभव शोधा",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(नवीन टॅबमध्ये उघडते)"
+  },
+  "footer": {
+    "legalTitle": "कायदेशीर",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "गोपनीयता धोरण",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "अटी आणि शर्ती",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "अस्वीकरण",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "संपर्क साधा",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "अद्ययावत माहितीसाठी सदस्यत्व घ्या",
+    "socials": [
+      {
+        "id": "x",
+        "label": "एक्स (ट्विटर)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "यूट्यूब",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "फेसबुक",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "इन्स्टाग्राम",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "मायगव्ह",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "डिजिटल इंडिया",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "आमचे एप डाऊनलोड करा",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "गूगल प्ले वर मिळवा",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "अॅप स्टोअरवर डाउनलोड करा",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "नवीनतम अद्ययावत दिनांकः 05:0226",
+    "ownership": "भारत सरकारच्या कृषी आणि शेतकरी कल्याण मंत्रालयाच्या मालकीची आणि व्यवस्थापित केलेली संकेतस्थळ सामग्री",
+    "opensInNewTab": "(नवीन टॅबमध्ये उघडते)"
+  },
+  "carousel": {
+    "label": "ठळक वैशिष्ट्ये",
+    "slide": "{total} ची स्लाइड {current}",
+    "previous": "मागील स्लाइड",
+    "next": "पुढील स्लाइड",
+    "goTo": "स्लाइडवर जा {number}",
+    "pause": "स्लाइडशो थांबवा",
+    "play": "स्लाइडशो खेळा"
+  },
+  "announcements": {
+    "label": "घोषणा",
+    "pause": "घोषणा थांबवा",
+    "play": "घोषणा खेळा"
+  },
+  "slider": {
+    "previous": "आधीच्या",
+    "next": "पुढील",
+    "goTo": "{total} चा आयटम {number} दाखवा",
+    "previousCapability": "पूर्वीची क्षमता",
+    "nextCapability": "पुढील क्षमता",
+    "previousTestimonial": "पूर्वीची साक्ष",
+    "nextTestimonial": "पुढील साक्ष",
+    "previousUpdate": "मागील अद्ययावत",
+    "nextUpdate": "पुढील अपडेट",
+    "previousPersona": "पूर्वीचे व्यक्तिमत्व",
+    "nextPersona": "पुढील व्यक्तिमत्व"
+  },
+  "media": {
+    "video": "व्हिडिओ",
+    "instagramPost": "इन्स्टाग्राम पोस्ट",
+    "opensInNewTab": "(नवीन टॅबमध्ये उघडते)"
+  },
+  "chatbot": {
+    "title": "चॅटबॉट",
+    "openFullPage": "पूर्ण पृष्ठावर चॅट उघडा (नवीन टॅबमध्ये उघडेल)",
+    "close": "गप्पा बंद करा",
+    "featureLabel": "नवीन सुविधा",
+    "newBadge": "नवीन",
+    "featureText": "भारती आता तेलगू, बंगाली, गुजराती आणि इतर 10 भाषांमध्ये बोलू शकते",
+    "notifications": "सूचना",
+    "language": "चॅट भाषाः इंग्रजी",
+    "languageShort": "एन",
+    "settings": "चॅट सेटिंग्ज",
+    "assistantName": "भारती",
+    "greeting": "नमस्कार! मी तुमचा शेती सहाय्यक आहे. आज मी तुम्हाला कशी मदत करू शकतो?",
+    "suggestionsLabel": "सुचवलेले प्रश्न",
+    "suggestions": [
+      "मला बियाणे प्रमाणीकरण योजनेची माहिती हवी आहे",
+      "पीएम-किसान योजना म्हणजे काय आणि मी त्यासाठी अर्ज कसा करू शकतो?",
+      "मला किसान क्रेडिट कार्ड योजनेबद्दल सांगा"
+    ],
+    "inputLabel": "तुमचा प्रश्न विचारा",
+    "inputPlaceholder": "तुमचा प्रश्न विचारा ..........",
+    "attach": "जोडणी जोडा",
+    "voice": "आवाजी विचारा",
+    "send": "प्रश्न पाठवा",
+    "disclaimer": "ए. आय.-निर्मित सामग्री. आवश्यक असल्यास कृपया स्थानिक पातळीवर पडताळणी करा"
+  },
+  "partner": {
+    "title": "चौकशीचा फॉर्म",
+    "subtitle": "तुमचे तपशील सादर करा आणि आमची भागीदारी कार्यसंघ तुमच्याकडे परत येईल.",
+    "close": "फॉर्म बंद करा",
+    "fields": {
+      "fullName": {
+        "label": "पूर्ण नाव",
+        "placeholder": "प्रविष्ट करा"
+      },
+      "organisation": {
+        "label": "संस्थेचे नाव",
+        "placeholder": "प्रविष्ट करा"
+      },
+      "email": {
+        "label": "ईमेल पत्ता",
+        "placeholder": "प्रविष्ट करा"
+      },
+      "state": {
+        "label": "तुमचे राज्य निवडा",
+        "placeholder": "प्रविष्ट करा"
+      },
+      "interest": {
+        "label": "भागीदारीतील स्वारस्य",
+        "placeholder": "निवडा"
+      },
+      "description": {
+        "label": "प्रकल्पाचे संक्षिप्त वर्णन",
+        "placeholder": "प्रविष्ट करा"
+      }
+    },
+    "requiredHint": "आवश्यक",
+    "errors": {
+      "required": "हे क्षेत्र आवश्यक आहे.",
+      "email": "वैध ईमेल पत्ता प्रविष्ट करा."
+    },
+    "submit": "चौकशी पाठवा",
+    "states": [
+      "अंदमान आणि निकोबार बेटे",
+      "आंध्र प्रदेश",
+      "अरुणाचल प्रदेश",
+      "आसाम",
+      "बिहार",
+      "चंदीगड",
+      "छत्तीसगड",
+      "दादरा आणि नगर हवेली आणि दमण आणि दीव",
+      "दिल्ली",
+      "गोवा",
+      "गुजरात",
+      "हरियाणा",
+      "हिमाचल प्रदेश",
+      "जम्मू आणि काश्मीर",
+      "झारखंड",
+      "कर्नाटक",
+      "केरळ",
+      "लडाख",
+      "लक्षद्वीप",
+      "मध्य प्रदेश",
+      "महाराष्ट्र",
+      "मणिपूर",
+      "मेघालय",
+      "मिझोराम",
+      "नागालँड",
+      "ओडिशा",
+      "पुडुचेरी",
+      "पंजाब",
+      "राजस्थान",
+      "सिक्किम",
+      "तामिळनाडू",
+      "तेलंगणा",
+      "त्रिपुरा",
+      "उत्तर प्रदेश",
+      "उत्तराखंड",
+      "पश्चिम बंगाल"
+    ],
+    "interests": [],
+    "success": {
+      "title": "चौकशी यशस्वीरित्या सादर करण्यात आली!",
+      "text": "आमच्याबरोबर भागीदारी करण्याच्या तुमच्या स्वारस्याबद्दल धन्यवाद. आमची टीम तुमच्या चौकशीचा आढावा घेईल आणि लवकरच तुमच्याकडे परत येईल.",
+      "close": "संदेश बंद करा"
+    }
+  }
+}

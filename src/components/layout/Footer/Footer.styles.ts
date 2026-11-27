@@ -1,7 +1,7 @@
 'use client';
 
 import { styled } from '@mui/material/styles';
-import { borderWidth, fontWeight, opacity, radius, size } from '@/theme/tokens';
+import { fontWeight, opacity, size } from '@/theme/tokens';
 
 /**
  * Figma "Final-Home" footer (brand green, #FAFAFA text). Same content on all screens:
@@ -147,47 +147,11 @@ export const Ownership = styled(Meta)({
   opacity: opacity.muted,
 });
 
-/* ---------- Contact form ---------- */
+/* ---------- Contact ---------- */
 
-export const ContactForm = styled('form')(({ theme }) => ({
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'flex-start',
-  gap: theme.spacing(4),
-  width: '100%',
-  [theme.breakpoints.up('lg')]: {
-    flexDirection: 'row',
-    alignItems: 'flex-end',
-    gap: theme.spacing(3),
-    width: 'auto',
-  },
+/** The contact email address as plain text (no mailto action, client request). */
+export const ContactEmail = styled('p')(({ theme }) => ({
+  ...theme.typography.bodyS,
+  margin: 0,
+  overflowWrap: 'anywhere',
 }));
-
-export const EmailInput = styled('input')(({ theme }) => {
-  const palette = (theme.vars ?? theme).palette;
-  return {
-    ...theme.typography.bodyS,
-    width: '100%',
-    padding: theme.spacing(1, 0),
-    border: 0,
-    borderBottom: `${borderWidth.thin}px dashed ${palette.text.inverse}`,
-    background: 'transparent',
-    color: palette.text.inverse,
-    '&::placeholder': { color: palette.text.inverse, opacity: opacity.muted },
-    [theme.breakpoints.up('lg')]: { width: size.footerEmailWidth },
-  };
-});
-
-export const SubmitButton = styled('button')(({ theme }) => {
-  const palette = (theme.vars ?? theme).palette;
-  return {
-    ...theme.typography.labelL,
-    fontWeight: fontWeight.semibold,
-    padding: theme.spacing(1.5, 3),
-    border: 0,
-    borderRadius: radius.sm,
-    backgroundColor: palette.surface.page,
-    color: palette.brand.primary,
-    cursor: 'pointer',
-  };
-});

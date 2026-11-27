@@ -4,8 +4,9 @@ import { useId, useState, type MouseEvent } from 'react';
 import { useTranslations } from 'next-intl';
 import { Icon } from '@/components/ui/Icon';
 import { NavDropdownLink } from '@/components/layout/NavDropdownLink';
-import { ActionLink } from '@/components/ui/ActionLink';
-import { DIALOG_HASH } from '@/constants/dialogs';
+// "Partner With Us" hidden for now (client request) — restore with the button below.
+// import { ActionLink } from '@/components/ui/ActionLink';
+// import { DIALOG_HASH } from '@/constants/dialogs';
 import type { NavItem } from '@/types/content';
 import { useNavItems } from './useNavItems';
 import * as S from './MainNav.styles';
@@ -48,7 +49,7 @@ function DropdownItem({ item, active }: { item: NavItem; active: boolean }) {
   );
 }
 
-/** Desktop main navigation (lg and up): links on the left, "Partner With Us" on the right. */
+/** Desktop main navigation (lg and up): links on the left ("Partner With Us" on the right is hidden for now). */
 export function MainNav() {
   const t = useTranslations('header');
   const { items, isActive } = useNavItems();
@@ -76,9 +77,9 @@ export function MainNav() {
             );
           })}
         </S.List>
-        <ActionLink href={`#${DIALOG_HASH.partnerWithUs}`} size="compact">
+        {/* <ActionLink href={`#${DIALOG_HASH.partnerWithUs}`} size="compact">
           {t('partnerWithUs')}
-        </ActionLink>
+        </ActionLink> */}
       </S.Inner>
     </S.Bar>
   );

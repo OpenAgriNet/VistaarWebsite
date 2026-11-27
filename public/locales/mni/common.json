@@ -1,0 +1,302 @@
+{
+  "skipToContent": "ꯃꯔꯨꯑꯣꯏꯕ ꯀꯟꯇꯦꯟꯇꯗ ꯆꯠꯂꯨ",
+  "language": {
+    "label": "ꯂꯣꯟ ꯈꯟꯗꯣꯛꯎ",
+    "translating": "{language} ꯗ ꯍꯟꯗꯣꯛꯄꯗ, ꯆꯥꯟꯕꯤꯗꯨꯅ ꯉꯥꯏꯕꯤꯌꯨ ꯫",
+    "done": "ꯇ ꯭ ꯔꯥꯟꯁ ꯭ ꯠ ꯇꯧꯔꯕ ꯄꯦꯖ {language}",
+    "error": "ꯍꯟꯗꯣꯛꯄ ꯑꯁꯤ ꯍꯧꯖꯤꯛ ꯃꯇꯝ ꯑꯁꯤꯗ ꯐꯪꯗ ꯭ ꯔꯤ ꯫ ꯂꯥꯏꯔꯤꯛ ꯈꯔꯗꯤ ꯏꯪꯂꯤꯁꯇ ꯂꯩꯕ ꯌꯥꯏ ꯫"
+  },
+  "search": {
+    "label": "ꯊꯤꯌꯨ",
+    "placeholder": "ꯊꯤꯌꯨ ..........",
+    "submit": "ꯊꯤꯌꯨ"
+  },
+  "accessibility": {
+    "open": "ꯐꯪꯕ ꯉꯝꯕꯒꯤ ꯄꯥꯝꯕꯩꯁꯤꯡ",
+    "title": "ꯑꯦꯛꯁꯦꯁꯕꯤꯂꯤꯇꯤ ꯀꯟꯇ ꯭ ꯔꯣꯜ",
+    "close": "ꯑꯦꯛꯁꯦꯁꯕꯤꯂꯤꯇꯤ ꯑꯣꯞꯁꯟꯁꯤꯡ ꯀ ꯭ ꯂꯁ ꯇꯧ",
+    "darkContrast": "ꯗꯔꯀꯥꯔ ꯀꯟꯇ ꯭ ꯔꯥꯟꯁ ꯭ ꯠ",
+    "invert": "ꯏꯟꯚꯔꯠ ꯇꯧ",
+    "textSizeIncrease": "ꯇꯦꯛꯁ ꯭ ꯠ ꯁꯥꯏꯖ ꯍꯦꯟꯒꯠꯂꯨ",
+    "textSizeDecrease": "ꯇꯦꯛꯁ ꯭ ꯠ ꯁꯥꯏꯖ ꯍꯟꯊꯔꯛꯎ"
+  },
+  "header": {
+    "homeLink": "ꯚꯥꯔꯠ ꯚꯤꯁꯇꯔ ꯌꯨꯝ",
+    "government": "ꯚꯥꯔꯠ ꯁꯔꯀꯥꯔ",
+    "ministry": "ꯑꯦꯒ ꯭ ꯔꯤꯀꯜꯆꯔꯦꯜ ꯑꯃꯁꯨꯡ ꯐꯥꯔꯃꯔ ꯭ ꯁ ꯋꯦꯜꯐꯦꯌꯔ ꯃꯟꯇ ꯭ ꯔꯤ",
+    "department": "ꯑꯦꯒ ꯭ ꯔꯤꯀꯜꯆꯔꯦꯜ ꯑꯃꯁꯨꯡ ꯐꯥꯔꯃꯔ ꯭ ꯁ ꯋꯦꯜꯐꯦꯌꯔ ꯗꯤꯄꯥꯔ ꯭ ꯠꯃꯦꯟ ꯭ ꯇ",
+    "emblemAlt": "ꯚꯥꯔꯠꯀꯤ ꯔꯥꯖ ꯭ ꯌꯒꯤ ꯈꯨꯗꯝ",
+    "logoAlt": "ꯚꯥꯔꯠ ꯚꯤꯁꯇꯔ",
+    "openMenu": "ꯃꯦꯅꯨ ꯍꯥꯡꯗꯣꯛꯎ",
+    "closeMenu": "ꯃꯦꯅꯨ ꯃꯨꯊꯠꯂꯨ",
+    "mainNav": "ꯃꯔꯨꯑꯣꯏꯕ ꯅꯦꯚꯤꯒꯦꯁꯟ",
+    "partnerWithUs": "ꯑꯩꯈꯣꯏꯒ ꯂꯣꯏꯅꯕ"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "ꯌꯨꯝ",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "ꯃꯁꯤꯒꯤ ꯃꯇꯥꯡꯗ",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "ꯏꯄꯦꯛꯠ",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "ꯇꯧꯕ ꯉꯝꯕꯒꯤ ꯆꯥꯡ",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "ꯁ ꯭ ꯇꯦꯠꯁ",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "ꯀꯣꯟꯇꯦꯛ ꯇꯧ ꯫",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "ꯗꯣꯀꯨꯃꯦꯟ ꯭ ꯇ ꯏꯟꯖꯦꯠ ꯇꯧ",
+            "description": "ꯅꯍꯥꯛꯀꯤ ꯈꯪ-ꯍꯩꯕꯒꯤ ꯄꯥꯝꯕꯩꯁꯤꯡ ꯑꯗꯨ ꯄ ꯭ ꯂꯦꯠꯐꯣꯔ ꯭ ꯝꯗ ꯄꯨꯔꯛꯎ",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "ꯁꯥꯏꯟ ꯏꯟ ꯇꯧ",
+            "description": "ꯂꯧꯎ-ꯁꯤꯡꯎꯕꯒꯤ ꯍꯩꯁꯤꯡꯕꯁꯤꯡ ꯐꯪꯅꯕꯒꯤ ꯂꯅꯥꯏꯒꯤ ꯑꯣꯏꯕ ꯍꯩ-ꯁꯤꯡꯕ ꯑꯃ ꯊꯤꯗꯣꯛꯎ",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(ꯑꯅꯧꯕ ꯇꯦꯕ ꯑꯃꯗ ꯍꯥꯡꯗꯣꯛꯏ)"
+  },
+  "footer": {
+    "legalTitle": "ꯑꯥꯏꯟꯒꯤ ꯑꯣꯏꯕ",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "ꯄ ꯭ ꯔꯥꯏꯚꯦꯁꯤ ꯄꯣꯂꯤꯁꯤ",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "ꯅꯤꯌꯝ ꯑꯃꯁꯨꯡ ꯀꯥꯡꯂꯣꯟꯁꯤꯡ",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "ꯗꯤꯁ ꯭ ꯀ ꯭ ꯂꯦꯃꯔ",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "ꯀꯣꯟꯇꯦꯛ ꯇꯧꯕꯤꯌꯨ",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "ꯑꯞꯗꯦꯠꯁꯤꯡꯒꯤꯗꯃꯛ ꯁꯕꯁ ꯭ ꯀ ꯭ ꯔꯥꯏꯕ ꯇꯧ",
+    "socials": [
+      {
+        "id": "x",
+        "label": "ꯑꯦꯛꯁ (ꯇ ꯭ ꯋꯤꯇꯔ)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "ꯌꯨꯇ ꯭ ꯌꯨꯕ",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "ꯐꯦꯁꯕꯨꯛ",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "ꯏꯟꯁ ꯭ ꯇꯥꯒ ꯭ ꯔꯥꯝ",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "ꯃꯥꯏꯒꯣꯚ",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "ꯗꯤꯖꯤꯇꯦꯜ ꯏꯟꯗꯤꯌꯥ",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "ꯑꯩꯈꯣꯏꯒꯤ ꯑꯦꯞ ꯑꯗꯨ ꯗꯥꯎꯟꯂꯣꯗ ꯇꯧ",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "ꯃꯁꯤ ꯒꯨꯒꯜ ꯄ ꯭ ꯂꯦꯗ ꯐꯪꯕꯤꯌꯨ",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "ꯑꯦꯞ ꯁ ꯭ ꯇꯣꯔꯗ ꯗꯥꯎꯟꯂꯣꯗ ꯇꯧ",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "ꯈ ꯭ ꯋꯥꯏꯗꯒꯤ ꯅꯧꯕ ꯑꯞꯗꯦꯠ ꯇꯧꯈ ꯭ ꯔꯦ: 1:05:0226",
+    "ownership": "ꯚꯥꯔꯠ ꯁꯔꯀꯥꯔꯒꯤ ꯑꯦꯒ ꯭ ꯔꯤꯀꯜꯆꯔꯦꯜ ꯑꯃꯁꯨꯡ ꯐꯥꯔꯃꯔ ꯭ ꯁ ꯋꯦꯜꯐꯦꯌꯔ ꯃꯟꯇ ꯭ ꯔꯥꯂꯌꯅ ꯃꯄꯨ ꯑꯣꯏꯕ ꯑꯃꯁꯨꯡ ꯁꯦꯟꯅꯔꯤꯕ ꯋꯦꯕꯁꯥꯏꯠꯀꯤ ꯃꯆꯥꯛꯁꯤꯡ",
+    "opensInNewTab": "(ꯑꯅꯧꯕ ꯇꯦꯕ ꯑꯃꯗ ꯍꯥꯡꯗꯣꯛꯏ)"
+  },
+  "carousel": {
+    "label": "ꯊꯣꯏꯗꯣꯛ ꯍꯦꯟꯗꯣꯛꯄꯁꯤꯡ",
+    "slide": "{total} ꯒꯤ ꯁ ꯭ ꯂꯥꯏꯗ {current}",
+    "previous": "ꯍꯥꯟꯅꯒꯤ ꯁ ꯭ ꯂꯥꯏꯗ",
+    "next": "ꯃꯊꯪꯒꯤ ꯁ ꯭ ꯂꯥꯏꯗ",
+    "goTo": "ꯁ ꯭ ꯂꯥꯏꯗꯇ ꯆꯠꯂꯨ {number}",
+    "pause": "ꯁ ꯭ ꯂꯥꯏꯗꯁꯣ ꯂꯦꯞꯊꯣꯛꯎ",
+    "play": "ꯁ ꯭ ꯂꯥꯏꯗꯁꯣ ꯊꯥꯎ"
+  },
+  "announcements": {
+    "label": "ꯂꯥꯎꯊꯣꯛꯄꯁꯤꯡ",
+    "pause": "ꯂꯥꯎꯊꯣꯛꯄꯁꯤꯡ ꯂꯦꯞꯊꯣꯛꯎ",
+    "play": "ꯂꯥꯎꯊꯣꯛꯄꯁꯤꯡ ꯊꯥꯎ"
+  },
+  "slider": {
+    "previous": "ꯃꯃꯥꯡꯗ",
+    "next": "ꯃꯊꯪꯗ",
+    "goTo": "{total} ꯒꯤ ꯄꯣꯠ {number} ꯎꯠꯂꯛꯎ",
+    "previousCapability": "ꯃꯃꯥꯡꯗ ꯇꯧꯕ ꯉꯝꯕꯒꯤ ꯆꯥꯡ",
+    "nextCapability": "ꯃꯊꯪꯒꯤ ꯉꯝꯕꯒꯤ ꯆꯥꯡ",
+    "previousTestimonial": "ꯃꯃꯥꯡꯗ ꯎꯠꯈꯤꯕ ꯄ ꯭ ꯔꯃꯥꯟꯁꯤꯡ",
+    "nextTestimonial": "ꯃꯊꯪꯒꯤ ꯄ ꯭ ꯔꯦꯁꯇꯤꯃꯣꯅꯤꯌꯦꯜ",
+    "previousUpdate": "ꯍꯥꯟꯅꯒꯤ ꯑꯞꯗꯦꯠ",
+    "nextUpdate": "ꯃꯊꯪꯒꯤ ꯑꯞꯗꯦꯠ",
+    "previousPersona": "ꯍꯥꯟꯅꯒꯤ ꯃꯤꯑꯣꯏ ꯑꯗꯨ",
+    "nextPersona": "ꯃꯊꯪꯒꯤ ꯃꯤꯑꯣꯏ ꯑꯗꯨ"
+  },
+  "media": {
+    "video": "ꯚꯤꯗꯤꯑꯣ",
+    "instagramPost": "ꯏꯟꯁ ꯭ ꯇꯥꯒ ꯭ ꯔꯥꯝꯒꯤ ꯄꯣꯁꯠ",
+    "opensInNewTab": "(ꯑꯅꯧꯕ ꯇꯦꯕ ꯑꯃꯗ ꯍꯥꯡꯗꯣꯛꯏ)"
+  },
+  "chatbot": {
+    "title": "ꯆꯦꯠꯕꯣꯠ",
+    "openFullPage": "ꯆꯦꯠ ꯑꯗꯨ ꯃꯄꯨꯡ ꯐꯥꯕ ꯄꯦꯖ ꯑꯃꯗ ꯍꯥꯡꯗꯣꯛꯎ (ꯑꯅꯧꯕ ꯇꯦꯕ ꯑꯃꯗ ꯍꯥꯡꯗꯣꯛꯏ)",
+    "close": "ꯆꯦꯠ ꯃꯨꯊꯠꯂꯨ",
+    "featureLabel": "ꯑꯅꯧꯕ ꯐꯤꯆꯔ",
+    "newBadge": "ꯑꯅꯧꯕ",
+    "featureText": "ꯚꯥꯔꯇꯤꯅ ꯍꯧꯖꯤꯛ ꯇꯦꯂꯨꯒꯨ, ꯕꯦꯡꯒꯣꯂꯤ, ꯒꯨꯖꯔꯥꯇꯤ, ꯑꯃꯁꯨꯡ ꯑꯇꯣꯞꯄ ꯂꯣꯜ 10ꯗ ꯋꯥꯔꯤ ꯁꯥꯅꯕ ꯉꯝꯂꯦ ꯫",
+    "notifications": "ꯅꯣꯇꯤꯐꯤꯀꯦꯁꯟꯁꯤꯡ",
+    "language": "ꯆꯦꯠ ꯂꯣꯟ: ꯏꯪꯂꯤꯁ",
+    "languageShort": "ꯑꯦꯟ",
+    "settings": "ꯆꯦꯠ ꯁꯦꯇꯤꯡꯁ",
+    "assistantName": "ꯚꯥꯔꯇꯤ",
+    "greeting": "ꯍꯦꯂꯣ! ꯑꯩ ꯑꯗꯣꯝꯒꯤ ꯂꯧꯎꯁꯤꯡꯎꯒꯤ ꯇꯦꯡꯕꯥꯡꯂꯣꯏꯅꯤ ꯫ ꯉꯁꯤ ꯀꯔꯝꯅ ꯅꯍꯥꯛꯄꯨ ꯃꯇꯦꯡ ꯄꯥꯡꯒꯗꯒꯦ?",
+    "suggestionsLabel": "ꯄꯥꯎꯇꯥꯛ ꯄꯤꯔꯤꯕ ꯄ ꯭ ꯔꯃꯥꯟꯁꯤꯡ",
+    "suggestions": [
+      "ꯁꯤꯗ ꯑꯣꯊꯦꯟꯇꯤꯀꯦꯁꯟ ꯁ ꯭ ꯀꯤꯝ ꯑꯗꯨꯒꯤ ꯃꯇꯥꯡꯗ ꯏ-ꯄꯥꯎ ꯑꯩ ꯃꯊꯧ ꯇꯥꯏ",
+      "ꯄꯤ. ꯑꯦꯝ.-ꯀꯤꯁꯟ ꯊꯧꯔꯥꯡ ꯑꯁꯤ ꯀꯔꯤꯅꯣ ꯑꯃꯁꯨꯡ ꯃꯁꯤꯒꯤꯗꯃꯛ ꯀꯔꯝꯅ ꯑꯦꯄ ꯭ ꯂꯥꯏ ꯇꯧꯒꯅꯤ?",
+      "ꯀꯤꯁꯟ ꯀ ꯭ ꯔꯦꯗꯤꯠ ꯀꯥꯔꯗ ꯊꯧꯔꯥꯡꯒꯤ ꯃꯇꯥꯡꯗ ꯑꯩꯉꯣꯟꯗ ꯍꯥꯏꯌꯨ"
+    ],
+    "inputLabel": "ꯅꯍꯥꯛꯀꯤ ꯋꯥꯐꯝ ꯑꯗꯨ ꯍꯪꯕꯤꯌꯨ",
+    "inputPlaceholder": "ꯅꯍꯥꯛꯀꯤ ꯋꯥꯐꯝ ꯑꯗꯨ ꯍꯪꯕꯤꯌꯨ ..........",
+    "attach": "ꯑꯦꯇꯦꯆꯃꯦꯟꯠ ꯍꯥꯞꯆꯤꯟꯕ",
+    "voice": "ꯃꯈꯣꯜꯒꯤ ꯈꯨꯠꯊꯥꯡꯗ ꯍꯪꯕꯤꯌꯨ",
+    "send": "ꯆꯤꯡꯅꯕ ꯊꯥꯔꯛꯎ",
+    "disclaimer": "ꯑꯦ. ꯑꯥꯏ. ꯅ ꯄꯨꯊꯣꯛꯄ ꯃꯆꯥꯛꯁꯤꯡ ꯫ ꯆꯥꯟꯕꯤꯗꯨꯅ ꯃꯊꯧ ꯇꯥꯔꯕꯗꯤ ꯃꯐꯝ ꯑꯗꯨꯗ ꯚꯦꯔꯤꯐꯥꯏ ꯇꯧꯕꯤꯌꯨ"
+  },
+  "partner": {
+    "title": "ꯏꯟꯀ ꯭ ꯋꯥꯔꯤ ꯐꯣꯔꯝ",
+    "subtitle": "ꯅꯍꯥꯛꯀꯤ ꯑꯀꯨꯞꯄ ꯃꯔꯣꯜꯁꯤꯡ ꯑꯗꯨ ꯄꯤꯌꯨ ꯑꯗꯨꯒ ꯑꯩꯈꯣꯏꯒꯤ ꯁꯔꯨꯛ ꯌꯥꯔꯤꯕ ꯀꯥꯡꯂꯨꯞ ꯑꯗꯨꯅ ꯑꯗꯣꯝꯒꯤ ꯃꯅꯥꯛꯇ ꯍꯜꯂꯛꯀꯅꯤ ꯫",
+    "close": "ꯐꯣꯔꯝ ꯀ ꯭ ꯂꯣꯁ ꯇꯧ",
+    "fields": {
+      "fullName": {
+        "label": "ꯃꯄꯨꯡ ꯐꯥꯕ ꯃꯃꯤꯡ",
+        "placeholder": "ꯑꯦꯟꯇꯔ ꯇꯧ ꯫"
+      },
+      "organisation": {
+        "label": "ꯂꯨꯞꯀꯤ ꯃꯃꯤꯡ",
+        "placeholder": "ꯑꯦꯟꯇꯔ ꯇꯧ ꯫"
+      },
+      "email": {
+        "label": "ꯏꯃꯦꯜ ꯑꯦꯗ ꯭ ꯔꯦꯁ",
+        "placeholder": "ꯑꯦꯟꯇꯔ ꯇꯧ ꯫"
+      },
+      "state": {
+        "label": "ꯅꯍꯥꯛꯀꯤ ꯁ ꯭ ꯇꯦꯠ ꯑꯗꯨ ꯈꯟꯕꯤꯌꯨ",
+        "placeholder": "ꯑꯦꯟꯇꯔ ꯇꯧ ꯫"
+      },
+      "interest": {
+        "label": "ꯁꯔꯨꯛ ꯌꯥꯕꯒꯤ ꯅꯨꯡꯉꯥꯏꯕ",
+        "placeholder": "ꯈꯟꯗꯣꯛꯎ"
+      },
+      "description": {
+        "label": "ꯄ ꯭ ꯔꯣꯖꯦꯛꯀꯤ ꯑꯀꯨꯞꯄ ꯃꯔꯣꯜ",
+        "placeholder": "ꯑꯦꯟꯇꯔ ꯇꯧ ꯫"
+      }
+    },
+    "requiredHint": "ꯃꯊꯧ ꯇꯥꯕ",
+    "errors": {
+      "required": "ꯃꯁꯤꯒꯤ ꯐꯤꯜꯗ ꯑꯁꯤ ꯃꯊꯧ ꯇꯥꯏ ꯫",
+      "email": "ꯑꯆꯨꯝꯕ ꯏꯃꯦꯜ ꯑꯦꯗ ꯭ ꯔꯦꯁ ꯑꯃ ꯑꯦꯟꯇꯔ ꯇꯧ ꯫"
+    },
+    "submit": "ꯏꯟꯀ ꯭ ꯋꯥꯔꯤ ꯊꯥꯔꯛꯎ",
+    "states": [
+      "ꯑꯟꯗꯃꯥꯟ ꯑꯃꯁꯨꯡ ꯅꯤꯀꯣꯕꯥꯔ ꯏꯊꯠꯁꯤꯡ",
+      "ꯑꯟꯙ ꯭ ꯔ ꯄ ꯭ ꯔꯗꯦꯁ",
+      "ꯎꯔꯥꯅꯆꯜ ꯄ ꯭ ꯔꯗꯦꯁ",
+      "ꯑꯁꯝ",
+      "ꯕꯤꯍꯥꯔ",
+      "ꯆꯟꯗꯤꯒꯔ",
+      "ꯁꯠꯇꯤꯁꯒꯔ",
+      "ꯗꯥꯗ ꯭ ꯔꯥ ꯑꯃꯁꯨꯡ ꯅꯒꯔ ꯍꯥꯚꯦꯂꯤ ꯑꯃꯁꯨꯡ ꯗꯃꯟ ꯑꯃꯁꯨꯡ ꯗꯤꯎ",
+      "ꯗꯤꯜꯂꯤ",
+      "ꯒꯣꯋꯥ",
+      "ꯒꯨꯖꯔꯥꯠ",
+      "ꯍꯔꯤꯌꯥꯅꯥ",
+      "ꯍꯤꯃꯥꯆꯜ ꯄ ꯭ ꯔꯗꯦꯁ",
+      "ꯖꯝꯃꯨ ꯑꯃꯁꯨꯡ ꯀꯁꯃꯤꯔ",
+      "ꯖꯔꯈꯟꯗ",
+      "ꯀꯔꯅꯥꯇꯀꯥ",
+      "ꯀꯦꯔꯂꯥ",
+      "ꯂꯗꯥꯈ",
+      "ꯂꯛꯁꯗ ꯭ ꯋꯤꯞ",
+      "ꯃꯙ ꯭ ꯌ ꯄ ꯭ ꯔꯗꯦꯁ",
+      "ꯃꯍꯥꯔꯥꯁꯇ ꯭ ꯔ",
+      "ꯃꯅꯤꯄꯨꯔ",
+      "ꯃꯦꯘꯥꯂꯌ",
+      "ꯃꯤꯖꯣꯔꯥꯝ",
+      "ꯅꯥꯒꯥꯂꯦꯟ",
+      "ꯑꯣꯗꯤꯁꯥ",
+      "ꯄꯨꯗꯨꯆꯦꯔꯤ",
+      "ꯄꯟꯖꯥꯕ",
+      "ꯔꯥꯖꯁꯊꯥꯟ",
+      "ꯁꯤꯛꯀꯤꯝ",
+      "ꯇꯥꯃꯤꯜ ꯅꯥꯗꯨ",
+      "ꯇꯦꯂꯪꯒꯥꯅꯥ",
+      "ꯇ ꯭ ꯔꯤꯄꯨꯔꯥ",
+      "ꯎꯠꯇꯔ ꯄ ꯭ ꯔꯗꯦꯁ",
+      "ꯎꯠꯇꯔꯥꯈꯟꯗ",
+      "ꯋꯦꯁꯠ ꯕꯦꯡꯒꯜ"
+    ],
+    "interests": [],
+    "success": {
+      "title": "ꯊꯤꯖꯤꯟ-ꯍꯨꯝꯖꯤꯟꯕꯒꯤ ꯊꯕꯛ ꯑꯗꯨ ꯃꯥꯏꯄꯥꯛꯅ ꯊꯥꯖꯤꯟꯈ ꯭ ꯔꯦ!",
+      "text": "ꯑꯩꯈꯣꯏꯒ ꯁꯔꯨꯛ ꯌꯥꯕꯗ ꯅꯍꯥꯛꯅ ꯄꯥꯝꯖꯕ ꯑꯗꯨꯒꯤꯗꯃꯛ ꯊꯥꯒꯠꯄ ꯐꯣꯡꯗꯣꯛꯈꯤ ꯫ ꯑꯩꯈꯣꯏꯒꯤ ꯇꯤꯝ ꯑꯁꯤꯅ ꯅꯍꯥꯛꯀꯤ ꯊꯤꯖꯤꯟ-ꯍꯨꯝꯖꯤꯟꯕꯒꯤ ꯊꯕꯛ ꯑꯗꯨ ꯑꯃꯨꯛ ꯍꯟꯅ ꯌꯦꯡꯁꯤꯟꯒꯅꯤ ꯑꯃꯁꯨꯡ ꯌꯥꯝꯅ ꯊꯨꯅ ꯑꯗꯣꯝꯒꯤ ꯃꯅꯥꯛꯇ ꯍꯜꯂꯛꯀꯅꯤ ꯫",
+      "close": "ꯃꯦꯁꯦꯖ ꯃꯨꯊꯠꯂꯨ"
+    }
+  }
+}

@@ -33,6 +33,27 @@ export const AccessibilityContext = createContext<AccessibilityContextValue | nu
  * so it adds nothing to the first load. It cannot run during the static build because
  * it uses `window`/`document`.
  */
+/**
+ * The package always checks browser support for its speech features and logs
+ * "Accessibility: speech to text isn't supported …" (on http, and in Firefox even on https),
+ * although both features are switched off in our options. Hide only those two warnings,
+ * only while the package starts up; every other console message is untouched.
+ */
+const UNUSED_FEATURE_WARNING = /^Accessibility: (speech to text|text to speech) isn't supported/;
+
+function withoutUnusedFeatureWarnings<T>(create: () => T): T {
+  const warn = console.warn;
+  console.warn = (...args: unknown[]) => {
+    if (typeof args[0] === 'string' && UNUSED_FEATURE_WARNING.test(args[0])) return;
+    warn(...args);
+  };
+  try {
+    return create();
+  } finally {
+    console.warn = warn;
+  }
+}
+
 export function AccessibilityProvider({ children }: { children: ReactNode }) {
   const instanceRef = useRef<Accessibility | null>(null);
   const [ready, setReady] = useState(false);
@@ -46,7 +67,9 @@ export function AccessibilityProvider({ children }: { children: ReactNode }) {
     const load = async () => {
       const { Accessibility: AccessibilityLib } = await import('accessibility');
       if (cancelled) return;
-      const instance = new AccessibilityLib(accessibilityOptions);
+      const instance = withoutUnusedFeatureWarnings(
+        () => new AccessibilityLib(accessibilityOptions),
+      );
       instanceRef.current = instance;
       // The package restores the previous session (invert / text size) on build.
       setInvert(Boolean(instance.sessionState.invertColors));

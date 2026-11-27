@@ -3,7 +3,7 @@
 import { styled } from '@mui/material/styles';
 import LinearProgress from '@mui/material/LinearProgress';
 
-/** Thin bar across the top of the window while Bhashini is translating the page. */
+/** Thin bar across the top of the window while a language's files are loading. */
 export const Progress = styled(LinearProgress)(({ theme }) => {
   const palette = (theme.vars ?? theme).palette;
   return {

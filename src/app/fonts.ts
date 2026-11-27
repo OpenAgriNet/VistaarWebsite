@@ -18,7 +18,7 @@ import {
  * DBIM typeface: the Noto Sans family. Downloaded at build time, served from our own domain.
  *
  * Noto Sans (Latin) is preloaded for the English page. The Indian-script fonts are only
- * needed when the page is translated (Bhashini), so they are not preloaded: each one only
+ * needed when the page is shown in another language, so they are not preloaded: each one only
  * covers its own script (unicode-range), and the browser downloads it the first time text
  * in that script appears. English visitors download none of them.
  *
@@ -107,7 +107,7 @@ const arabic = Noto_Sans_Arabic({
   subsets: ['arabic'],
   variable: '--font-noto-arabic',
 });
-/** Santali (Bhashini returns Ol Chiki script). */
+/** Santali (the translations are in Ol Chiki script). */
 const olChiki = Noto_Sans_Ol_Chiki({
   display: 'swap',
   preload: false,
@@ -115,7 +115,7 @@ const olChiki = Noto_Sans_Ol_Chiki({
   subsets: ['ol-chiki'],
   variable: '--font-noto-ol-chiki',
 });
-/** Manipuri (Bhashini returns Meetei Mayek script). */
+/** Manipuri (the translations are in Meetei Mayek script). */
 const meeteiMayek = Noto_Sans_Meetei_Mayek({
   display: 'swap',
   preload: false,

@@ -12,11 +12,11 @@ export const globalStyles = (theme: Theme) => {
   return {
     // Text size +/- (accessibility package) changes the root font-size in %;
     // all typography is rem-based, so everything scales with it.
-    // Sticky header: anchor links, the skip link and keyboard focus stop below the bar.
+    // Sticky header + ticker: anchor links, the skip link and keyboard focus stop below them.
     html: {
       fontSize: '100%',
       scrollBehavior: 'smooth' as const,
-      scrollPaddingTop: `calc(${headerVar(HEADER_VARS.sticky)} + ${theme.spacing(4)})`,
+      scrollPaddingTop: `calc(${headerVar(HEADER_VARS.sticky)} + ${headerVar(HEADER_VARS.ticker)} + ${theme.spacing(4)})`,
     },
     body: {
       backgroundColor: palette.background.default,
@@ -32,7 +32,7 @@ export const globalStyles = (theme: Theme) => {
     td: { textAlign: 'left' as const },
     'td[data-numeric]': { textAlign: 'right' as const, fontVariantNumeric: 'tabular-nums' },
 
-    // Translated page (Bhashini): letter-spacing tuned for Latin headings pulls apart Indic
+    // Page in another language: letter-spacing tuned for Latin headings pulls apart Indic
     // conjuncts and breaks Arabic-script joining (Urdu, Kashmiri, Sindhi), so drop it.
     'html:not([lang="en"]) body *:not([translate="no"])': {
       letterSpacing: 'normal !important',

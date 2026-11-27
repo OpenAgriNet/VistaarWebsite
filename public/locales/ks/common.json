@@ -1,0 +1,302 @@
+{
+  "skipToContent": "اہم موادس کن تر٘او۔",
+  "language": {
+    "label": "زبان ژارنہٕ۔",
+    "translating": "{language} منٛز ترجمہٕ کران، مہربٲنی کٔرتھ تھٲیو۔",
+    "done": "ترجمہ کارن ہٕنز تربیت تہٕ توثیق {language}",
+    "error": "ترجمہٕ چھنہٕ ونکیٚنس دٔستیاب۔ کینٛہہ متن ہیٛکہٕ انگریزی منٛز روزتھ۔"
+  },
+  "search": {
+    "label": "ژھار۔",
+    "placeholder": "ژھار ..........",
+    "submit": "ژھار۔"
+  },
+  "accessibility": {
+    "open": "دستیاب خصوصیات",
+    "title": "رسٲئی کنٹرول",
+    "close": "رسٲئی ہند آپشن کر بند۔",
+    "darkContrast": "تاریک تضاد",
+    "invert": "بدلاو۔",
+    "textSizeIncrease": "ٹیکسٹ سایز بڑاو",
+    "textSizeDecrease": "ٹیکسٹ سایز کم کرن۔"
+  },
+  "header": {
+    "homeLink": "بھارت وستر ہوم",
+    "government": "حکومت ہند",
+    "ministry": "وزارت زراعت و کاشتکاروں کی فلاح و بہبود",
+    "department": "محکمہ زراعت و کاشتکاروں کی فلاح و بہبود",
+    "emblemAlt": "ہندوستانک ریاستی نشان",
+    "logoAlt": "بھارت وستر",
+    "openMenu": "مینو کھول۔",
+    "closeMenu": "مینو کر بند۔",
+    "mainNav": "اہم نیویگیشن",
+    "partnerWithUs": "ہمس سٕتہ سٲتھی۔"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "مرکزی صفحہ۔",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "اتھ متعلق۔",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "اثر۔",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "اہلیتہٕ",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "ریاستہٕ۔",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "کنیکٹ۔",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "دستاویز کریو ننہٕ۔",
+            "description": "پنن علمک وسٲئل کریو پلیٹ فارمس تام اننہٕ۔",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "سائن ان کر۔",
+            "description": "زرعی علمس تام رسٲئی ہنٛد اکھ ذٲتی تجربہٕ ژھار۔",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(اکہ نٔوس ٹیبس منٛز کھولو)"
+  },
+  "footer": {
+    "legalTitle": "قانونی۔",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "پرائیویسی پالیسی",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "شرائط و ضوابط",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "ڈس کلیمر",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "رٲبطہٕ۔",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "اپڈیٹس باپتھ کٔرو سبسکرائب۔",
+    "socials": [
+      {
+        "id": "x",
+        "label": "ایکس (ٹویٹر)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "یوٹیوب",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "فیس بک۔",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "انسٹاگرام۔",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "مائی گوو",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "ڈیجیٹل انڈیا",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "سان ایپ کر ڈاؤن لوڈ۔",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "یہ کٔرو گوگل پلے پؠٹھ حٲصل۔",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "ایپ سٹور پؠٹھ کر ڈاؤن لوڈ۔",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "تازہ ترین اپ ڈیٹ: 1:05:2026",
+    "ownership": "وزارت زراعت تہٕ کسانن ہنٛز فلاح و بہبود، حکومت ہند کہ زیر ملکیت تہٕ زیر انتظام ویب سائٹ مواد۔",
+    "opensInNewTab": "(اکہ نٔوس ٹیبس منٛز کھولو)"
+  },
+  "carousel": {
+    "label": "نمایاں خصوصیات",
+    "slide": "Slide {current} of {total}",
+    "previous": "پٔتمہ سلائڈ",
+    "next": "بیاکھ سلائڈ۔",
+    "goTo": "سلائڈس پیٹھ گژھ {number}",
+    "pause": "سلائڈ شو رکاو۔",
+    "play": "سلائڈ شو چلاو۔"
+  },
+  "announcements": {
+    "label": "اعلانات۔",
+    "pause": "اعلانات رکاو۔",
+    "play": "اعلانات چلاو۔"
+  },
+  "slider": {
+    "previous": "پٔتمہ۔",
+    "next": "امہ پتہٕ۔",
+    "goTo": "Show item {number} of {total}",
+    "previousCapability": "پٔتمین صلاحیتہٕ",
+    "nextCapability": "بیاکھ صلاحیت۔",
+    "previousTestimonial": "پٔتمین تعریف",
+    "nextTestimonial": "ینہٕ وٲلہ تصدیٖق",
+    "previousUpdate": "پٔتمہ اپڈیٹ",
+    "nextUpdate": "بیاکھ اپڈیٹ۔",
+    "previousPersona": "پٔتمہ شخصیت",
+    "nextPersona": "بیاکھ شخصیت۔"
+  },
+  "media": {
+    "video": "ویڈیو۔",
+    "instagramPost": "انسٹاگرام پوسٹ",
+    "opensInNewTab": "(اکہ نٔوس ٹیبس منٛز کھولو)"
+  },
+  "chatbot": {
+    "title": "چیٹ بوٹ",
+    "openFullPage": "مکمل صفحس پؠٹھ کھول چیٹ (نٔیس ٹیبس منٛز کھلان)",
+    "close": "چیٹ کر بند۔",
+    "featureLabel": "نوٚو خصوصیت۔",
+    "newBadge": "نوٚو۔",
+    "featureText": "بھارتی ہؠکہ وۄنۍ تیلگوٗ، بنگٲلہ، گجراتی تہٕ دیگر دہن زبانن منٛز کتھ کٔرتھ۔",
+    "notifications": "نوٹیفیکیشن",
+    "language": "چیٹ زبان: انگریزی",
+    "languageShort": "این این۔",
+    "settings": "چیٹ سیٹنگز",
+    "assistantName": "بھارتیہ۔",
+    "greeting": "ہیلو! بہٕ چھس تہنٛد کھیتی ہنٛد معاون۔ بہٕ کتھ کٔنۍ ہؠکہٕ آز تۄہہ مدد کٔرتھ",
+    "suggestionsLabel": "تجویز کردہ سوالات",
+    "suggestions": [
+      "مےٚ چھےٚ سیٚڈ تصدیٖق کرنٕچ سکیمہٕ متعلق زانٛکٲری ضروٗرت",
+      "پی ایم-کسان سکیم کیٛاہ چھ تہٕ بہٕ کتھ کٔنۍ ہؠکہٕ امہ خٲطرٕ درخواست دتھ",
+      "مےٚ ون کسان کریڈٹ کارڈ سکیم متعلق۔"
+    ],
+    "inputLabel": "پنن سوال پوچھو۔",
+    "inputPlaceholder": "پنن سوال پوچھو ..........",
+    "attach": "اٹیچمنٹ کر ایڈ۔",
+    "voice": "آوازٕ سۭتۍ پرژھ۔",
+    "send": "سوال سوز۔",
+    "disclaimer": "اے آۓ تیار کردہ مواد۔ مہربٲنی کٔرتھ کٔرو مقٲمی طور تصدیٖق اگر ضروٗرت آسہ۔"
+  },
+  "partner": {
+    "title": "پوچھ گچھ فارم",
+    "subtitle": "پنٕنۍ تفصیٖل کریو جمع تہٕ سٲنۍ پارٹنرشپ ٹیم کر تۄہہ نش واپس۔",
+    "close": "فارم کر بند۔",
+    "fields": {
+      "fullName": {
+        "label": "مکمل ناو",
+        "placeholder": "دٲخل کر۔"
+      },
+      "organisation": {
+        "label": "تنظیم نامہٕ",
+        "placeholder": "دٲخل کر۔"
+      },
+      "email": {
+        "label": "ای میل ایڈریس",
+        "placeholder": "دٲخل کر۔"
+      },
+      "state": {
+        "label": "پنٕنۍ ریاست ژارنہٕ۔",
+        "placeholder": "دٲخل کر۔"
+      },
+      "interest": {
+        "label": "پارٹنرشپ دلچسپی",
+        "placeholder": "ژارنہٕ۔"
+      },
+      "description": {
+        "label": "پروجیکٹچ مختصر وضاحت۔",
+        "placeholder": "دٲخل کر۔"
+      }
+    },
+    "requiredHint": "ضرورت۔",
+    "errors": {
+      "required": "یہٕ شعبہٕ چھ اکس بیکسز ضرورت۔",
+      "email": "اکھ صحیح ای میل ایڈریس کریو انٹر۔"
+    },
+    "submit": "پوچھ گچھ سوز۔",
+    "states": [
+      "انڈمان تہٕ نکوبار جزیرٕ",
+      "آندھرا پردیش",
+      "اروناچل پردیش",
+      "آسام۔",
+      "بہار",
+      "چنڈی گڑھ",
+      "چھتیس گڑھ",
+      "دادرا تہٕ نگر حویلی تہٕ دمن تہٕ دیو",
+      "دلہ۔",
+      "گووا۔",
+      "گجرات۔",
+      "ہریانہ",
+      "ہماچل پردیش",
+      "جموں و کشمیر",
+      "جھارکھنڈ",
+      "کرناٹکا",
+      "کیرالہ",
+      "لداخ",
+      "لکشدیپ",
+      "مدھیہ پردیش",
+      "مہاراشٹرا۔",
+      "منی پور",
+      "میگھالیہ",
+      "میزورم",
+      "ناگالینڈ",
+      "اوڈیشہ",
+      "پڈوچیری",
+      "پنجاب۔",
+      "راجستھان",
+      "سکم",
+      "تامل ناڈو",
+      "تلنگانہ",
+      "تریپورہ",
+      "اتر پردیش",
+      "اتراکھنڈ",
+      "مغربی بنگال"
+    ],
+    "interests": [],
+    "success": {
+      "title": "پوچھ گچھ گٔیہ کامیٲبی سان جمع۔!",
+      "text": "تشکر زیاد زیاد ز سہ روزٕ اسہ سٕتۍ تعاونس منز۔ سٲنۍ ٹیم کر تہنٛز پوچھ گچھک جٲیزٕ تہٕ گژھ جلدی تۄہہ نش واپس۔",
+      "close": "میسج کر بند۔"
+    }
+  }
+}

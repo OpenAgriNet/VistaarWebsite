@@ -81,6 +81,16 @@ export const Image = styled('img')({
   objectFit: 'cover',
 });
 
+/** Linked social post without a copied image: platform icon on the brand tint. */
+export const Placeholder = styled('div')(({ theme }) => ({
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  width: '100%',
+  height: '100%',
+  backgroundColor: (theme.vars ?? theme).palette.surface.brandTint,
+}));
+
 export const PlayBadge = styled('span')(({ theme }) => ({
   position: 'absolute',
   inset: 0,

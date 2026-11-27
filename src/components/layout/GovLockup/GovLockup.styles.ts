@@ -5,7 +5,7 @@ import NextLink from 'next/link';
 import { borderWidth, fontWeight, size } from '@/theme/tokens';
 
 /**
- * Figma: State Emblem · 3-line ministry text · divider · Bharat VISTAAR logo.
+ * Figma: State Emblem · 3-line ministry text · divider · BharatVistaar logo.
  * Desktop: emblem 30×51, text 14px/120%, logo 107×47, 12px gaps.
  * Mobile (52px bar): same lockup scaled down.
  */

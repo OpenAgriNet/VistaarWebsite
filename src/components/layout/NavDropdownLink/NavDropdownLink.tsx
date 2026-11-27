@@ -21,7 +21,10 @@ export const NavDropdownLink = forwardRef<HTMLAnchorElement, NavDropdownLinkProp
             <DbimExternalLink />
           </S.IconSlot>
         )}
-        {item.label}
+        <S.Text>
+          <S.Label data-label>{item.label}</S.Label>
+          {item.description && <S.Description>{item.description}</S.Description>}
+        </S.Text>
         {isExternalUrl(item.href) && <span className="sr-only">{t('opensInNewTab')}</span>}
       </S.Root>
     );

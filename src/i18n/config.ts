@@ -2,9 +2,9 @@
  * Language configuration.
  *
  * English is the source language: the content is authored in English (public/locales/en)
- * and pre-rendered into the static HTML. Every other language is translated live in the
- * browser through Bhashini (see i18n/translation), the same way vistaar.da.gov.in works.
- * URLs never change — the choice is kept in localStorage.
+ * and pre-rendered into the static HTML. Every other language has pre-translated files in
+ * public/locales/<lang>/ (generated with Bhashini, editable by hand), loaded when the visitor
+ * picks it — see LanguageProvider. URLs never change — the choice is kept in localStorage.
  *
  * `label` is shown in the language menu in its own script, so it is never translated.
  */

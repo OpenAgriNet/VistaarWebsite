@@ -1,0 +1,302 @@
+{
+  "skipToContent": "મુખ્ય સામગ્રી પર જાઓ",
+  "language": {
+    "label": "ભાષા પસંદ કરો",
+    "translating": "{language} માં અનુવાદ કરતા, મહેરબાની કરીને રાહ જુઓ",
+    "done": "પૃષ્ઠનું ભાષાંતર {language}",
+    "error": "અનુવાદ અત્યારે ઉપલબ્ધ નથી. કેટલાક લખાણ અંગ્રેજીમાં રહી શકે છે."
+  },
+  "search": {
+    "label": "શોધો",
+    "placeholder": "શોધો ..........",
+    "submit": "શોધો"
+  },
+  "accessibility": {
+    "open": "સુલભ વિકલ્પો",
+    "title": "સુલભતા નિયંત્રણ",
+    "close": "સુલભતા વિકલ્પોને બંધ કરો",
+    "darkContrast": "શ્યામ વિરોધાભાસ",
+    "invert": "ઊંધું કરો",
+    "textSizeIncrease": "લખાણનું કદ વધારો",
+    "textSizeDecrease": "લખાણનું કદ ઘટે છે"
+  },
+  "header": {
+    "homeLink": "ભારતવિસ્તાર હોમ",
+    "government": "ભારત સરકાર",
+    "ministry": "કૃષિ અને ખેડૂત કલ્યાણ મંત્રાલય",
+    "department": "કૃષિ અને ખેડૂત કલ્યાણ વિભાગ",
+    "emblemAlt": "ભારતનું રાજ્ય પ્રતીક",
+    "logoAlt": "ભારતવિસ્તાર",
+    "openMenu": "મેનુ ખોલો",
+    "closeMenu": "મેનુ બંધ કરો",
+    "mainNav": "મુખ્ય નેવિગેશન",
+    "partnerWithUs": "અમારી સાથે ભાગીદાર"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "મુખ્ય પાનું",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "વિશે",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "અસર",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "ક્ષમતાઓ",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "રાજ્યો",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "કનેક્ટ કરો",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "દસ્તાવેજનું સેવન કરો",
+            "description": "તમારા જ્ઞાન સંસાધનોને મંચ પર લાવો",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "સાઇન ઇન કરો",
+            "description": "કૃષિ જ્ઞાન મેળવવાનો વ્યક્તિગત અનુભવ શોધો",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(નવી ટેબમાં ખુલે છે)"
+  },
+  "footer": {
+    "legalTitle": "કાયદાકીય",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "ગોપનીયતા નીતિ",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "નિયમો અને શરતો",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "ડિસક્લેમર",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "સંપર્ક કરો",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "સુધારાઓ માટે સબ્સ્ક્રાઇબ કરો",
+    "socials": [
+      {
+        "id": "x",
+        "label": "એક્સ (ટ્વિટર)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "યુટ્યુબ",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "ફેસબુક",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "ઇન્સ્ટાગ્રામ",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "માયગોવ",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "ડિજિટલ ઇન્ડિયા",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "અમારી એપ ડાઉનલોડ કરો",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "તેને ગૂગલ પ્લે પર મેળવો",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "એપ સ્ટોર પર ડાઉનલોડ કરો",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "તાજેતરમાં અપડેટ થયેલ તારીખઃ 05:0226",
+    "ownership": "ભારત સરકારના કૃષિ અને ખેડૂત કલ્યાણ મંત્રાલયની માલિકીની અને સંચાલિત વેબસાઇટ સામગ્રી",
+    "opensInNewTab": "(નવી ટેબમાં ખુલે છે)"
+  },
+  "carousel": {
+    "label": "હાઇલાઇટ્સ",
+    "slide": "{total} ની સ્લાઇડ {current}",
+    "previous": "અગાઉની સ્લાઇડ",
+    "next": "આગામી સ્લાઇડ",
+    "goTo": "સ્લાઇડ પર જાઓ {number}",
+    "pause": "સ્લાઇડશોને થોભો",
+    "play": "સ્લાઇડશો ચલાવો"
+  },
+  "announcements": {
+    "label": "જાહેરાતો",
+    "pause": "જાહેરાતો અટકાવો",
+    "play": "ઘોષણાઓ વગાડો"
+  },
+  "slider": {
+    "previous": "અગાઉના",
+    "next": "આગળ",
+    "goTo": "{total} ની વસ્તુ {number} બતાવો",
+    "previousCapability": "અગાઉની ક્ષમતા",
+    "nextCapability": "આગામી ક્ષમતા",
+    "previousTestimonial": "અગાઉની સાક્ષી",
+    "nextTestimonial": "આગામી પ્રમાણપત્ર",
+    "previousUpdate": "પહેલાનું અપડેટ",
+    "nextUpdate": "આગામી અપડેટ",
+    "previousPersona": "અગાઉની વ્યક્તિ",
+    "nextPersona": "આગામી વ્યક્તિ"
+  },
+  "media": {
+    "video": "વીડિયો",
+    "instagramPost": "ઇન્સ્ટાગ્રામ પોસ્ટ",
+    "opensInNewTab": "(નવી ટેબમાં ખુલે છે)"
+  },
+  "chatbot": {
+    "title": "ચેટબોટ",
+    "openFullPage": "સંપૂર્ણ પૃષ્ઠમાં ચેટ ખોલો (નવા ટેબમાં ખુલે છે)",
+    "close": "ચેટ બંધ કરો",
+    "featureLabel": "નવી સુવિધા",
+    "newBadge": "નવા",
+    "featureText": "ભારતી હવે તેલુગુ, બંગાળી, ગુજરાતી અને અન્ય 10 ભાષાઓમાં વાતચીત કરી શકે છે",
+    "notifications": "સૂચનાઓ",
+    "language": "ચેટ લેંગ્વેજઃ અંગ્રેજી",
+    "languageShort": "એન",
+    "settings": "ચેટ સેટિંગ્સ",
+    "assistantName": "ભારતી",
+    "greeting": "નમસ્તે! હું તમારો ખેતી સહાયક છું. આજે હું તમને કેવી રીતે મદદ કરી શકું?",
+    "suggestionsLabel": "સૂચવેલા પ્રશ્નો",
+    "suggestions": [
+      "મને બીજ પ્રમાણીકરણ યોજના વિશે માહિતી જોઈએ છે",
+      "પીએમ-કિસાન યોજના શું છે અને હું તેના માટે કેવી રીતે અરજી કરી શકું?",
+      "મને કિસાન ક્રેડિટ કાર્ડ યોજના વિશે જણાવો"
+    ],
+    "inputLabel": "તમારા પ્રશ્ન પૂછો",
+    "inputPlaceholder": "તમારો પ્રશ્ન પૂછો ..........",
+    "attach": "જોડાણ ઉમેરો",
+    "voice": "અવાજ દ્વારા પૂછો",
+    "send": "પ્રશ્ન મોકલો",
+    "disclaimer": "એઆઈ-જનરેટેડ સામગ્રી. જો જરૂરી હોય તો મહેરબાની કરીને સ્થાનિક રીતે ચકાસો"
+  },
+  "partner": {
+    "title": "પૂછપરછ ફોર્મ",
+    "subtitle": "તમારી વિગતો સબમિટ કરો અને અમારી ભાગીદારી ટીમ તમને પાછા મળશે.",
+    "close": "બંધ ફોર્મ",
+    "fields": {
+      "fullName": {
+        "label": "આખું નામ",
+        "placeholder": "દાખલ કરો"
+      },
+      "organisation": {
+        "label": "સંસ્થાનું નામ",
+        "placeholder": "દાખલ કરો"
+      },
+      "email": {
+        "label": "ઇમેઇલ સરનામું",
+        "placeholder": "દાખલ કરો"
+      },
+      "state": {
+        "label": "તમારું રાજ્ય પસંદ કરો",
+        "placeholder": "દાખલ કરો"
+      },
+      "interest": {
+        "label": "ભાગીદારીમાં રસ",
+        "placeholder": "પસંદ કરો"
+      },
+      "description": {
+        "label": "પ્રોજેક્ટનું ટૂંકું વર્ણન",
+        "placeholder": "દાખલ કરો"
+      }
+    },
+    "requiredHint": "જરૂરી",
+    "errors": {
+      "required": "આ ક્ષેત્ર જરૂરી છે.",
+      "email": "માન્ય ઇમેઇલ સરનામું દાખલ કરો."
+    },
+    "submit": "પૂછપરછ મોકલો",
+    "states": [
+      "આંદામાન અને નિકોબાર ટાપુઓ",
+      "આંધ્ર પ્રદેશ",
+      "અરુણાચલ પ્રદેશ",
+      "આસામ",
+      "બિહાર",
+      "ચંદીગઢ",
+      "છત્તીસગઢ",
+      "દાદરા અને નગર હવેલી અને દમણ અને દીવ",
+      "દિલ્હી",
+      "ગોવા",
+      "ગુજરાત",
+      "હરિયાણા",
+      "હિમાચલ પ્રદેશ",
+      "જમ્મુ અને કાશ્મીર",
+      "ઝારખંડ",
+      "કર્ણાટક",
+      "કેરળ",
+      "લદ્દાખ",
+      "લક્ષદ્વીપ",
+      "મધ્ય પ્રદેશ",
+      "મહારાષ્ટ્ર",
+      "મણિપુર",
+      "મેઘાલય",
+      "મિઝોરમ",
+      "નાગાલેન્ડ",
+      "ઓડિશા",
+      "પુડુચેરી",
+      "પંજાબ",
+      "રાજસ્થાન",
+      "સિક્કિમ",
+      "તમિલનાડુ",
+      "તેલંગાણા",
+      "ત્રિપુરા",
+      "ઉત્તર પ્રદેશ",
+      "ઉત્તરાખંડ",
+      "પશ્ચિમ બંગાળ"
+    ],
+    "interests": [],
+    "success": {
+      "title": "પૂછપરછ સફળતાપૂર્વક રજૂ કરવામાં આવી!",
+      "text": "અમારી સાથે ભાગીદારીમાં તમારી રુચિ બદલ આભાર. અમારી ટીમ તમારી પૂછપરછની સમીક્ષા કરશે અને ટૂંક સમયમાં તમારો સંપર્ક કરશે.",
+      "close": "સંદેશ બંધ કરો"
+    }
+  }
+}

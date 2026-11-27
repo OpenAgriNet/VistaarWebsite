@@ -8,14 +8,14 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { PartnerWithUs } from '@/components/layout/PartnerWithUs';
 import { TranslationStatus } from '@/components/layout/TranslationStatus';
+import { SkipLink } from '@/components/layout/SkipLink';
 import { defaultLocale } from '@/i18n/config';
-import enCommon from '@locales/en/common.json';
 import { fontVariables } from './fonts';
 
 export const metadata: Metadata = {
-  title: 'Bharat VISTAAR',
+  title: 'BharatVistaar',
   description:
-    'Bharat VISTAAR connects farmers with agricultural knowledge, technology and digital services.',
+    'BharatVistaar connects farmers with agricultural knowledge, technology and digital services.',
 };
 
 export const viewport: Viewport = {
@@ -34,9 +34,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         />
         <AppRouterCacheProvider>
           <AppProviders>
-            <a href="#main-content" className="skip-link">
-              {enCommon.skipToContent}
-            </a>
+            <SkipLink />
             <Header />
             <main id="main-content">{children}</main>
             <Footer />
