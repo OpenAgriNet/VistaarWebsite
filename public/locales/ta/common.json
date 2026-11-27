@@ -1,0 +1,302 @@
+{
+  "skipToContent": "முக்கிய உள்ளடக்கத்திற்குச் செல்லுங்கள்",
+  "language": {
+    "label": "மொழியைத் தேர்ந்தெடுக்கவும்",
+    "translating": "{language} க்கு மொழிபெயர்க்க, தயவுசெய்து காத்திருங்கள்",
+    "done": "பக்கம் மொழிபெயர்க்கப்பட்டது {language}",
+    "error": "மொழிபெயர்ப்பு தற்போது கிடைக்கவில்லை. சில உரைகள் ஆங்கிலத்தில் இருக்கலாம்."
+  },
+  "search": {
+    "label": "தேடல்",
+    "placeholder": "தேடல் ..........",
+    "submit": "தேடல்"
+  },
+  "accessibility": {
+    "open": "அணுகல் விருப்பங்கள்",
+    "title": "அணுகல் கட்டுப்பாடு",
+    "close": "அணுகல் விருப்பங்களை மூடு",
+    "darkContrast": "இருண்ட முரண்பாடு",
+    "invert": "தலைகீழாக",
+    "textSizeIncrease": "உரை அளவு அதிகரிப்பு",
+    "textSizeDecrease": "உரை அளவு குறைப்பு"
+  },
+  "header": {
+    "homeLink": "பாரத்விஸ்தார் இல்லம்",
+    "government": "இந்திய அரசு",
+    "ministry": "வேளாண் மற்றும் விவசாயிகள் நலத்துறை அமைச்சகம்",
+    "department": "வேளாண்மை மற்றும் விவசாயிகள் நலத்துறை",
+    "emblemAlt": "இந்தியாவின் மாநில சின்னம்",
+    "logoAlt": "பாரத்விஸ்தார்",
+    "openMenu": "மெனுவை திறக்கவும்",
+    "closeMenu": "மெனுவை மூடு",
+    "mainNav": "பிரதான வழிசெலுத்தல்",
+    "partnerWithUs": "எங்களுடன் கூட்டாளி"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "முகப்புப் பக்கம்",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "பற்றி",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "தாக்கம்",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "திறன்கள்",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "மாநிலங்கள்",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "இணைக்கவும்",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "ஆவணத்தை உட்கொள்ளுங்கள்",
+            "description": "உங்கள் அறிவு வளங்களை மேடையில் கொண்டு வாருங்கள்",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "உள்நுழையவும்",
+            "description": "விவசாய அறிவை அணுகுவதற்கான தனிப்பட்ட அனுபவத்தைக் கண்டறியவும்",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(ஒரு புதிய தாவலில் திறக்கிறது)"
+  },
+  "footer": {
+    "legalTitle": "சட்டபூர்வமான",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "தனியுரிமைக் கொள்கை",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "நிபந்தனைகள் மற்றும் நிபந்தனைகள்",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "மறுப்பு",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "தொடர்புகொள்ளவும்",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "புதுப்பிப்புகளுக்கு குழுசேரவும்",
+    "socials": [
+      {
+        "id": "x",
+        "label": "எக்ஸ் (ட்விட்டர்)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "யூடியூப்",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "ஃபேஸ்புக்",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "இன்ஸ்டாகிராம்",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "மைகோவ்",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "டிஜிட்டல் இந்தியா",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "எங்கள் செயலியைப் பதிவிறக்கவும்",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "கூகுள் பிளே ஸ்டோரில் கிடைக்கும்",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "ஆப் ஸ்டோரில் பதிவிறக்கவும்",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "சமீபத்திய புதுப்பிப்பு: 05:0226",
+    "ownership": "இந்திய அரசின் வேளாண்மை மற்றும் விவசாயிகள் நல அமைச்சகத்திற்குச் சொந்தமான மற்றும் நிர்வகிக்கப்படும் வலைத்தள உள்ளடக்கம்",
+    "opensInNewTab": "(ஒரு புதிய தாவலில் திறக்கிறது)"
+  },
+  "carousel": {
+    "label": "சிறப்பம்சங்கள்",
+    "slide": "{total} இன் ஸ்லைடு {current}",
+    "previous": "முந்தைய ஸ்லைடு",
+    "next": "அடுத்த ஸ்லைடு",
+    "goTo": "ஸ்லைடிற்குச் செல்லவும் {number}",
+    "pause": "ஸ்லைடுஷோவை இடைநிறுத்தவும்",
+    "play": "ஸ்லைடுஷோவை இயக்கவும்"
+  },
+  "announcements": {
+    "label": "அறிவிப்புகள்",
+    "pause": "அறிவிப்புகளை இடைநிறுத்தவும்",
+    "play": "அறிவிப்புகளை இயக்கவும்"
+  },
+  "slider": {
+    "previous": "முந்தைய",
+    "next": "அடுத்து",
+    "goTo": "{total} இன் உருப்படியை {number} காட்டு",
+    "previousCapability": "முந்தைய திறன்",
+    "nextCapability": "அடுத்த திறன்",
+    "previousTestimonial": "முந்தைய சாட்சி",
+    "nextTestimonial": "அடுத்த சாட்சி",
+    "previousUpdate": "முந்தைய புதுப்பிப்பு",
+    "nextUpdate": "அடுத்த புதுப்பிப்பு",
+    "previousPersona": "முந்தைய ஆளுமை",
+    "nextPersona": "அடுத்த நபர்"
+  },
+  "media": {
+    "video": "வீடியோ",
+    "instagramPost": "இன்ஸ்டாகிராம் பதிவு",
+    "opensInNewTab": "(ஒரு புதிய தாவலில் திறக்கிறது)"
+  },
+  "chatbot": {
+    "title": "அரட்டைப் பெட்டி",
+    "openFullPage": "ஒரு முழு பக்கத்தில் அரட்டை திறக்கவும் (ஒரு புதிய தாவலில் திறக்கிறது)",
+    "close": "அரட்டை மூடு",
+    "featureLabel": "புதிய அம்சம்",
+    "newBadge": "புதியது",
+    "featureText": "பாரதி இப்போது தெலுங்கு, பெங்காலி, குஜராத்தி மற்றும் 10 பிற மொழிகளில் பேச முடியும்",
+    "notifications": "அறிவிப்புகள்",
+    "language": "அரட்டை மொழி: ஆங்கிலம்",
+    "languageShort": "என",
+    "settings": "அரட்டை அமைப்புகள்",
+    "assistantName": "பாரதி",
+    "greeting": "வணக்கம்! நான் உங்கள் விவசாய உதவியாளர். இன்று நான் உங்களுக்கு எப்படி உதவ முடியும்?",
+    "suggestionsLabel": "கேட்கப்பட்ட கேள்விகள்",
+    "suggestions": [
+      "விதை அங்கீகாரத் திட்டம் பற்றிய தகவல் எனக்கு வேண்டும்",
+      "பிஎம்-கிசான் திட்டம் என்றால் என்ன, அதற்கு நான் எவ்வாறு விண்ணப்பிக்கலாம்?",
+      "கிசான் கிரெடிட் கார்டு திட்டம் பற்றி சொல்லுங்கள்"
+    ],
+    "inputLabel": "உங்கள் கேள்வியைக் கேளுங்கள்",
+    "inputPlaceholder": "உங்கள் கேள்வியைக் கேளுங்கள் ..........",
+    "attach": "இணைப்பைச் சேர்க்கவும்",
+    "voice": "குரல் மூலம் கேளுங்கள்",
+    "send": "கேள்வி அனுப்பவும்",
+    "disclaimer": "AI உருவாக்கிய உள்ளடக்கம். தேவைப்பட்டால் உள்ளூரில் சரிபார்க்கவும்"
+  },
+  "partner": {
+    "title": "விசாரணை படிவம்",
+    "subtitle": "உங்கள் விவரங்களை சமர்ப்பிக்கவும், எங்கள் கூட்டாண்மை குழு உங்களிடம் திரும்பப் பெறும்.",
+    "close": "படிவத்தை மூடு",
+    "fields": {
+      "fullName": {
+        "label": "முழுப் பெயர்",
+        "placeholder": "நுழையவும்"
+      },
+      "organisation": {
+        "label": "நிறுவனத்தின் பெயர்",
+        "placeholder": "நுழையவும்"
+      },
+      "email": {
+        "label": "மின்னஞ்சல் முகவரி",
+        "placeholder": "நுழையவும்"
+      },
+      "state": {
+        "label": "உங்கள் மாநிலத்தைத் தேர்ந்தெடுக்கவும்",
+        "placeholder": "நுழையவும்"
+      },
+      "interest": {
+        "label": "கூட்டாண்மை ஆர்வம்",
+        "placeholder": "தேர்ந்தெடுக்கவும்"
+      },
+      "description": {
+        "label": "திட்ட விவரம் சுருக்கமாக",
+        "placeholder": "நுழையவும்"
+      }
+    },
+    "requiredHint": "தேவை",
+    "errors": {
+      "required": "இந்த புலம் தேவைப்படுகிறது.",
+      "email": "செல்லுபடியாகும் மின்னஞ்சல் முகவரியை உள்ளிடவும்."
+    },
+    "submit": "விசாரணையை அனுப்பவும்",
+    "states": [
+      "அந்தமான் நிக்கோபார் தீவுகள்",
+      "ஆந்திரப் பிரதேசம்",
+      "அருணாச்சலப் பிரதேசம்",
+      "அசாம்",
+      "பீகார்",
+      "சண்டிகர்",
+      "சத்தீஸ்கர்",
+      "தாத்ரா மற்றும் நாகர் ஹவேலி மற்றும் டாமன் மற்றும் டையூ",
+      "டெல்லி",
+      "கோவா",
+      "குஜராத்",
+      "ஹரியானா",
+      "இமாச்சலப் பிரதேசம்",
+      "ஜம்மு காஷ்மீர்",
+      "ஜார்க்கண்ட்",
+      "கர்நாடகா",
+      "கேரளா",
+      "லடாக்",
+      "இலட்சத்தீவு",
+      "மத்தியப் பிரதேசம்",
+      "மஹாராஷ்டிரா",
+      "மணிப்பூர்",
+      "மேகாலயா",
+      "மிஸோராம்",
+      "நாகாலாந்து",
+      "ஒடிஷா",
+      "புதுச்சேரி",
+      "பஞ்சாப்",
+      "ராஜஸ்தான்",
+      "சிக்கிம்",
+      "தமிழ்நாடு",
+      "தெலுங்கானா",
+      "திரிபுரா",
+      "உத்தரப்பிரதேசம்",
+      "உத்தராகண்ட்",
+      "மேற்கு வங்காளம்"
+    ],
+    "interests": [],
+    "success": {
+      "title": "விசாரணை வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது!",
+      "text": "எங்களுடன் கூட்டுசேர்வதில் உங்கள் ஆர்வத்திற்கு நன்றி. எங்கள் குழு உங்கள் விசாரணையை மதிப்பாய்வு செய்து விரைவில் உங்களைத் தொடர்புகொள்ளும்.",
+      "close": "செய்தியை மூடு"
+    }
+  }
+}

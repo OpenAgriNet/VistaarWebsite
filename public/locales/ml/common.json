@@ -1,0 +1,302 @@
+{
+  "skipToContent": "പ്രധാന ഉള്ളടക്കത്തിലേക്ക് പോകുക",
+  "language": {
+    "label": "ഭാഷ തിരഞ്ഞെടുക്കുക",
+    "translating": "{language} ലേക്ക് വിവർത്തനം ചെയ്യുമ്പോൾ ദയവായി കാത്തിരിക്കുക",
+    "done": "{language} എന്നതിലേക്ക് വിവർത്തനം ചെയ്ത പേജ്",
+    "error": "വിവർത്തനം ഇപ്പോൾ ലഭ്യമല്ല. ചില പാഠങ്ങൾ ഇംഗ്ലീഷിൽ തന്നെ തുടരാം."
+  },
+  "search": {
+    "label": "തിരയൽ",
+    "placeholder": "തിരയുക ..........",
+    "submit": "തിരയൽ"
+  },
+  "accessibility": {
+    "open": "പ്രവേശന ഓപ്ഷനുകൾ",
+    "title": "പ്രവേശനക്ഷമത നിയന്ത്രണം",
+    "close": "പ്രവേശനക്ഷമത ഓപ്ഷനുകൾ അടയ്ക്കുക",
+    "darkContrast": "ഇരുണ്ട വൈരുദ്ധ്യം",
+    "invert": "വിപരീതമായി",
+    "textSizeIncrease": "വാചകത്തിൻറെ വലിപ്പം വർദ്ധിപ്പിക്കുക",
+    "textSizeDecrease": "വാചകത്തിൻറെ വലിപ്പം കുറയുന്നു"
+  },
+  "header": {
+    "homeLink": "ഭാരത് വിസ്താർ ഹോം",
+    "government": "ഇന്ത്യാ ഗവൺമെന്റ്",
+    "ministry": "കൃഷി, കർഷകക്ഷേമ മന്ത്രാലയം",
+    "department": "കൃഷി, കർഷകക്ഷേമ വകുപ്പ്",
+    "emblemAlt": "ഇന്ത്യയുടെ സംസ്ഥാന ചിഹ്നം",
+    "logoAlt": "ഭാരത് വിസ്താർ",
+    "openMenu": "മെനു തുറക്കുക",
+    "closeMenu": "മെനു അടയ്ക്കുക",
+    "mainNav": "പ്രധാന സഞ്ചാരപഥം",
+    "partnerWithUs": "ഞങ്ങളോടൊപ്പമുള്ള പങ്കാളി"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "വീട്",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "അതിനെക്കുറിച്ച്",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "സ്വാധീനം",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "കഴിവുകൾ",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "സംസ്ഥാനങ്ങൾ",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "കണക്ട് ചെയ്യുക",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "പ്രമാണം ഉൾക്കൊള്ളുക",
+            "description": "നിങ്ങളുടെ വിജ്ഞാന വിഭവങ്ങൾ പ്ലാറ്റ്ഫോമിലേക്ക് കൊണ്ടുവരിക",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "സൈൻ ഇൻ ചെയ്യുക",
+            "description": "കാർഷിക പരിജ്ഞാനം നേടുന്നതിനുള്ള വ്യക്തിഗത അനുഭവം കണ്ടെത്തുക",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(ഒരു പുതിയ ടാബിൽ തുറക്കുന്നു)"
+  },
+  "footer": {
+    "legalTitle": "നിയമപരമായി",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "സ്വകാര്യത നയം",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "നിബന്ധനകളും വ്യവസ്ഥകളും",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "നിരാകരണം",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "ബന്ധപ്പെടുക",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "അപ്ഡേറ്റുകൾക്കായി സബ്സ്ക്രൈബ് ചെയ്യുക",
+    "socials": [
+      {
+        "id": "x",
+        "label": "എക്സ് (ട്വിറ്റർ)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "യൂട്യൂബ്",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "ഫേസ്ബുക്ക്",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "ഇൻസ്റ്റഗ്രാം",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "മൈഗോവ്",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "ഡിജിറ്റൽ ഇന്ത്യ",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "ഞങ്ങളുടെ ആപ്പ് ഡൌൺലോഡ് ചെയ്യുക",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "ഇത് ഗൂഗിൾ പ്ലേയിൽ ലഭിക്കും",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "ആപ്പ് സ്റ്റോറിൽ നിന്ന് ഡൌൺലോഡ് ചെയ്യുക",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "ഏറ്റവും പുതിയ അപ്ഡേറ്റ്ഃ 05:0226",
+    "ownership": "ഇന്ത്യാ ഗവൺമെന്റിന്റെ കൃഷി, കർഷകക്ഷേമ മന്ത്രാലയത്തിന്റെ ഉടമസ്ഥതയിലുള്ളതും കൈകാര്യം ചെയ്യുന്നതുമായ വെബ്സൈറ്റ് ഉള്ളടക്കം",
+    "opensInNewTab": "(ഒരു പുതിയ ടാബിൽ തുറക്കുന്നു)"
+  },
+  "carousel": {
+    "label": "ഹൈലൈറ്റുകൾ",
+    "slide": "{total} ന്റെ സ്ലൈഡ് {current}",
+    "previous": "മുൻ സ്ലൈഡ്",
+    "next": "അടുത്ത സ്ലൈഡ്",
+    "goTo": "സ്ലൈഡിലേക്ക് പോകുക {number}",
+    "pause": "സ്ലൈഡ്ഷോ നിർത്തുക",
+    "play": "സ്ലൈഡ്ഷോ പ്ലേ ചെയ്യുക"
+  },
+  "announcements": {
+    "label": "പ്രഖ്യാപനങ്ങൾ",
+    "pause": "പ്രഖ്യാപനങ്ങൾ നിർത്തുക",
+    "play": "പ്രഖ്യാപനങ്ങൾ പ്ലേ ചെയ്യുക"
+  },
+  "slider": {
+    "previous": "മുൻപ്",
+    "next": "അടുത്തത്",
+    "goTo": "{total} ന്റെ ഇനം {number} കാണിക്കുക",
+    "previousCapability": "മുൻകാല ശേഷി",
+    "nextCapability": "അടുത്ത ശേഷി",
+    "previousTestimonial": "മുൻ സാക്ഷ്യപത്രം",
+    "nextTestimonial": "അടുത്ത സാക്ഷ്യപത്രം",
+    "previousUpdate": "മുമ്പത്തെ അപ്ഡേറ്റ്",
+    "nextUpdate": "അടുത്ത അപ്ഡേറ്റ്",
+    "previousPersona": "മുൻ വ്യക്തിത്വം",
+    "nextPersona": "അടുത്ത വ്യക്തി"
+  },
+  "media": {
+    "video": "വീഡിയോ",
+    "instagramPost": "ഇൻസ്റ്റഗ്രാം പോസ്റ്റ്",
+    "opensInNewTab": "(ഒരു പുതിയ ടാബിൽ തുറക്കുന്നു)"
+  },
+  "chatbot": {
+    "title": "ചാറ്റ് ബോട്ട്",
+    "openFullPage": "ഒരു പൂർണ്ണ പേജിൽ ചാറ്റ് തുറക്കുക (ഒരു പുതിയ ടാബിൽ തുറക്കുന്നു)",
+    "close": "ചാറ്റ് അടയ്ക്കുക",
+    "featureLabel": "പുതിയ സവിശേഷത",
+    "newBadge": "പുതിയത്",
+    "featureText": "ഭാരതിക്ക് ഇപ്പോൾ തെലുങ്ക്, ബംഗാളി, ഗുജറാത്തി, മറ്റ് 10 ഭാഷകൾ എന്നിവ സംസാരിക്കാൻ കഴിയും",
+    "notifications": "അറിയിപ്പുകൾ",
+    "language": "ചാറ്റ് ഭാഷഃ ഇംഗ്ലീഷ്",
+    "languageShort": "എന്നിട്ട്",
+    "settings": "ചാറ്റ് ക്രമീകരണങ്ങൾ",
+    "assistantName": "ഭാരതി",
+    "greeting": "നമസ്കാരം! ഞാൻ നിങ്ങളുടെ കാർഷിക സഹായിയാണ്. ഇന്ന് എനിക്ക് നിങ്ങളെ എങ്ങനെ സഹായിക്കാൻ കഴിയും?",
+    "suggestionsLabel": "നിർദ്ദേശിച്ച ചോദ്യങ്ങൾ",
+    "suggestions": [
+      "എനിക്ക് വിത്ത് പ്രാമാണീകരണ പദ്ധതിയെക്കുറിച്ചുള്ള വിവരങ്ങൾ വേണം",
+      "എന്താണ് പിഎം-കിസാൻ പദ്ധതി, അതിന് എനിക്ക് എങ്ങനെ അപേക്ഷിക്കാം?",
+      "കിസാൻ ക്രെഡിറ്റ് കാർഡ് പദ്ധതിയെക്കുറിച്ച് എന്നോട് പറയൂ"
+    ],
+    "inputLabel": "നിങ്ങളുടെ ചോദ്യം ചോദിക്കുക",
+    "inputPlaceholder": "നിങ്ങളുടെ ചോദ്യം ചോദിക്കുക ..........",
+    "attach": "അറ്റാച്ച്മെന്റ് ചേർക്കുക",
+    "voice": "ശബ്ദത്തിലൂടെ ചോദിക്കുക",
+    "send": "ചോദ്യം അയയ്ക്കുക",
+    "disclaimer": "എഐ സൃഷ്ടിച്ച ഉള്ളടക്കം. ആവശ്യമെങ്കിൽ പ്രാദേശികമായി പരിശോധിക്കുക"
+  },
+  "partner": {
+    "title": "അന്വേഷണ ഫോം",
+    "subtitle": "നിങ്ങളുടെ വിശദാംശങ്ങൾ സമർപ്പിക്കുക, ഞങ്ങളുടെ പങ്കാളിത്ത ടീം നിങ്ങളെ ബന്ധപ്പെടും.",
+    "close": "അടയ്ക്കുക ഫോം",
+    "fields": {
+      "fullName": {
+        "label": "മുഴുവൻ പേര്",
+        "placeholder": "പ്രവേശിക്കുക"
+      },
+      "organisation": {
+        "label": "സംഘടനയുടെ പേര്",
+        "placeholder": "പ്രവേശിക്കുക"
+      },
+      "email": {
+        "label": "ഇമെയിൽ വിലാസം",
+        "placeholder": "പ്രവേശിക്കുക"
+      },
+      "state": {
+        "label": "നിങ്ങളുടെ സംസ്ഥാനം തിരഞ്ഞെടുക്കുക",
+        "placeholder": "പ്രവേശിക്കുക"
+      },
+      "interest": {
+        "label": "പങ്കാളിത്ത താൽപ്പര്യം",
+        "placeholder": "തിരഞ്ഞെടുക്കുക"
+      },
+      "description": {
+        "label": "ഹ്രസ്വമായ പദ്ധതി വിവരണം",
+        "placeholder": "പ്രവേശിക്കുക"
+      }
+    },
+    "requiredHint": "ആവശ്യം",
+    "errors": {
+      "required": "ഈ ഫീൽഡ് ആവശ്യമാണ്.",
+      "email": "സാധുവായ ഒരു ഇമെയിൽ വിലാസം നൽകുക."
+    },
+    "submit": "അന്വേഷണം അയയ്ക്കുക",
+    "states": [
+      "ആൻഡമാൻ നിക്കോബാർ ദ്വീപുകൾ",
+      "ആന്ധ്രാപ്രദേശ്",
+      "അരുണാചൽ പ്രദേശ്",
+      "അസം",
+      "ബീഹാർ",
+      "ചണ്ഡീഗഡ്",
+      "ഛത്തീസ്ഗഡ്",
+      "ദാദ്ര നഗർ ഹവേലിയും ദാമൻ ദിയുവും",
+      "ഡൽഹി",
+      "ഗോവ",
+      "ഗുജറാത്ത്",
+      "ഹരിയാന",
+      "ഹിമാചൽ പ്രദേശ്",
+      "ജമ്മു കാശ്മീർ",
+      "ജാർഖണ്ഡ്",
+      "കർണാടക",
+      "കേരളം",
+      "ലഡാക്ക്",
+      "ലക്ഷദ്വീപ്",
+      "മധ്യപ്രദേശ്",
+      "മഹാരാഷ്ട്ര",
+      "മണിപ്പൂർ",
+      "മേഘാലയ",
+      "മിസോറാം",
+      "നാഗാലാൻഡ്",
+      "ഒഡീഷ",
+      "പുതുച്ചേരി",
+      "പഞ്ചാബ്",
+      "രാജസ്ഥാൻ",
+      "സിക്കിം",
+      "തമിഴ്നാട്",
+      "തെലങ്കാന",
+      "ത്രിപുര",
+      "ഉത്തർപ്രദേശ്",
+      "ഉത്തരാഖണ്ഡ്",
+      "പശ്ചിമ ബംഗാൾ"
+    ],
+    "interests": [],
+    "success": {
+      "title": "അന്വേഷണം വിജയകരമായി സമർപ്പിച്ചു!",
+      "text": "ഞങ്ങളോടൊപ്പം പങ്കാളിത്തം വഹിക്കാനുള്ള നിങ്ങളുടെ താൽപ്പര്യത്തിന് നന്ദി. ഞങ്ങളുടെ ടീം നിങ്ങളുടെ അന്വേഷണം അവലോകനം ചെയ്യുകയും ഉടൻ തന്നെ നിങ്ങളെ ബന്ധപ്പെടുകയും ചെയ്യും.",
+      "close": "സന്ദേശം അടയ്ക്കുക"
+    }
+  }
+}

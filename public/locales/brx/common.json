@@ -1,0 +1,302 @@
+{
+  "skipToContent": "गाहाय कन्टेन्टआव थां",
+  "language": {
+    "label": "रावखौ सायख '",
+    "translating": "{language} आव राव दानस्लायनाय, अन्नानै नेथ '",
+    "done": "बे बिलायाव राव दानस्लायनाय जादों {language}",
+    "error": "राव दानस्लायनायखौ दा मोननो हाया। माखासे बिजाबफोरा इंराजियाव थानो हागौ।"
+  },
+  "search": {
+    "label": "नागिर",
+    "placeholder": "नागिरना ला ..........",
+    "submit": "नागिर"
+  },
+  "accessibility": {
+    "open": "मोनथावना सायख 'नायफोर",
+    "title": "मोनथावनाखौ दबथायनाय",
+    "close": "सौहैनो हाथाव सायख 'नायफोरखौ बन्द' खालाम",
+    "darkContrast": "गोसोम फारागथि",
+    "invert": "उलथा खालाम",
+    "textSizeIncrease": "टेक्सटनि अरथाइखौ बांहो",
+    "textSizeDecrease": "टेक्सटनि साइजखौ बाङाइ खालाम"
+  },
+  "header": {
+    "homeLink": "भारतविस्तार गिबि बिलाइ'",
+    "government": "भारत सोरखार",
+    "ministry": "आबाद आरो आबादारि वॆल्फेयार मनत्रि",
+    "department": "आबाद आरो आबादारि वॆल्फेयार बिफान",
+    "emblemAlt": "भारतनि रायजोनि नेरसोन",
+    "logoAlt": "भारतविस्तार",
+    "openMenu": "मेनुखौ खेव",
+    "closeMenu": "मेनुखौ बन्द खालाम",
+    "mainNav": "गाहाय नेभिगेसन",
+    "partnerWithUs": "जोंजों लोगो ला"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "गिबि बिलाइ'",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "बेनि सोमोन्दै",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "गोहोम गोग्लैयो",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "गोहोफोर",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "रायजोफोर",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "फोनांजाब",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "खाख्रिखौ लाफा",
+            "description": "नोंथांनि गियाननि फुंखाफोरखौ प्लेटफर्मआव लाबो",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "साइन इन खालाम",
+            "description": "आबाद गियानखौ मोनहैनायनि मोनसे गावारि रोंमोनदांथि नागिरना दिहुन",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(मोनसे गोदान टेबाव खुलियो)"
+  },
+  "footer": {
+    "legalTitle": "आयेनारि",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "प्राइभेसि पलिसि",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "नेम आरो थासारिफोर",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "दाबि खालामै",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "सोमोन्दो खालाम",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "आपदेटफोरनि थाखाय साबस्क्राइब खालाम",
+    "socials": [
+      {
+        "id": "x",
+        "label": "एक्स (टुइटार)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "युटुब",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "फेसबुक",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "इनस्टाग्राम",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "मायगभ",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "डिजिटेल इन्डिया",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "जोंनि एपखौ डाउनल 'ड खालाम",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "बेखौ गुगोल प्लेआव मोन्नो हायो",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "एप स्टराव डाउनल 'ड खालाम",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "बावैसोनि आपदेट खालाम जानायः 05:0226",
+    "ownership": "आबाद आरो आबादारि वॆल्फेयार मिनिस्ट्रि, भारत सरकारजों सामलायजानाय आरो सामलायजानाय वेबसाइटनि आयदाफोर",
+    "opensInNewTab": "(मोनसे गोदान टेबाव खुलियो)"
+  },
+  "carousel": {
+    "label": "मख 'जाथावफोर",
+    "slide": "Slide {current} of {total}",
+    "previous": "सिगांनि स्लाइड",
+    "next": "उननि स्लाइड",
+    "goTo": "स्लाइडआव थां {number}",
+    "pause": "स्लाइडशोखौ थाद '",
+    "play": "स्लाइडशोखौ दाम"
+  },
+  "announcements": {
+    "label": "फोसावनायफोर",
+    "pause": "फोसावनायफोरखौ थाद '",
+    "play": "फोसावनायफोरखौ दाम"
+  },
+  "slider": {
+    "previous": "सिगांनि",
+    "next": "बिनि उनाव",
+    "goTo": "Show item {number} of {total}",
+    "previousCapability": "सिगांनि गोहो",
+    "nextCapability": "उननि गोहो",
+    "previousTestimonial": "सिगांनि फोरमान बिलाइ",
+    "nextTestimonial": "उननि फोरमान बिलाइ",
+    "previousUpdate": "सिगांनि आपदेट",
+    "nextUpdate": "उननि आपदेट",
+    "previousPersona": "सिगांनि सुबुंथि",
+    "nextPersona": "उननि सुबुंथि"
+  },
+  "media": {
+    "video": "वीडिय '",
+    "instagramPost": "इनस्टाग्राम पस्ट",
+    "opensInNewTab": "(मोनसे गोदान टेबाव खुलियो)"
+  },
+  "chatbot": {
+    "title": "चैटबट",
+    "openFullPage": "मोनसे आबुं बिलायाव चैटखौ खेव (मोनसे गोदान टेबआव खेवनाय)",
+    "close": "चैथखौ बन्द खालाम",
+    "featureLabel": "गोदान आखुथाय",
+    "newBadge": "गोदान",
+    "featureText": "भारतीआ दा तेलुगु, बेंगली, गुजराती आरो मोन 10 गुबुन रावफोराव रायज्लायनो हायो",
+    "notifications": "फोसावनायफोर",
+    "language": "चैटनि रावः इंराजि",
+    "languageShort": "आव",
+    "settings": "चैटनि सेटिंस",
+    "assistantName": "भारती",
+    "greeting": "हेलो! आं नोंनि आबाद हेफाजाबगिरि। दिनै आं नोंखौ बोरै मदद खालामनो हागोन?",
+    "suggestionsLabel": "सुबुरुन होनाय सोंथिफोर",
+    "suggestions": [
+      "आंनो बेगर फोरमान खालामनायनि सोमोन्दै खौरां नांगौ",
+      "पिएम-किसान स्किमआ मा आरो आं बेनि थाखाय बोरै आरज गाबनो हागोन?",
+      "किसान क्रेडिट कार्ड स्किमनि बागै आंनो खोन्था"
+    ],
+    "inputLabel": "नोंनि सोंनायखौ सों",
+    "inputPlaceholder": "नोंनि सोंनायखौ सों ..........",
+    "attach": "थाफानायखौ दाजाबदेर",
+    "voice": "गारांजों सों",
+    "send": "सों हर",
+    "disclaimer": "ए. आइ. जों दिहुनजानाय आयदा। गोनांथि जायोब्ला अन्नानै जायगायारि फोरमान खालाम"
+  },
+  "partner": {
+    "title": "सोंनायनि फर्म",
+    "subtitle": "नोंथांनि बुंफ्रुदलुफोरखौ जमा खालाम आरो जोंनि पार्टनारशिप टीमा नोंथांनाव फैफिनो।",
+    "close": "फर्मखौ बन्द खालाम",
+    "fields": {
+      "fullName": {
+        "label": "आबुं मुङा",
+        "placeholder": "सो"
+      },
+      "organisation": {
+        "label": "फसंथाननि मुङा",
+        "placeholder": "सो"
+      },
+      "email": {
+        "label": "इमेल थं",
+        "placeholder": "सो"
+      },
+      "state": {
+        "label": "नोंथांनि रायजोखौ सायख '",
+        "placeholder": "सो"
+      },
+      "interest": {
+        "label": "पार्टनारशिप इन्टारेस्ट",
+        "placeholder": "सायख '"
+      },
+      "description": {
+        "label": "गुसुं बिथांखि बरनायनाय",
+        "placeholder": "सो"
+      }
+    },
+    "requiredHint": "नांगौ जानाय",
+    "errors": {
+      "required": "बे फोथारनि गोनांथि दं।",
+      "email": "मोनसे थार इमेल थं हो।"
+    },
+    "submit": "सोंनायखौ हर",
+    "states": [
+      "आन्डामान आरो निक 'बार दिपफोर",
+      "अन्ध्र प्रदेश",
+      "अरुणाचल प्रदेश",
+      "आसामा",
+      "बिहार",
+      "चन्डीगढ़",
+      "छत्तीसगढ़",
+      "दादरा आरो नगर हवेली आरो दमन आरो दीव",
+      "दिल्ली",
+      "गवाया",
+      "गुजरात",
+      "हारियाना",
+      "हिमाचल प्रदेश",
+      "जम्मु-काश्मीर",
+      "झारखन्ड",
+      "कर्नाटकआ",
+      "केरेलाया",
+      "लादाख",
+      "लाक्षाद्बीप",
+      "मध्य प्रदेश",
+      "महाराष्ट्र",
+      "मणिपुर",
+      "मेघालय",
+      "मिज 'राम",
+      "नागालेन्ड",
+      "अडिशाया",
+      "पुडुचेरी",
+      "पान्जाब",
+      "राजस्थान",
+      "सिक्किम",
+      "तामिल नादु",
+      "तेलेंगानाया",
+      "त्रिपुराया",
+      "उत्तर प्रदेश",
+      "उत्तराखन्ड",
+      "सोनाब बेंगल"
+    ],
+    "interests": [],
+    "success": {
+      "title": "सोंनायखौ जाफुंसारनायै साबमिट खालामनाय जादों!",
+      "text": "जोंजों लोगो जानो गोसो जानायनि थाखाय नोंखौ बाख्नायो। जोंनि हानजाया नोंनि बिजिरसंनायखौ नायसंगोन आरो थाबैनो नोंनाव फैफिनो।",
+      "close": "मेसेजखौ बन्द खालाम"
+    }
+  }
+}

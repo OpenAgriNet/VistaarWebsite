@@ -1,0 +1,302 @@
+{
+  "skipToContent": "ప్రధాన అంశానికి దాటవేయండి",
+  "language": {
+    "label": "భాషను ఎంచుకోండి",
+    "translating": "{language} కు అనువదిస్తూ, దయచేసి వేచి ఉండండి",
+    "done": "పేజీకి అనువదించబడింది {language}",
+    "error": "అనువాదం ప్రస్తుతం అందుబాటులో లేదు. కొన్ని వచనాలు ఆంగ్లంలో ఉండవచ్చు."
+  },
+  "search": {
+    "label": "వెతకండి",
+    "placeholder": "వెతకండి ..........",
+    "submit": "వెతకండి"
+  },
+  "accessibility": {
+    "open": "ప్రాప్యత ఎంపికలు",
+    "title": "ప్రాప్యత నియంత్రణ",
+    "close": "ప్రాప్యత ఎంపికలను మూసివేయండి",
+    "darkContrast": "చీకటి వైరుధ్యం",
+    "invert": "తిరగండి",
+    "textSizeIncrease": "వచన పరిమాణం పెరుగుదల",
+    "textSizeDecrease": "వచన పరిమాణం తగ్గుముఖం"
+  },
+  "header": {
+    "homeLink": "భారత్ విస్తార్ హోమ్",
+    "government": "భారత ప్రభుత్వం",
+    "ministry": "వ్యవసాయ మరియు రైతు సంక్షేమ మంత్రిత్వ శాఖ",
+    "department": "వ్యవసాయ మరియు రైతు సంక్షేమ శాఖ",
+    "emblemAlt": "భారతదేశం యొక్క రాష్ట్ర చిహ్నం",
+    "logoAlt": "భారత్ విస్తార్",
+    "openMenu": "మెనూని తెరవండి",
+    "closeMenu": "మెనూని మూసివేయండి",
+    "mainNav": "ప్రధాన నావిగేషన్",
+    "partnerWithUs": "మాతో భాగస్వామి"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "ప్రధాన పేజీ",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "గురించి",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "ప్రభావం",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "సామర్థ్యాలు",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "రాష్ట్రాలు",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "కనెక్ట్ చేయండి",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "పత్రాన్ని తీసుకోండి",
+            "description": "మీ జ్ఞాన వనరులను వేదికపైకి తీసుకురండి",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "సైన్ ఇన్ చేయండి",
+            "description": "వ్యవసాయ పరిజ్ఞానాన్ని పొందడంలో వ్యక్తిగత అనుభవాన్ని కనుగొనండి",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(కొత్త ట్యాబ్లో తెరుస్తుంది)"
+  },
+  "footer": {
+    "legalTitle": "చట్టబద్ధమైనది",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "గోప్యతా విధానం",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "నిబంధనలు మరియు షరతులు",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "ప్రకటనకర్త",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "సంప్రదించండి",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "నవీకరణల కోసం సభ్యత్వాన్ని పొందండి",
+    "socials": [
+      {
+        "id": "x",
+        "label": "ఎక్స్ (ట్విట్టర్)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "యూట్యూబ్",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "ఫేస్బుక్",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "ఇన్స్టాగ్రామ్",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "మైగౌవ్",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "డిజిటల్ ఇండియా",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "మా యాప్ను డౌన్లోడ్ చేయండి",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "గూగుల్ ప్లే స్టోర్లో పొందండి",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "యాప్ స్టోర్లో డౌన్లోడ్ చేయండి",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "చివరిగా నవీకరించబడిందిః 05:0226",
+    "ownership": "భారత ప్రభుత్వ వ్యవసాయ మరియు రైతు సంక్షేమ మంత్రిత్వ శాఖ యాజమాన్యంలోని మరియు నిర్వహించే వెబ్సైట్ కంటెంట్",
+    "opensInNewTab": "(కొత్త ట్యాబ్లో తెరుస్తుంది)"
+  },
+  "carousel": {
+    "label": "ముఖ్యాంశాలు",
+    "slide": "{total} యొక్క స్లైడ్ {current}",
+    "previous": "మునుపటి స్లైడ్",
+    "next": "తదుపరి స్లైడ్",
+    "goTo": "స్లైడ్కి వెళ్ళండి {number}",
+    "pause": "స్లైడ్ షోను నిలిపివేయండి",
+    "play": "స్లైడ్ షోను ప్లే చేయండి"
+  },
+  "announcements": {
+    "label": "ప్రకటనలు",
+    "pause": "ప్రకటనలను నిలిపివేయండి",
+    "play": "ప్రకటనలను ప్లే చేయండి"
+  },
+  "slider": {
+    "previous": "మునుపటిది",
+    "next": "తదుపరి",
+    "goTo": "{total} లోని అంశం {number} చూపించు",
+    "previousCapability": "మునుపటి సామర్ధ్యం",
+    "nextCapability": "తదుపరి సామర్ధ్యం",
+    "previousTestimonial": "మునుపటి సాక్ష్యం",
+    "nextTestimonial": "తదుపరి సాక్ష్యం",
+    "previousUpdate": "మునుపటి నవీకరణ",
+    "nextUpdate": "తదుపరి నవీకరణ",
+    "previousPersona": "మునుపటి వ్యక్తి",
+    "nextPersona": "తదుపరి వ్యక్తి"
+  },
+  "media": {
+    "video": "వీడియో",
+    "instagramPost": "ఇన్స్టాగ్రామ్ పోస్ట్",
+    "opensInNewTab": "(కొత్త ట్యాబ్లో తెరుస్తుంది)"
+  },
+  "chatbot": {
+    "title": "చాట్బాట్",
+    "openFullPage": "పూర్తి పేజీలో చాట్ తెరవండి (కొత్త ట్యాబ్లో తెరుస్తుంది)",
+    "close": "సంభాషణను మూసివేయండి",
+    "featureLabel": "కొత్త ఫీచర్",
+    "newBadge": "కొత్తది",
+    "featureText": "భారతి ఇప్పుడు తెలుగు, బెంగాలీ, గుజరాతీ మరియు 10 ఇతర భాషలలో మాట్లాడగలదు",
+    "notifications": "నోటిఫికేషన్లు",
+    "language": "చాట్ భాషః ఆంగ్లం",
+    "languageShort": "ఎన్",
+    "settings": "చాట్ సెట్టింగులు",
+    "assistantName": "భారతి",
+    "greeting": "హలో! నేను మీ వ్యవసాయ సహాయకుడిని. ఈ రోజు నేను మీకు ఎలా సహాయం చేయగలను?",
+    "suggestionsLabel": "సూచించిన ప్రశ్నలు",
+    "suggestions": [
+      "నాకు విత్తన ధృవీకరణ పథకం గురించి సమాచారం కావాలి",
+      "పీఎం-కిసాన్ పథకం అంటే ఏమిటి, దాని కోసం నేను ఎలా దరఖాస్తు చేసుకోవచ్చు?",
+      "కిసాన్ క్రెడిట్ కార్డ్ పథకం గురించి చెప్పండి"
+    ],
+    "inputLabel": "మీ ప్రశ్న అడగండి",
+    "inputPlaceholder": "మీ ప్రశ్న అడగండి ..........",
+    "attach": "జోడింపు జోడించండి",
+    "voice": "వాయిస్ ద్వారా అడగండి",
+    "send": "ప్రశ్న పంపండి",
+    "disclaimer": "AI-సృష్టించిన కంటెంట్. అవసరమైతే దయచేసి స్థానికంగా ధృవీకరించండి"
+  },
+  "partner": {
+    "title": "విచారణ రూపం",
+    "subtitle": "మీ వివరాలను సమర్పించండి మరియు మా భాగస్వామ్య బృందం మీకు తిరిగి వస్తుంది.",
+    "close": "మూసివేసే రూపం",
+    "fields": {
+      "fullName": {
+        "label": "పూర్తి పేరు",
+        "placeholder": "ప్రవేశించండి"
+      },
+      "organisation": {
+        "label": "సంస్థ పేరు",
+        "placeholder": "ప్రవేశించండి"
+      },
+      "email": {
+        "label": "ఇమెయిల్ చిరునామా",
+        "placeholder": "ప్రవేశించండి"
+      },
+      "state": {
+        "label": "మీ రాష్ట్రాన్ని ఎంచుకోండి",
+        "placeholder": "ప్రవేశించండి"
+      },
+      "interest": {
+        "label": "భాగస్వామ్య ఆసక్తి",
+        "placeholder": "ఎంచుకోండి"
+      },
+      "description": {
+        "label": "ప్రాజెక్ట్ క్లుప్త వివరణ",
+        "placeholder": "ప్రవేశించండి"
+      }
+    },
+    "requiredHint": "అవసరం",
+    "errors": {
+      "required": "ఈ ఫీల్డ్ అవసరం.",
+      "email": "చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి."
+    },
+    "submit": "విచారణను పంపండి",
+    "states": [
+      "అండమాన్ మరియు నికోబార్ దీవులు",
+      "ఆంధ్రప్రదేశ్",
+      "అరుణాచల్ ప్రదేశ్",
+      "అస్సాం",
+      "బీహార్",
+      "చండీగఢ్",
+      "ఛత్తీస్గఢ్",
+      "దాద్రా మరియు నగర్ హవేలీ మరియు డామన్ మరియు డయ్యూ",
+      "ఢిల్లీ",
+      "గోవా",
+      "గుజరాత్",
+      "హర్యానా",
+      "హిమాచల్ ప్రదేశ్",
+      "జమ్మూ కాశ్మీర్",
+      "జార్ఖండ్",
+      "కర్ణాటక",
+      "కేరళ",
+      "లదాఖ్",
+      "లక్షద్వీప్లు",
+      "మధ్యప్రదేశ్",
+      "మహారాష్ట్ర",
+      "మణిపూర్",
+      "మేఘాలయ",
+      "మిజోరం",
+      "నాగాలాండ్",
+      "ఒడిశా",
+      "పుదుచ్చేరి",
+      "పంజాబ్",
+      "రాజస్థాన్",
+      "సిక్కిం",
+      "తమిళనాడు",
+      "తెలంగాణ",
+      "త్రిపుర",
+      "ఉత్తర ప్రదేశ్",
+      "ఉత్తరాఖండ్",
+      "పశ్చిమ బెంగాల్"
+    ],
+    "interests": [],
+    "success": {
+      "title": "విచారణ విజయవంతంగా సమర్పించబడింది!",
+      "text": "మాతో భాగస్వామ్యం కావడానికి మీ ఆసక్తికి ధన్యవాదాలు. మా బృందం మీ విచారణను సమీక్షించి, త్వరలో మిమ్మల్ని సంప్రదిస్తుంది.",
+      "close": "సందేశాన్ని మూసివేయండి"
+    }
+  }
+}

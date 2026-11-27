@@ -1,63 +1,81 @@
-# Bharat VISTAAR - Single Page Application
+# BV Website (BharatVistaar)
 
-Bharat VISTAAR (Virtual Information System for Technology-led Agricultural Advancement and Rural-development) is a National Digital Public Infrastructure (DPI) for Agriculture. This repository contains the frontend source code for the VISTAAR web platform.
+Static website built with **Next.js 16 · React 19 · MUI 9**, exported as plain HTML/CSS/JS and hosted on **AWS S3** (with CloudFront for HTTPS).
 
-## 🚀 Key Features
+## Requirements
 
-- **Unified Dashboard**: Personalized crop health and weather alerts.
-- **AI-Driven Advisories**: Advanced machine learning models for agricultural insights.
-- **Multilingual Support**: Interface available in 22+ regional Indian languages.
-- **Interactive States Section**: Information on how various states and partners integrate with the ecosystem.
-- **Responsive Design**: Premium, pixel-perfect UI optimized for all devices.
+- Node **24** (`nvm use` reads `.nvmrc`)
 
-## 🛠 Tech Stack
+## Commands
 
-- **Framework**: [React](https://reactjs.org/) with [TypeScript](https://www.typescriptlang.org/)
-- **Build Tool**: [Vite](https://vitejs.dev/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+| Command                    | What it does                                                    |
+| -------------------------- | --------------------------------------------------------------- |
+| `npm run dev`              | Local development server                                        |
+| `npm run build`            | Static export to `out/`                                         |
+| `npm run preview`          | Serves `out/` the way S3 does (http://localhost:4173)           |
+| `npm run lint`             | ESLint, including the styling rules below                       |
+| `npm run typecheck`        | TypeScript check                                                |
+| `npm run format`           | Prettier                                                        |
+| `npm run images -- <file>` | Convert a photo to WebP manually (normally automatic on commit) |
 
-## 📦 Getting Started
+## Project structure
 
-### Prerequisites
+```
+public/locales/en/     All text: common.json (UI labels), home.json (page content)
+public/images/         Photos — WebP only (converted automatically on commit)
+public/icons, logos/   SVG assets
+src/app/               Routes: page.tsx composes sections; <page>.styles.ts for page-level styles
+src/theme/tokens.ts    ★ Every raw design value (colours, type scale, spacing, sizes)
+src/theme/theme.ts     MUI theme built from tokens + global component overrides
+src/styles/            Global CSS (MUI GlobalStyles)
+src/sections/home/     One folder per Home section: Name.tsx + Name.styles.ts + index.ts
+src/components/ui/     Shared building blocks (Icon, SectionHeader, StatCard …)
+src/components/layout/ Site chrome: Header (GovLockup, SearchBox, TopBarActions, MainNav, MobileMenu), Footer, AccessibilityPanel, LanguageSwitcher
+src/accessibility/     `accessibility` package wiring (headless) + Dark Contrast
+src/i18n/              Language config + provider (English now, more later)
+src/services/          Data access — the only place that knows where content comes from
+src/types/             Content types (contract with the future API)
+scripts/               optimize-images.mjs (pre-commit), preview.mjs
+```
 
-- [Node.js](https://nodejs.org/) (v18 or higher)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+## Styling rules (enforced by ESLint)
 
-### Installation
+1. `.tsx` files contain markup only — **no `sx` and no `style` props**.
+2. Every component/page has its own `*.styles.ts` file using MUI `styled()`.
+3. `*.styles.ts` files use **theme values only** — no hex, rgb, `px` strings or raw numbers.
+4. Raw values live **only** in `src/theme/tokens.ts`.
+5. Read colours as `(theme.vars ?? theme).palette.…` so Dark Contrast applies.
+6. Mobile first: base styles = Figma mobile frame (375); `theme.breakpoints.up('lg')` = desktop frame (1440).
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/GoodWorkLabs-Team/Bharat-VISTAAR-Website.git
-   ```
+## Design source & DBIM
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+Tokens follow the Figma exactly. Values that differ from the GoI DBIM guidelines are marked
+`DBIM:` in `tokens.ts` — switching to DBIM is a change to that file only.
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+## Images
 
-### Building for Production
+Drop a PNG/JPG into `public/images/` and commit. The pre-commit hook converts it to WebP,
+resizes it, removes the original and warns if it exceeds the DBIM limit:
 
-To create an optimized production build:
+| Folder                                         | Max width | Limit  |
+| ---------------------------------------------- | --------- | ------ |
+| `public/images/thumbnails/`                    | 640px     | 100 KB |
+| `public/images/hi-res/`                        | original  | 5 MB   |
+| `public/images/` (banners, backgrounds, cards) | 1920px    | 500 KB |
+
+Icons, logos and the State Emblem are SVG (`public/icons/`, `public/logos/`).
+
+## Deployment (S3)
+
 ```bash
 npm run build
+aws s3 sync out/ s3://<bucket> --delete
 ```
-The output will be generated in the `dist/` folder.
 
-## 📂 Project Structure
+- Set `404.html` as the S3 error document.
+- Cache: `*.html` → `no-cache`; `/_next/static/*` → `max-age=31536000, immutable`.
 
-- `src/components/layout/`: Global layout components (Navbar, Footer, Topbar).
-- `src/components/sections/`: Individual page sections (Home, HowItWorks, Impact, States, Backing).
-- `src/components/ui/`: Reusable UI components (Modals, Buttons).
-- `src/Assets/`: Static SVGs and Images used in components.
-- `public/`: Static assets served directly (Favicon, robots.txt).
-- `.github/workflows/`: CI/CD deployment configurations.
+## Adding a language later
 
----
-Built with ❤️ for Indian Farmers.
+Add `public/locales/<code>/common.json` + `home.json`, add the language in `src/i18n/config.ts`,
+and enable the localStorage switch in `LanguageProvider`. URLs stay the same.

@@ -1,0 +1,302 @@
+{
+  "skipToContent": "ਮੁੱਖ ਸਮੱਗਰੀ ਵੱਲ ਜਾਓ",
+  "language": {
+    "label": "ਭਾਸ਼ਾ ਚੁਣੋ",
+    "translating": "{language} ਵਿੱਚ ਅਨੁਵਾਦ ਕਰਦੇ ਹੋਏ, ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ",
+    "done": "ਸਫ਼ੇ ਦਾ ਅਨੁਵਾਦ ਕੀਤਾ ਗਿਆ {language}",
+    "error": "ਅਨੁਵਾਦ ਇਸ ਵੇਲੇ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਕੁਝ ਪਾਠ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਰਹਿ ਸਕਦੇ ਹਨ।"
+  },
+  "search": {
+    "label": "ਖੋਜ ਕਰੋ",
+    "placeholder": "ਖੋਜ ..........",
+    "submit": "ਖੋਜ ਕਰੋ"
+  },
+  "accessibility": {
+    "open": "ਪਹੁੰਚ ਵਿਕਲਪ",
+    "title": "ਪਹੁੰਚਯੋਗਤਾ ਕੰਟਰੋਲ",
+    "close": "ਪਹੁੰਚਯੋਗਤਾ ਵਿਕਲਪ ਬੰਦ ਕਰੋ",
+    "darkContrast": "ਡਾਰਕ ਕੰਟਰਾਸਟ",
+    "invert": "ਉਲਟਾ ਕਰੋ",
+    "textSizeIncrease": "ਟੈਕਸਟ ਦਾ ਅਕਾਰ ਵਧਾਓ",
+    "textSizeDecrease": "ਟੈਕਸਟ ਦਾ ਅਕਾਰ ਘਟਾਓ"
+  },
+  "header": {
+    "homeLink": "ਭਾਰਤ ਵਿਸਤਾਰ ਮੁੱਖ ਸਫ਼ਾ",
+    "government": "ਭਾਰਤ ਸਰਕਾਰ",
+    "ministry": "ਖੇਤੀਬਾਡ਼ੀ ਅਤੇ ਕਿਸਾਨ ਭਲਾਈ ਮੰਤਰਾਲਾ",
+    "department": "ਖੇਤੀਬਾਡ਼ੀ ਅਤੇ ਕਿਸਾਨ ਭਲਾਈ ਵਿਭਾਗ",
+    "emblemAlt": "ਭਾਰਤ ਦਾ ਰਾਜ ਚਿੰਨ੍ਹ",
+    "logoAlt": "ਭਾਰਤ ਵਿਸਤਾਰ",
+    "openMenu": "ਮੇਨੂ ਖੋਲ੍ਹੋ",
+    "closeMenu": "ਮੇਨੂ ਬੰਦ ਕਰੋ",
+    "mainNav": "ਮੁੱਖ ਨੇਵੀਗੇਸ਼ਨ",
+    "partnerWithUs": "ਸਾਡੇ ਨਾਲ ਭਾਈਵਾਲ"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "ਮੁੱਖ ਸਫ਼ਾ",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "ਬਾਰੇ",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "ਪ੍ਰਭਾਵ",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "ਸਮਰੱਥਾ",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "ਰਾਜ",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "ਕੁਨੈਕਟ ਕਰੋ",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "ਦਸਤਾਵੇਜ਼ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ",
+            "description": "ਆਪਣੇ ਗਿਆਨ ਸਰੋਤਾਂ ਨੂੰ ਪਲੇਟਫਾਰਮ 'ਤੇ ਲਿਆਓ",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "ਸਾਈਨ ਇਨ ਕਰੋ",
+            "description": "ਖੇਤੀਬਾਡ਼ੀ ਗਿਆਨ ਤੱਕ ਪਹੁੰਚਣ ਦਾ ਇੱਕ ਵਿਅਕਤੀਗਤ ਅਨੁਭਵ ਲੱਭੋ",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(ਇੱਕ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੁੱਲਦਾ ਹੈ)"
+  },
+  "footer": {
+    "legalTitle": "ਕਾਨੂੰਨੀ",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "ਗੋਪਨੀਯਤਾ ਨੀਤੀ",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "ਡਿਸਕਲੇਮਰ",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "ਸੰਪਰਕ ਕਰੋ",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "ਅੱਪਡੇਟ ਲਈ ਸਬਸਕ੍ਰਾਈਬ ਕਰੋ",
+    "socials": [
+      {
+        "id": "x",
+        "label": "ਐਕਸ (ਟਵਿੱਟਰ)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "ਯੂਟਿਊਬ",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "ਫੇਸਬੁਕ",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "ਇੰਸਟਾਗ੍ਰਾਮ",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "ਮਾਈਗੌਵ",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "ਡਿਜੀਟਲ ਇੰਡੀਆ",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "ਸਾਡਾ ਐਪ ਡਾਊਨਲੋਡ ਕਰੋ",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "ਇਸ ਨੂੰ ਗੂਗਲ ਪਲੇ 'ਤੇ ਪ੍ਰਾਪਤ ਕਰੋ",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "ਐਪ ਸਟੋਰ ਤੋਂ ਡਾਊਨਲੋਡ ਕਰੋ",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "ਤਾਜ਼ਾ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆਃ 05:0226",
+    "ownership": "ਖੇਤੀਬਾਡ਼ੀ ਅਤੇ ਕਿਸਾਨ ਭਲਾਈ ਮੰਤਰਾਲਾ, ਭਾਰਤ ਸਰਕਾਰ ਦੁਆਰਾ ਮਲਕੀਅਤ ਅਤੇ ਪ੍ਰਬੰਧਿਤ ਵੈੱਬਸਾਈਟ ਸਮੱਗਰੀ",
+    "opensInNewTab": "(ਇੱਕ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੁੱਲਦਾ ਹੈ)"
+  },
+  "carousel": {
+    "label": "ਮੁੱਖ ਗੱਲਾਂ",
+    "slide": "{total} ਦੀ ਸਲਾਈਡ {current}",
+    "previous": "ਪਿਛਲੀ ਸਲਾਈਡ",
+    "next": "ਅਗਲੀ ਸਲਾਈਡ",
+    "goTo": "ਸਲਾਈਡ ਉੱਤੇ ਜਾਓ {number}",
+    "pause": "ਸਲਾਈਡ ਸ਼ੋਅ ਨੂੰ ਰੱਖੋ",
+    "play": "ਸਲਾਈਡ ਸ਼ੋਅ ਚਲਾਓ"
+  },
+  "announcements": {
+    "label": "ਘੋਸ਼ਣਾਵਾਂ",
+    "pause": "ਘੋਸ਼ਣਾਵਾਂ ਨੂੰ ਰੋਕਣਾ",
+    "play": "ਘੋਸ਼ਣਾਵਾਂ ਚਲਾਓ"
+  },
+  "slider": {
+    "previous": "ਪਹਿਲਾਂ",
+    "next": "ਅਗਲਾ",
+    "goTo": "{total} ਦੀ ਆਈਟਮ {number} ਵੇਖੋ",
+    "previousCapability": "ਪਿਛਲੀ ਸਮਰੱਥਾ",
+    "nextCapability": "ਅਗਲੀ ਸਮਰੱਥਾ",
+    "previousTestimonial": "ਪਿਛਲੀ ਗਵਾਹੀ",
+    "nextTestimonial": "ਅਗਲੀ ਗਵਾਹੀ",
+    "previousUpdate": "ਪਿਛਲਾ ਅੱਪਡੇਟ",
+    "nextUpdate": "ਅਗਲਾ ਅਪਡੇਟ",
+    "previousPersona": "ਪਿਛਲੀ ਸ਼ਖਸੀਅਤ",
+    "nextPersona": "ਅਗਲੀ ਸ਼ਖਸੀਅਤ"
+  },
+  "media": {
+    "video": "ਵੀਡੀਓ",
+    "instagramPost": "ਇੰਸਟਾਗ੍ਰਾਮ ਪੋਸਟ",
+    "opensInNewTab": "(ਇੱਕ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੁੱਲਦਾ ਹੈ)"
+  },
+  "chatbot": {
+    "title": "ਚੈਟਬੋਟ",
+    "openFullPage": "ਇੱਕ ਪੂਰੇ ਪੰਨੇ ਵਿੱਚ ਗੱਲਬਾਤ ਖੋਲ੍ਹੋ (ਇੱਕ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੁੱਲਦਾ ਹੈ)",
+    "close": "ਗੱਲਬਾਤ ਬੰਦ ਕਰੋ",
+    "featureLabel": "ਨਵੀਂ ਵਿਸ਼ੇਸ਼ਤਾ",
+    "newBadge": "ਨਵਾਂ",
+    "featureText": "ਭਾਰਤੀ ਹੁਣ ਤੇਲਗੂ, ਬੰਗਾਲੀ, ਗੁਜਰਾਤੀ ਅਤੇ 10 ਹੋਰ ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਗੱਲਬਾਤ ਕਰ ਸਕਦੀ ਹੈ",
+    "notifications": "ਸੂਚਨਾਵਾਂ",
+    "language": "ਗੱਲਬਾਤ ਦੀ ਭਾਸ਼ਾਃ ਅੰਗਰੇਜ਼ੀ",
+    "languageShort": "ਐਨ",
+    "settings": "ਗੱਲਬਾਤ ਸੈਟਿੰਗ",
+    "assistantName": "ਭਾਰਤੀ",
+    "greeting": "ਹੈਲੋ! ਮੈਂ ਤੁਹਾਡਾ ਖੇਤੀਬਾਡ਼ੀ ਸਹਾਇਕ ਹਾਂ। ਮੈਂ ਅੱਜ ਤੁਹਾਡੀ ਕਿਵੇਂ ਮਦਦ ਕਰ ਸਕਦਾ ਹਾਂ?",
+    "suggestionsLabel": "ਸੁਝਾਏ ਗਏ ਸਵਾਲ",
+    "suggestions": [
+      "ਮੈਨੂੰ ਬੀਜ ਪ੍ਰਮਾਣਿਕਤਾ ਸਕੀਮ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ",
+      "ਪ੍ਰਧਾਨ ਮੰਤਰੀ-ਕਿਸਾਨ ਯੋਜਨਾ ਕੀ ਹੈ ਅਤੇ ਮੈਂ ਇਸ ਲਈ ਕਿਵੇਂ ਅਰਜ਼ੀ ਦੇ ਸਕਦਾ ਹਾਂ?",
+      "ਮੈਨੂੰ ਕਿਸਾਨ ਕ੍ਰੈਡਿਟ ਕਾਰਡ ਸਕੀਮ ਬਾਰੇ ਦੱਸੋ"
+    ],
+    "inputLabel": "ਆਪਣੇ ਸਵਾਲ ਪੁੱਛੋ",
+    "inputPlaceholder": "ਆਪਣਾ ਸਵਾਲ ਪੁੱਛੋ ..........",
+    "attach": "ਅਟੈਚਮੈਂਟ ਸ਼ਾਮਲ ਕਰੋ",
+    "voice": "ਆਵਾਜ਼ ਰਾਹੀਂ ਪੁੱਛੋ",
+    "send": "ਸਵਾਲ ਭੇਜੋ",
+    "disclaimer": "ਏਆਈ ਦੁਆਰਾ ਤਿਆਰ ਕੀਤੀ ਸਮੱਗਰੀ। ਜੇ ਲੋਡ਼ ਹੋਵੇ ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਸਥਾਨਕ ਤੌਰ ਉੱਤੇ ਤਸਦੀਕ ਕਰੋ"
+  },
+  "partner": {
+    "title": "ਪੁੱਛਗਿੱਛ ਫਾਰਮ",
+    "subtitle": "ਆਪਣੇ ਵੇਰਵੇ ਜਮ੍ਹਾਂ ਕਰੋ ਅਤੇ ਸਾਡੀ ਭਾਈਵਾਲੀ ਟੀਮ ਤੁਹਾਡੇ ਕੋਲ ਵਾਪਸ ਆ ਜਾਵੇਗੀ।",
+    "close": "ਫਾਰਮ ਬੰਦ ਕਰੋ",
+    "fields": {
+      "fullName": {
+        "label": "ਪੂਰਾ ਨਾਮ",
+        "placeholder": "ਦਾਖਲ ਕਰੋ"
+      },
+      "organisation": {
+        "label": "ਸੰਸਥਾ ਦਾ ਨਾਮ",
+        "placeholder": "ਦਾਖਲ ਕਰੋ"
+      },
+      "email": {
+        "label": "ਈਮੇਲ ਪਤਾ",
+        "placeholder": "ਦਾਖਲ ਕਰੋ"
+      },
+      "state": {
+        "label": "ਆਪਣਾ ਰਾਜ ਚੁਣੋ",
+        "placeholder": "ਦਾਖਲ ਕਰੋ"
+      },
+      "interest": {
+        "label": "ਭਾਈਵਾਲੀ ਹਿੱਤ",
+        "placeholder": "ਚੁਣੋ"
+      },
+      "description": {
+        "label": "ਪ੍ਰੋਜੈਕਟ ਦਾ ਸੰਖੇਪ ਵੇਰਵਾ",
+        "placeholder": "ਦਾਖਲ ਕਰੋ"
+      }
+    },
+    "requiredHint": "ਲੋਡ਼ ਹੈ",
+    "errors": {
+      "required": "ਇਹ ਖੇਤਰ ਲੋਡ਼ੀਂਦਾ ਹੈ।",
+      "email": "ਇੱਕ ਵੈਧ ਈਮੇਲ ਪਤਾ ਦਰਜ ਕਰੋ।"
+    },
+    "submit": "ਪੁੱਛਗਿੱਛ ਭੇਜੋ",
+    "states": [
+      "ਅੰਡੇਮਾਨ ਅਤੇ ਨਿਕੋਬਾਰ ਟਾਪੂ",
+      "ਆਂਧਰਾ ਪ੍ਰਦੇਸ਼",
+      "ਅਰੁਣਾਚਲ ਪ੍ਰਦੇਸ਼",
+      "ਅਸਾਮ",
+      "ਬਿਹਾਰ",
+      "ਚੰਡੀਗਡ਼੍ਹ",
+      "ਛੱਤੀਸਗਡ਼੍ਹ",
+      "ਦਾਦਰਾ ਅਤੇ ਨਗਰ ਹਵੇਲੀ ਅਤੇ ਦਮਨ ਅਤੇ ਦੀਵ",
+      "ਦਿੱਲੀ",
+      "ਗੋਆ",
+      "ਗੁਜਰਾਤ",
+      "ਹਰਿਆਣਾ",
+      "ਹਿਮਾਚਲ ਪ੍ਰਦੇਸ਼",
+      "ਜੰਮੂ-ਕਸ਼ਮੀਰ",
+      "ਝਾਰਖੰਡ",
+      "ਕਰਨਾਟਕ",
+      "ਕੇਰਲ",
+      "ਲੱਦਾਖ",
+      "ਲਕਸ਼ਦੀਪ",
+      "ਮੱਧ ਪ੍ਰਦੇਸ਼",
+      "ਮਹਾਰਾਸ਼ਟਰ",
+      "ਮਣੀਪੁਰ",
+      "ਮੇਘਾਲਿਆ",
+      "ਮਿਜ਼ੋਰਮ",
+      "ਨਾਗਾਲੈਂਡ",
+      "ਓਡੀਸ਼ਾ",
+      "ਪੁਦੂਚੇਰੀ",
+      "ਪੰਜਾਬ",
+      "ਰਾਜਸਥਾਨ",
+      "ਸਿੱਕਮ",
+      "ਤਾਮਿਲਨਾਡੂ",
+      "ਤੇਲੰਗਾਨਾ",
+      "ਤ੍ਰਿਪੁਰਾ",
+      "ਉੱਤਰ ਪ੍ਰਦੇਸ਼",
+      "ਉੱਤਰਾਖੰਡ",
+      "ਪੱਛਮੀ ਬੰਗਾਲ"
+    ],
+    "interests": [],
+    "success": {
+      "title": "ਪੁੱਛਗਿੱਛ ਸਫਲਤਾਪੂਰਵਕ ਪੇਸ਼ ਕੀਤੀ ਗਈ!",
+      "text": "ਸਾਡੇ ਨਾਲ ਭਾਈਵਾਲੀ ਕਰਨ ਵਿੱਚ ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਲਈ ਧੰਨਵਾਦ। ਸਾਡੀ ਟੀਮ ਤੁਹਾਡੀ ਪੁੱਛਗਿੱਛ ਦੀ ਸਮੀਖਿਆ ਕਰੇਗੀ ਅਤੇ ਜਲਦੀ ਹੀ ਤੁਹਾਡੇ ਕੋਲ ਵਾਪਸ ਆਵੇਗੀ।",
+      "close": "ਸੁਨੇਹਾ ਬੰਦ ਕਰੋ"
+    }
+  }
+}

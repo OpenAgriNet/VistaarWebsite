@@ -1,0 +1,302 @@
+{
+  "skipToContent": "ಮುಖ್ಯ ವಿಷಯಕ್ಕೆ ಬಿಟ್ಟುಬಿಡಿ",
+  "language": {
+    "label": "ಭಾಷೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ",
+    "translating": "{language} ಗೆ ಭಾಷಾಂತರಿಸುವಾಗ, ದಯವಿಟ್ಟು ಕಾಯಿರಿ",
+    "done": "ಪುಟಕ್ಕೆ ಅನುವಾದಿಸಲಾಗಿದೆ {language}",
+    "error": "ಅನುವಾದವು ಪ್ರಸ್ತುತ ಲಭ್ಯವಿಲ್ಲ. ಕೆಲವು ಪಠ್ಯಗಳು ಇಂಗ್ಲಿಷ್ನಲ್ಲಿಯೇ ಉಳಿಯಬಹುದು."
+  },
+  "search": {
+    "label": "ಹುಡುಕಿ",
+    "placeholder": "ಹುಡುಕಿ ..........",
+    "submit": "ಹುಡುಕಿ"
+  },
+  "accessibility": {
+    "open": "ಲಭ್ಯತೆ ಆಯ್ಕೆಗಳು",
+    "title": "ಪ್ರವೇಶಸಾಧ್ಯತೆ ನಿಯಂತ್ರಣ",
+    "close": "ಲಭ್ಯತೆ ಆಯ್ಕೆಗಳನ್ನು ಮುಚ್ಚಿ",
+    "darkContrast": "ಗಾಢ ಕಾಂಟ್ರಾಸ್ಟ್",
+    "invert": "ತಿರುಗಿಸಿ",
+    "textSizeIncrease": "ಪಠ್ಯದ ಗಾತ್ರ ಹೆಚ್ಚಳ",
+    "textSizeDecrease": "ಪಠ್ಯದ ಗಾತ್ರ ಕಡಿಮೆಯಾಗುತ್ತದೆ"
+  },
+  "header": {
+    "homeLink": "ಭಾರತ್ ವಿಸ್ತಾರ್ ಮುಖಪುಟ",
+    "government": "ಭಾರತ ಸರ್ಕಾರ",
+    "ministry": "ಕೃಷಿ ಮತ್ತು ರೈತರ ಕಲ್ಯಾಣ ಸಚಿವಾಲಯ",
+    "department": "ಕೃಷಿ ಮತ್ತು ರೈತರ ಕಲ್ಯಾಣ ಇಲಾಖೆ",
+    "emblemAlt": "ಭಾರತದ ರಾಜ್ಯ ಲಾಂಛನ",
+    "logoAlt": "ಭಾರತ್ ವಿಸ್ತಾರ್",
+    "openMenu": "ತೆರೆದ ಮೆನು",
+    "closeMenu": "ಮೆನುವನ್ನು ಮುಚ್ಚಿ",
+    "mainNav": "ಮುಖ್ಯ ನೌಕಾಯಾನ",
+    "partnerWithUs": "ನಮ್ಮೊಂದಿಗೆ ಪಾಲುದಾರರಾಗಿ"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "ಮುಖಪುಟ",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "ಬಗ್ಗೆ",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "ಪರಿಣಾಮ",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "ಸಾಮರ್ಥ್ಯಗಳು",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "ರಾಜ್ಯಗಳು",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "ಸಂಪರ್ಕ ಕಲ್ಪಿಸಿ",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "ಡಾಕ್ಯುಮೆಂಟ್ ಅನ್ನು ಸೇವಿಸಿ",
+            "description": "ನಿಮ್ಮ ಜ್ಞಾನ ಸಂಪನ್ಮೂಲಗಳನ್ನು ವೇದಿಕೆಗೆ ತನ್ನಿ",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "ಸೈನ್ ಇನ್ ಮಾಡಿ",
+            "description": "ಕೃಷಿ ಜ್ಞಾನವನ್ನು ಪಡೆಯುವ ವೈಯಕ್ತಿಕ ಅನುಭವವನ್ನು ಕಂಡುಕೊಳ್ಳಿ",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(ಹೊಸ ಟ್ಯಾಬ್ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ)"
+  },
+  "footer": {
+    "legalTitle": "ಕಾನೂನುಬದ್ಧ",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "ಗೌಪ್ಯತೆ ನೀತಿ",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "ಹಕ್ಕು ನಿರಾಕರಣೆ",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "ಸಂಪರ್ಕಿಸಿ",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "ನವೀಕರಣಗಳಿಗಾಗಿ ಚಂದಾದಾರರಾಗಿ",
+    "socials": [
+      {
+        "id": "x",
+        "label": "ಎಕ್ಸ್ (ಟ್ವಿಟರ್)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "ಯೂಟ್ಯೂಬ್",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "ಫೇಸ್ಬುಕ್",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "ಇನ್ಸ್ಟಾಗ್ರಾಮ್",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "ಮೈಗೌವ್",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "ಡಿಜಿಟಲ್ ಇಂಡಿಯಾ",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "ನಮ್ಮ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "ಗೂಗಲ್ ಪ್ಲೇನಲ್ಲಿ ಹುಡುಕಿ",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "ಆಪ್ ಸ್ಟೋರ್ನಲ್ಲಿ ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "ಇತ್ತೀಚಿನ ಅಪ್ಡೇಟ್ ದಿನಾಂಕಃ 05:0226",
+    "ownership": "ಭಾರತ ಸರ್ಕಾರದ ಕೃಷಿ ಮತ್ತು ರೈತರ ಕಲ್ಯಾಣ ಸಚಿವಾಲಯದ ಒಡೆತನದಲ್ಲಿರುವ ಮತ್ತು ನಿರ್ವಹಿಸುತ್ತಿರುವ ಜಾಲತಾಣದ ವಿಷಯ",
+    "opensInNewTab": "(ಹೊಸ ಟ್ಯಾಬ್ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ)"
+  },
+  "carousel": {
+    "label": "ಮುಖ್ಯಾಂಶಗಳು",
+    "slide": "{total} ನ ಸ್ಲೈಡ್ {current}",
+    "previous": "ಹಿಂದಿನ ಸ್ಲೈಡ್",
+    "next": "ಮುಂದಿನ ಸ್ಲೈಡ್",
+    "goTo": "ಸ್ಲೈಡ್ಗೆ ಹೋಗಿ {number}",
+    "pause": "ಸ್ಲೈಡ್ಶೋವನ್ನು ವಿರಾಮಗೊಳಿಸಿ",
+    "play": "ಸ್ಲೈಡ್ಶೋವನ್ನು ಪ್ಲೇ ಮಾಡಿ"
+  },
+  "announcements": {
+    "label": "ಪ್ರಕಟಣೆಗಳು",
+    "pause": "ಪ್ರಕಟಣೆಗಳನ್ನು ಸ್ಥಗಿತಗೊಳಿಸಿ",
+    "play": "ಪ್ರಕಟಣೆಗಳನ್ನು ಪ್ಲೇ ಮಾಡಿ"
+  },
+  "slider": {
+    "previous": "ಹಿಂದಿನದು",
+    "next": "ಮುಂದೆ",
+    "goTo": "{total} ನ {number} ಅಂಶವನ್ನು ತೋರಿಸಿ",
+    "previousCapability": "ಹಿಂದಿನ ಸಾಮರ್ಥ್ಯ",
+    "nextCapability": "ಮುಂದಿನ ಸಾಮರ್ಥ್ಯ",
+    "previousTestimonial": "ಹಿಂದಿನ ಸಾಕ್ಷ್ಯ",
+    "nextTestimonial": "ಮುಂದಿನ ಪುರಾವೆ",
+    "previousUpdate": "ಹಿಂದಿನ ಅಪ್ಡೇಟ್",
+    "nextUpdate": "ಮುಂದಿನ ಅಪ್ಡೇಟ್",
+    "previousPersona": "ಹಿಂದಿನ ವ್ಯಕ್ತಿ",
+    "nextPersona": "ಮುಂದಿನ ವ್ಯಕ್ತಿ"
+  },
+  "media": {
+    "video": "ವೀಡಿಯೊ",
+    "instagramPost": "ಇನ್ಸ್ಟಾಗ್ರಾಮ್ ಪೋಸ್ಟ್",
+    "opensInNewTab": "(ಹೊಸ ಟ್ಯಾಬ್ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ)"
+  },
+  "chatbot": {
+    "title": "ಚಾಟ್ಬಾಟ್",
+    "openFullPage": "ಪೂರ್ಣ ಪುಟದಲ್ಲಿ ಚಾಟ್ ತೆರೆಯಿರಿ (ಹೊಸ ಟ್ಯಾಬ್ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ)",
+    "close": "ಸಂಭಾಷಣೆಯನ್ನು ಮುಚ್ಚಿ",
+    "featureLabel": "ಹೊಸ ವೈಶಿಷ್ಟ್ಯ",
+    "newBadge": "ಹೊಸತು",
+    "featureText": "ಭಾರತಿ ಈಗ ತೆಲುಗು, ಬಂಗಾಳಿ, ಗುಜರಾತಿ ಮತ್ತು ಇತರ 10 ಭಾಷೆಗಳಲ್ಲಿ ಮಾತನಾಡಬಹುದು",
+    "notifications": "ಅಧಿಸೂಚನೆಗಳು",
+    "language": "ಚಾಟ್ ಭಾಷೆಃ ಇಂಗ್ಲಿಷ್",
+    "languageShort": "ಎನ್",
+    "settings": "ಚಾಟ್ ಸೆಟ್ಟಿಂಗ್ಗಳು",
+    "assistantName": "ಭಾರತಿ",
+    "greeting": "ನಮಸ್ಕಾರ! ನಾನು ನಿಮ್ಮ ಕೃಷಿ ಸಹಾಯಕ. ಇಂದು ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?",
+    "suggestionsLabel": "ಸೂಚಿಸಲಾದ ಪ್ರಶ್ನೆಗಳು",
+    "suggestions": [
+      "ನನಗೆ ದೃಢೀಕರಣ ಯೋಜನೆಯ ಬಗ್ಗೆ ಮಾಹಿತಿ ಬೇಕು",
+      "ಪಿಎಂ-ಕಿಸಾನ್ ಯೋಜನೆ ಎಂದರೇನು ಮತ್ತು ಅದಕ್ಕೆ ನಾನು ಹೇಗೆ ಅರ್ಜಿ ಸಲ್ಲಿಸಬಹುದು?",
+      "ಕಿಸಾನ್ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್ ಯೋಜನೆಯ ಬಗ್ಗೆ ಹೇಳಿ"
+    ],
+    "inputLabel": "ನಿಮ್ಮ ಪ್ರಶ್ನೆಯನ್ನು ಕೇಳಿ",
+    "inputPlaceholder": "ನಿಮ್ಮ ಪ್ರಶ್ನೆಯನ್ನು ಕೇಳಿ ..........",
+    "attach": "ಲಗತ್ತನ್ನು ಸೇರಿಸಿ",
+    "voice": "ಧ್ವನಿಯ ಮೂಲಕ ಕೇಳಿ",
+    "send": "ಪ್ರಶ್ನೆಯನ್ನು ಕಳುಹಿಸಿ",
+    "disclaimer": "ಎಐ-ರಚಿಸಿದ ವಿಷಯ. ಅಗತ್ಯವಿದ್ದರೆ ದಯವಿಟ್ಟು ಸ್ಥಳೀಯವಾಗಿ ಪರಿಶೀಲಿಸಿ"
+  },
+  "partner": {
+    "title": "ವಿಚಾರಣೆ ಫಾರ್ಮ್",
+    "subtitle": "ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಸಲ್ಲಿಸಿ ಮತ್ತು ನಮ್ಮ ಪಾಲುದಾರಿಕೆ ತಂಡವು ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುತ್ತದೆ.",
+    "close": "ಫಾರ್ಮ್ ಅನ್ನು ಮುಚ್ಚಿ",
+    "fields": {
+      "fullName": {
+        "label": "ಪೂರ್ಣ ಹೆಸರು",
+        "placeholder": "ಪ್ರವೇಶಿಸಿ"
+      },
+      "organisation": {
+        "label": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+        "placeholder": "ಪ್ರವೇಶಿಸಿ"
+      },
+      "email": {
+        "label": "ಇಮೇಲ್ ವಿಳಾಸ",
+        "placeholder": "ಪ್ರವೇಶಿಸಿ"
+      },
+      "state": {
+        "label": "ನಿಮ್ಮ ರಾಜ್ಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ",
+        "placeholder": "ಪ್ರವೇಶಿಸಿ"
+      },
+      "interest": {
+        "label": "ಪಾಲುದಾರಿಕೆಯ ಆಸಕ್ತಿ",
+        "placeholder": "ಆಯ್ಕೆ ಮಾಡಿ"
+      },
+      "description": {
+        "label": "ಯೋಜನೆಯ ಸಂಕ್ಷಿಪ್ತ ವಿವರಣೆ",
+        "placeholder": "ಪ್ರವೇಶಿಸಿ"
+      }
+    },
+    "requiredHint": "ಅಗತ್ಯ",
+    "errors": {
+      "required": "ಈ ಕ್ಷೇತ್ರವು ಅಗತ್ಯವಾಗಿದೆ.",
+      "email": "ಮಾನ್ಯವಾದ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ."
+    },
+    "submit": "ವಿಚಾರಣೆ ಕಳುಹಿಸಿ",
+    "states": [
+      "ಅಂಡಮಾನ್ ಮತ್ತು ನಿಕೋಬಾರ್ ದ್ವೀಪಗಳು",
+      "ಆಂಧ್ರಪ್ರದೇಶ",
+      "ಅರುಣಾಚಲ ಪ್ರದೇಶ",
+      "ಅಸ್ಸಾಂ",
+      "ಬಿಹಾರ",
+      "ಚಂಡೀಗಢ",
+      "ಛತ್ತೀಸ್ಗಢ",
+      "ದಾದ್ರಾ ಮತ್ತು ನಗರ ಹವೇಲಿ ಮತ್ತು ದಮನ್ ಮತ್ತು ದಿಯು",
+      "ದೆಹಲಿ",
+      "ಗೋವಾ",
+      "ಗುಜರಾತ್",
+      "ಹರಿಯಾಣ",
+      "ಹಿಮಾಚಲ ಪ್ರದೇಶ",
+      "ಜಮ್ಮು ಮತ್ತು ಕಾಶ್ಮೀರ",
+      "ಜಾರ್ಖಂಡ್",
+      "ಕರ್ನಾಟಕ",
+      "ಕೇರಳ",
+      "ಲಡಾಖ್",
+      "ಲಕ್ಷದ್ವೀಪ",
+      "ಮಧ್ಯಪ್ರದೇಶ",
+      "ಮಹಾರಾಷ್ಟ್ರ",
+      "ಮಣಿಪುರ",
+      "ಮೇಘಾಲಯ",
+      "ಮಿಜೋರಾಂ",
+      "ನಾಗಾಲ್ಯಾಂಡ್",
+      "ಒಡಿಶಾ",
+      "ಪುದುಚೇರಿ",
+      "ಪಂಜಾಬ್",
+      "ರಾಜಸ್ಥಾನ",
+      "ಸಿಕ್ಕಿಂ",
+      "ತಮಿಳುನಾಡು",
+      "ತೆಲಂಗಾಣ",
+      "ತ್ರಿಪುರಾ",
+      "ಉತ್ತರ ಪ್ರದೇಶ",
+      "ಉತ್ತರಾಖಂಡ್",
+      "ಪಶ್ಚಿಮ ಬಂಗಾಳ"
+    ],
+    "interests": [],
+    "success": {
+      "title": "ವಿಚಾರಣೆ ಯಶಸ್ವಿಯಾಗಿ ಸಲ್ಲಿಸಲಾಗಿದೆ!",
+      "text": "ನಮ್ಮೊಂದಿಗೆ ಪಾಲುದಾರಿಕೆಯಲ್ಲಿ ನಿಮ್ಮ ಆಸಕ್ತಿಗೆ ಧನ್ಯವಾದಗಳು. ನಮ್ಮ ತಂಡವು ನಿಮ್ಮ ವಿಚಾರಣೆಯನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ ಮತ್ತು ಶೀಘ್ರದಲ್ಲೇ ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುತ್ತದೆ.",
+      "close": "ಸಂದೇಶವನ್ನು ಮುಚ್ಚಿ"
+    }
+  }
+}

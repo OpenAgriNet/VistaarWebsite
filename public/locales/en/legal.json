@@ -1,0 +1,899 @@
+{
+  "privacyPolicy": {
+    "title": "Privacy Policy – BharatVistaar",
+    "effectiveDate": "Effective Date: 16/02/2026",
+    "intro": [
+      {
+        "type": "paragraph",
+        "text": "BharatVistaar (“Platform”) is committed to protecting the privacy and security of users. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the BharatVistaar mobile application or website."
+      },
+      {
+        "type": "paragraph",
+        "text": "By accessing or using BharatVistaar, you agree to the terms of this Privacy Policy."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "1. About BharatVistaar",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "BharatVistaar is a digital agriculture advisory and information platform developed to provide farmers and agricultural stakeholders with access to crop advisories, weather forecasts, pest alerts, market prices, scheme information, and related services."
+          },
+          {
+            "type": "paragraph",
+            "text": "The Platform is operated by:"
+          },
+          {
+            "type": "address",
+            "lines": [
+              "[Name of Department / Organization / Authority]",
+              "Government of India / State Government / Authorized Entity",
+              "[Official Address]"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "2. Information We Collect",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "We may collect the following types of information:"
+          },
+          {
+            "type": "subheading",
+            "text": "a) Personal Information"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Does not require user registration"
+              },
+              {
+                "text": "Does not provide login functionality"
+              },
+              {
+                "text": "Does not collect personal information"
+              },
+              {
+                "text": "Does not collect names, phone numbers, email addresses, or identification details"
+              },
+              {
+                "text": "Does not create user accounts"
+              },
+              {
+                "text": "Users can access and use the application without submitting any personal data"
+              }
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "b) Agricultural Information"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Crop details"
+              },
+              {
+                "text": "Land information (village/block/district)"
+              },
+              {
+                "text": "Farm size (if provided)"
+              },
+              {
+                "text": "Queries and uploaded crop images"
+              }
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "c) Technical Information"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Device type and model"
+              },
+              {
+                "text": "Operating system"
+              },
+              {
+                "text": "App version"
+              },
+              {
+                "text": "IP address"
+              },
+              {
+                "text": "Log data"
+              },
+              {
+                "text": "Usage statistics"
+              }
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "d) Location Information"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "GPS location (only with user consent)"
+              },
+              {
+                "text": "Approximate location based on district or village"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. How We Use the Information",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The information collected may be used to:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Provide personalized crop advisories"
+              },
+              {
+                "text": "Deliver weather-based alerts"
+              },
+              {
+                "text": "Send pest and disease notifications"
+              },
+              {
+                "text": "Share government scheme updates"
+              },
+              {
+                "text": "Improve platform performance and user experience"
+              },
+              {
+                "text": "Respond to user queries"
+              },
+              {
+                "text": "Conduct analytics and research for agricultural improvement"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "We use the information solely for lawful and legitimate agricultural service purposes."
+          }
+        ]
+      },
+      {
+        "heading": "4. Consent",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "By registering or using BharatVistaar, users consent to:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Collection of relevant information"
+              },
+              {
+                "text": "Use of such information for advisory and service delivery"
+              },
+              {
+                "text": "Receiving notifications, alerts, and service-related communications"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Users may withdraw certain permissions (such as location access) through device settings."
+          }
+        ]
+      },
+      {
+        "heading": "5. Data Sharing and Disclosure",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "We do not sell or rent personal information."
+          },
+          {
+            "type": "paragraph",
+            "text": "Information may be shared with:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Government departments for policy and agricultural planning purposes"
+              },
+              {
+                "text": "Authorized research institutions"
+              },
+              {
+                "text": "Technical service providers supporting the Platform"
+              },
+              {
+                "text": "Weather, satellite, or market data providers"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "All sharing is done in compliance with applicable laws and only for official or service-related purposes."
+          }
+        ]
+      },
+      {
+        "heading": "6. Data Security",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "BharatVistaar implements reasonable administrative, technical, and security measures to protect user information from unauthorized access, disclosure, alteration, or destruction. However, no digital platform can guarantee complete security of data transmitted over the internet."
+          }
+        ]
+      },
+      {
+        "heading": "7. Data Retention",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "User information will be retained only for as long as necessary to:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Fulfill service purposes"
+              },
+              {
+                "text": "Comply with legal or regulatory requirements"
+              },
+              {
+                "text": "Support agricultural research and analytics (in anonymized form)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "After that, data may be securely deleted or anonymized."
+          }
+        ]
+      },
+      {
+        "heading": "8. User Rights",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Users may:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Request correction of inaccurate information"
+              },
+              {
+                "text": "Update their profile details"
+              },
+              {
+                "text": "Request deletion of account (subject to legal requirements)"
+              },
+              {
+                "text": "Withdraw optional permissions such as location access"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Requests can be made through the contact details provided below."
+          }
+        ]
+      },
+      {
+        "heading": "9. Cookies and Analytics",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The website version of BharatVistaar may use cookies or similar technologies to improve user experience, analyze traffic patterns, and enhance functionality. Users may control cookies through browser settings."
+          }
+        ]
+      },
+      {
+        "heading": "10. Third-Party Links",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Platform may contain links to external government or agricultural websites. BharatVistaar is not responsible for the privacy practices or content of such third-party platforms. Users are advised to review respective privacy policies before sharing information."
+          }
+        ]
+      },
+      {
+        "heading": "11. Children’s Privacy",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Platform is intended for use by farmers and agricultural stakeholders. It is not specifically designed for children under the age of 18. We do not knowingly collect personal information from minors without appropriate consent."
+          }
+        ]
+      },
+      {
+        "heading": "12. Changes to This Privacy Policy",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "BharatVistaar reserves the right to update this Privacy Policy at any time. Updated versions will be posted on the Platform. Continued use of the Platform constitutes acceptance of any revisions."
+          }
+        ]
+      },
+      {
+        "heading": "13. Governing Law",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "This Privacy Policy shall be governed by the laws of India, including applicable provisions under the Information Technology Act, 2000, and related rules."
+          }
+        ]
+      },
+      {
+        "heading": "14. Contact Us",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "For questions, concerns, or data-related requests, please contact:"
+          },
+          {
+            "type": "address",
+            "title": "BharatVistaar Data Protection Officer / Support Team",
+            "lines": [
+              "[Department/Organization Name]",
+              "[Official Address]",
+              "[Email Address]",
+              "[Helpline Number]"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms and Conditions – BharatVistaar",
+    "effectiveDate": "Effective Date: 16/02/2026",
+    "intro": [
+      {
+        "type": "paragraph",
+        "text": "Welcome to BharatVistaar."
+      },
+      {
+        "type": "paragraph",
+        "text": "BharatVistaar is a digital agriculture advisory and information platform designed to provide farmers, extension workers, and stakeholders with access to agricultural advisories, weather information, pest alerts, market prices, schemes, and related services."
+      },
+      {
+        "type": "paragraph",
+        "text": "By accessing, downloading, registering on, or using the BharatVistaar website or mobile application (“Platform”), you agree to comply with and be bound by these Terms and Conditions."
+      },
+      {
+        "type": "paragraph",
+        "text": "If you do not agree with these Terms, please do not use the Platform."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "1. Definitions",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "term": "Platform",
+                "text": "refers to the BharatVistaar mobile application and website."
+              },
+              {
+                "term": "User",
+                "text": "refers to any individual accessing or using the Platform."
+              },
+              {
+                "term": "Authority",
+                "text": "refers to the organization, department, or entity operating BharatVistaar."
+              },
+              {
+                "term": "Content",
+                "text": "includes advisories, text, graphics, data, alerts, notifications, reports, images, and other materials available on the Platform."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "2. Use of the Platform",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Platform is intended for lawful agricultural and informational purposes only."
+          },
+          {
+            "type": "paragraph",
+            "text": "Users agree:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "To provide accurate and truthful information during registration."
+              },
+              {
+                "text": "Not to misuse, disrupt, or interfere with the Platform."
+              },
+              {
+                "text": "Not to attempt unauthorized access to the Platform’s systems or data."
+              },
+              {
+                "text": "Not to upload or share harmful, unlawful, or misleading information."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The Authority reserves the right to suspend or terminate access for misuse or violation of these Terms."
+          }
+        ]
+      },
+      {
+        "heading": "3. Registration and Account Responsibility",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Certain features may require registration."
+          },
+          {
+            "type": "paragraph",
+            "text": "Users are responsible for:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Maintaining confidentiality of login credentials."
+              },
+              {
+                "text": "All activities conducted under their account."
+              },
+              {
+                "text": "Promptly notifying the Authority of any unauthorized use."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The Authority shall not be liable for losses arising from unauthorized account usage due to user negligence."
+          }
+        ]
+      },
+      {
+        "heading": "4. Nature of Services",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "BharatVistaar provides:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Crop advisories"
+              },
+              {
+                "text": "Weather forecasts"
+              },
+              {
+                "text": "Pest and disease alerts"
+              },
+              {
+                "text": "Market price information"
+              },
+              {
+                "text": "Government scheme information"
+              },
+              {
+                "text": "Educational resources"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "These services are advisory in nature and do not constitute professional, legal, financial, or contractual guarantees."
+          },
+          {
+            "type": "paragraph",
+            "text": "Users are advised to consult local agricultural experts or authorized officials before making critical decisions."
+          }
+        ]
+      },
+      {
+        "heading": "5. Accuracy of Information",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "While reasonable efforts are made to ensure accuracy:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Weather forecasts are predictive and subject to change."
+              },
+              {
+                "text": "Market prices may vary by location and time."
+              },
+              {
+                "text": "Advisory recommendations may not apply uniformly to all regions."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The Authority does not guarantee completeness, reliability, or real-time accuracy of the information."
+          }
+        ]
+      },
+      {
+        "heading": "6. Intellectual Property Rights",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "All content on BharatVistaar, including logos, text, graphics, software, and design elements are the property of the Authority or licensed appropriately."
+          },
+          {
+            "type": "paragraph",
+            "text": "Users may:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Access and use content for personal, non-commercial agricultural purposes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Users may not:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Copy, reproduce, distribute, modify, or commercially exploit content without written permission."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "7. User-Generated Content",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "If the Platform allows users to upload images, queries, or feedback:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Users retain ownership of their content."
+              },
+              {
+                "text": "By submitting content, users grant BharatVistaar a non-exclusive, royalty-free license to use it for service improvement and advisory purposes."
+              },
+              {
+                "text": "The Authority reserves the right to remove inappropriate or unlawful content."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "8. Third-Party Services and Links",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Platform may include links to external websites or integrate third-party data sources."
+          },
+          {
+            "type": "paragraph",
+            "text": "BharatVistaar is not responsible for:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Third-party content accuracy"
+              },
+              {
+                "text": "Privacy practices of external platforms"
+              },
+              {
+                "text": "Any damages arising from third-party services"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Access to such services is at the user’s discretion."
+          }
+        ]
+      },
+      {
+        "heading": "9. Limitation of Liability",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "To the maximum extent permitted by law, BharatVistaar and its Authority shall not be liable for:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Crop losses"
+              },
+              {
+                "text": "Financial losses"
+              },
+              {
+                "text": "Production losses"
+              },
+              {
+                "text": "Indirect or consequential damages"
+              },
+              {
+                "text": "Loss resulting from reliance on advisories or data"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Use of the Platform is at the User’s own risk."
+          }
+        ]
+      },
+      {
+        "heading": "10. Data Collection and Privacy",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Use of the Platform is also governed by the BharatVistaar Privacy Policy. By using the Platform, users consent to the collection and use of data in accordance with applicable Indian laws and the stated Privacy Policy."
+          }
+        ]
+      },
+      {
+        "heading": "11. Suspension or Termination",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Authority reserves the right to:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Suspend or terminate user access without prior notice"
+              },
+              {
+                "text": "Modify or discontinue services temporarily or permanently"
+              },
+              {
+                "text": "Remove content that violates policies"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "12. Modifications to Terms",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "BharatVistaar may update these Terms from time to time. Revised Terms will be posted on the Platform. Continued use after updates constitutes acceptance of the modified Terms."
+          }
+        ]
+      },
+      {
+        "heading": "13. Governing Law and Jurisdiction",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "These Terms shall be governed by the laws of India. Any disputes arising out of the use of BharatVistaar shall be subject to the jurisdiction of competent courts in India."
+          }
+        ]
+      },
+      {
+        "heading": "14. Contact Information",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "For queries or concerns regarding these Terms, please contact:"
+          },
+          {
+            "type": "address",
+            "title": "BharatVistaar Support",
+            "lines": [
+              "[Department/Organization Name]",
+              "[Official Address]",
+              "[Email Address]",
+              "[Helpline Number]"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": {
+    "title": "Disclaimer – BharatVistaar",
+    "effectiveDate": "Effective Date: 16/02/2026",
+    "intro": [
+      {
+        "type": "paragraph",
+        "text": "BharatVistaar is a digital agriculture advisory platform developed to support farmers, extension workers, and stakeholders by providing agricultural information, advisories, and related services. By accessing and using the BharatVistaar application or website, you agree to the terms outlined in this disclaimer."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "1. General Information Purpose",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The information, advisories, recommendations, forecasts, alerts, and other content provided through BharatVistaar are intended solely for general informational and educational purposes."
+          },
+          {
+            "type": "paragraph",
+            "text": "While every effort is made to ensure that the information provided is accurate, reliable, and up to date, BharatVistaar does not guarantee the completeness, correctness, or suitability of the content for specific agricultural conditions or individual circumstances."
+          },
+          {
+            "type": "paragraph",
+            "text": "Users are advised to consult qualified agricultural experts, local extension officers, or subject-matter specialists before making farming, financial, or operational decisions."
+          }
+        ]
+      },
+      {
+        "heading": "2. No Liability",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "BharatVistaar, its developers, associated departments, partners, and service providers shall not be held liable for:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Any direct, indirect, incidental, or consequential loss or damage"
+              },
+              {
+                "text": "Crop loss, financial loss, or production loss"
+              },
+              {
+                "text": "Decisions taken based on advisories, weather updates, pest alerts, market information, or other content provided in the application"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Use of the information provided on the platform is strictly at the user’s own risk."
+          }
+        ]
+      },
+      {
+        "heading": "3. Weather and Market Information",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Weather forecasts, pest/disease alerts, and market price data are sourced from authorized agencies and third-party providers. However:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Forecasts are predictive in nature and may change."
+              },
+              {
+                "text": "Market prices may vary by location, time, and local trading conditions."
+              },
+              {
+                "text": "Real-time accuracy cannot be guaranteed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Users are encouraged to verify critical information through local authorities or official sources before taking action."
+          }
+        ]
+      },
+      {
+        "heading": "4. Third-Party Content and Links",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "BharatVistaar may include links to third-party websites, services, or content for user convenience. These external sites are not controlled or maintained by BharatVistaar."
+          },
+          {
+            "type": "paragraph",
+            "text": "BharatVistaar is not responsible for:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "The content or reliability of third-party platforms"
+              },
+              {
+                "text": "Privacy practices of external websites"
+              },
+              {
+                "text": "Any loss or damage arising from use of such external services"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "5. User Responsibility",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Users are responsible for:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "text": "Ensuring that agricultural practices adopted are suitable for their local soil, climate, and regulatory conditions"
+              },
+              {
+                "text": "Complying with applicable agricultural, environmental, and government regulations"
+              },
+              {
+                "text": "Verifying input usage (fertilizers, pesticides, seeds, etc.) as per approved guidelines"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "6. No Professional Relationship",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Use of the BharatVistaar platform does not establish any professional, contractual, or advisory relationship between the user and BharatVistaar or its affiliated departments."
+          }
+        ]
+      },
+      {
+        "heading": "7. Updates and Modifications",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "BharatVistaar reserves the right to modify, update, or remove content and this disclaimer at any time without prior notice. Continued use of the platform constitutes acceptance of any changes."
+          }
+        ]
+      },
+      {
+        "heading": "8. Governing Jurisdiction",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "This disclaimer shall be governed by and interpreted in accordance with the laws of India. Any disputes arising in connection with the use of BharatVistaar shall fall under the jurisdiction of competent courts in India."
+          }
+        ]
+      }
+    ]
+  }
+}

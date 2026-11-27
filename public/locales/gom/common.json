@@ -1,0 +1,302 @@
+{
+  "skipToContent": "मुखेल मजकूराचेर वचपाक वचात",
+  "language": {
+    "label": "भास निवड",
+    "translating": "{language} असो अनुवाद करतना, उपकार करून वाट पळय",
+    "done": "पानाचो अनुवाद केला {language}",
+    "error": "अनुवाद सद्या उपलब्ध ना. कांय मजकूर इंग्लीश भाशेंत आसूं येता."
+  },
+  "search": {
+    "label": "सोद",
+    "placeholder": "सोद ..........",
+    "submit": "सोद"
+  },
+  "accessibility": {
+    "open": "सुलभतायेचे पर्याय",
+    "title": "सुलभताय नियंत्रण",
+    "close": "सुलभतायेचे पर्याय बंद कर",
+    "darkContrast": "गडद विरोधाभास",
+    "invert": "उलटे कर",
+    "textSizeIncrease": "मजकूराचो आकार वाडय",
+    "textSizeDecrease": "मजकूराचो आकार देंवता"
+  },
+  "header": {
+    "homeLink": "भारतविस्तार मुखेल पान",
+    "government": "भारत सरकार",
+    "ministry": "कृषी आनी शेतकार कल्याण मंत्रालय",
+    "department": "कृषी आनी शेतकार कल्याण विभाग",
+    "emblemAlt": "भारताचें राज्य प्रतीक",
+    "logoAlt": "भारतविस्तार",
+    "openMenu": "मेनू उगड",
+    "closeMenu": "मेनू बंद कर",
+    "mainNav": "मुखेल नेव्हिगेशन",
+    "partnerWithUs": "आमचेकडेन सांगाती"
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "home",
+        "label": "मुखेल पान",
+        "href": "/"
+      },
+      {
+        "id": "about",
+        "label": "हाचे विशीं",
+        "href": "/#about"
+      },
+      {
+        "id": "impact",
+        "label": "परिणाम",
+        "href": "/#impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "क्षमताय",
+        "href": "/#capabilities"
+      },
+      {
+        "id": "states",
+        "label": "राज्यां",
+        "href": "/#states"
+      },
+      {
+        "id": "connect",
+        "label": "जोडणी कर",
+        "href": "/#connect",
+        "children": [
+          {
+            "id": "ingest-documents",
+            "label": "दस्तावेज घेयात",
+            "description": "तुमचीं गिन्यानाचीं साधनां प्लॅटफॉर्माचेर हाडात",
+            "href": "https://knowledge-vistaar.da.gov.in/docs-pipeline/login",
+            "external": true
+          },
+          {
+            "id": "sign-in",
+            "label": "सायन इन कर",
+            "description": "शेतकी गिन्यान मेळोवपाचो वैयक्तीक अणभव सोदून काड",
+            "href": "https://docs.vistaar.da.gov.in/bharat-vistaar-integration/type-a",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "opensInNewTab": "(नव्या टॅबांत उगडटा)"
+  },
+  "footer": {
+    "legalTitle": "कायदेशीर",
+    "legalLinks": [
+      {
+        "id": "privacy",
+        "label": "खाजगीपण धोरण",
+        "href": "/privacy-policy/"
+      },
+      {
+        "id": "terms",
+        "label": "नेम आनी अटी",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "id": "disclaimer",
+        "label": "घोशीत करपी",
+        "href": "/disclaimer/"
+      }
+    ],
+    "contactTitle": "संपर्क कर",
+    "contactEmail": "us-it@gov.in",
+    "subscribeTitle": "अद्ययावतां खातीर वर्गणी कर",
+    "socials": [
+      {
+        "id": "x",
+        "label": "एक्स (ट्विटर)",
+        "href": "https://x.com/bharat_vistaar"
+      },
+      {
+        "id": "youtube",
+        "label": "युट्यूब",
+        "href": "https://www.youtube.com/@BharatVistaarOfficial"
+      },
+      {
+        "id": "facebook",
+        "label": "फेसबूक",
+        "href": "https://www.facebook.com/BharatVistaarOfficialPage"
+      },
+      {
+        "id": "instagram",
+        "label": "इन्स्टाग्राम",
+        "href": "https://www.instagram.com/bharatvistaarofficial/"
+      }
+    ],
+    "partners": [
+      {
+        "id": "mygov",
+        "label": "मायगव्ह",
+        "href": "https://www.mygov.in/",
+        "logo": "/logos/mygov.svg"
+      },
+      {
+        "id": "digital-india",
+        "label": "डिजिटल इंडिया",
+        "href": "https://www.digitalindia.gov.in/",
+        "logo": "/logos/digital-india.svg"
+      }
+    ],
+    "downloadAppTitle": "आमचें एप डावनलोड कर",
+    "stores": [
+      {
+        "id": "google-play",
+        "label": "गूगल प्लेचेर मेळय",
+        "href": "https://play.google.com/store/apps/details?id=com.vistaar.gov.in",
+        "badge": "/logos/google-play-badge.svg"
+      },
+      {
+        "id": "app-store",
+        "label": "एप स्टोराचेर डावनलोड करात",
+        "href": "https://apps.apple.com/in/app/bharat-vistaar/id6760328735",
+        "badge": "/logos/app-store-badge.svg"
+      }
+    ],
+    "lastUpdated": "हालींचें अपडेट केल्लेंः 1:05:0226",
+    "ownership": "भारत सरकाराच्या कृषी आनी शेतकार कल्याण मंत्रालयाच्या मालकीची आनी वेवस्थापन केल्ली संकेतथळाची सामुग्री",
+    "opensInNewTab": "(नव्या टॅबांत उगडटा)"
+  },
+  "carousel": {
+    "label": "ठळक गजाली",
+    "slide": "{total} ची स्लायड {current}",
+    "previous": "फाटली स्लायड",
+    "next": "फुडली स्लायड",
+    "goTo": "स्लायडाचेर वचात {number}",
+    "pause": "स्लायडशो थांबय",
+    "play": "स्लायडशो लाय"
+  },
+  "announcements": {
+    "label": "घोशणा",
+    "pause": "घोशणा थांबय",
+    "play": "घोशणा वाजय"
+  },
+  "slider": {
+    "previous": "आदीं",
+    "next": "फुडें",
+    "goTo": "{total} ची आयटम {number} दाखय",
+    "previousCapability": "आदली तांक",
+    "nextCapability": "फुडली तांक",
+    "previousTestimonial": "आदली गवाय",
+    "nextTestimonial": "फुडली गवाय",
+    "previousUpdate": "फाटलें अपडेट",
+    "nextUpdate": "फुडली अपडेट",
+    "previousPersona": "आदली व्यक्ती",
+    "nextPersona": "फुडली व्यक्ती"
+  },
+  "media": {
+    "video": "व्हिडियो",
+    "instagramPost": "इन्स्टाग्राम पोस्ट",
+    "opensInNewTab": "(नव्या टॅबांत उगडटा)"
+  },
+  "chatbot": {
+    "title": "चॅटबॉट",
+    "openFullPage": "चॅट पुराय पानांत उगड (नव्या टॅबांत उगडटा)",
+    "close": "चॅट बंद कर",
+    "featureLabel": "नवें गूण",
+    "newBadge": "नवे",
+    "featureText": "भारती आतां तेलुगू, बंगाली, गुजराती, आनी हेर 10 भाशांनी उलोवंक शकता",
+    "notifications": "नोटीफिकेशनां",
+    "language": "चॅट भाषाः इंग्लीश",
+    "languageShort": "आनी",
+    "settings": "चॅट सेटिंग्ज",
+    "assistantName": "भारती",
+    "greeting": "नमस्कार! हांव तुजो शेतकी सहाय्यक. आयज हांव तुका कशी मजत करूं?",
+    "suggestionsLabel": "सुचयल्ले प्रस्न",
+    "suggestions": [
+      "म्हाका बीं प्रमाणीकरण येवजणे विशीं म्हायती जाय",
+      "पीएम-किसान येवजण म्हणल्यार कितें आनी हांव ताचे खातीर कसो अर्ज करूंक शकता?",
+      "किसान क्रेडीट कार्ड येवजणे विशीं सांग"
+    ],
+    "inputLabel": "तुजो प्रस्न विचार",
+    "inputPlaceholder": "तुमचो प्रस्न विचारा ..........",
+    "attach": "जोडणी जोडो",
+    "voice": "आवाजा वरवीं विचारात",
+    "send": "प्रस्न धाड",
+    "disclaimer": "एआय तयार केल्ली सामुग्री. गरज पडल्यार उपकार करून थळावे तपासात"
+  },
+  "partner": {
+    "title": "चौकशी फॉर्म",
+    "subtitle": "तुमचो तपशील सादर करात आनी आमचो भागीदारी पंगड तुमकां परत मेळटलो.",
+    "close": "फॉर्म बंद कर",
+    "fields": {
+      "fullName": {
+        "label": "पुराय नांव",
+        "placeholder": "प्रवेश कर"
+      },
+      "organisation": {
+        "label": "संस्थेचें नांव",
+        "placeholder": "प्रवेश कर"
+      },
+      "email": {
+        "label": "ईमेल पत्तो",
+        "placeholder": "प्रवेश कर"
+      },
+      "state": {
+        "label": "तुमचें राज्य निवड",
+        "placeholder": "प्रवेश कर"
+      },
+      "interest": {
+        "label": "भागिदारीची आवड",
+        "placeholder": "निवड"
+      },
+      "description": {
+        "label": "प्रकल्पाचें संक्षिप्त वर्णन",
+        "placeholder": "प्रवेश कर"
+      }
+    },
+    "requiredHint": "गरजेचें",
+    "errors": {
+      "required": "हें क्षेत्र गरजेचें आसा.",
+      "email": "वैध ईमेल पत्तो नोंद करात."
+    },
+    "submit": "चौकशी धाड",
+    "states": [
+      "अंदमान आनी निकोबार जुंवे",
+      "आंध्र प्रदेश",
+      "अरुणाचल प्रदेश",
+      "आसाम",
+      "बिहार",
+      "चंडीगढ",
+      "छत्तीसगड",
+      "दादरा आनी नगर हवेली आनी दमण आनी दीव",
+      "दिल्ली",
+      "गोंय",
+      "गुजरात",
+      "हरियाणा",
+      "हिमाचल प्रदेश",
+      "जम्मू आनी काश्मीर",
+      "झारखंड",
+      "कर्नाटक",
+      "केरळ",
+      "लडाख",
+      "लक्षद्वीप",
+      "मध्य प्रदेश",
+      "महाराष्ट्र",
+      "मणिपूर",
+      "मेघालय",
+      "मिझोराम",
+      "नागालँड",
+      "ओडिशा",
+      "पुडुचेरी",
+      "पंजाब",
+      "राजस्थान",
+      "सिक्किम",
+      "तमिळनाडू",
+      "तेलंगणा",
+      "त्रिपुरा",
+      "उत्तर प्रदेश",
+      "उत्तराखंड",
+      "अस्तंत बंगाल"
+    ],
+    "interests": [],
+    "success": {
+      "title": "तपास येसस्वीपणान सादर केलो!",
+      "text": "आमचे वांगडा भागिदारी करपाक तुमकां आवडल्या खातीर तुजें उपकार. आमचो पंगड तुज्या तपासणेचो नियाळ घेतलो आनी रोखडेंच तुज्याकडेन परत येतलो.",
+      "close": "संदेश बंद कर"
+    }
+  }
+}
